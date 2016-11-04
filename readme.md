@@ -1,3 +1,5 @@
+![alt tag](https://raw.githubusercontent.com/inudola/SIMS/master/851440407_112838_12348410436634572659.jpg)
+
 SIMS
 
 SCHOOL MANAGEMENT INFORMATION SYSTEM
