@@ -15,11 +15,16 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/beranda', function () {
-    return view('beranda');
+Route::get('/siswa/beranda', function () {
+    return view('siswa/beranda');
+});
+
+Route::get('/siswa/elearning', function () {
+    return view('siswa/elearning');
 });
 
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
+Route::get('/siswa/elearning', 'ElearningController@read');
