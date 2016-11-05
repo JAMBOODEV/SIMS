@@ -106,6 +106,9 @@ body{
     color: #fff;
     font-size: 37px;
     font-weight: bold;
+    position: absolute;
+    left: -131px;
+    top: 5px;
 }
 
 .col.s3.icon-description {
@@ -186,3 +189,13 @@ body{
 .custom-login-filled {
     margin: 10px;
 }
+
+.nav-wrapper.custom-header {
+	width: 114%;
+}
+
+.custom-slide {
+	display: none;
+}
+
+

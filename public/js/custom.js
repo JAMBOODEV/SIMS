@@ -1,7 +1,4 @@
 $(function() {
-	
-	$("#slide-div-2").hide();
-    $("#slide-div-3").hide();
 
     $("input[name='slide-name']").click(function() {
      if ($("#slide-radio-1").is(":checked")) {

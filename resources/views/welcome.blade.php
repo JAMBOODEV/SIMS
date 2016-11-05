@@ -20,56 +20,26 @@
             'csrfToken' => csrf_token(),
             ]); ?>
     </script>
+
     <script src="js/jquery.min.js"> </script>
     <script src="js/custom.js"> </script>
 
     </head>
     <body>
-        <nav>
-            <div class="container">
-                <div class="nav-wrapper">
-                  <a href="#" class="brand-logo">Logo</a>
-                  <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><span class="material-icons dp48 icon-header">email</span> Support@sims.com</li>
-                    <li><span class="material-icons dp48 icon-header custom">phone</span> 021-9213392</li>
-                  </ul>
-                </div>
-            </div>  
-        </nav>
 
-
+    <nav>
+        <div class="container">
+            <div class="nav-wrapper custom-header">
+              <a href="#" class="logo">Sims</a>
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><span class="material-icons dp48 icon-header">email</span> Support@sims.com</li>
+                <li><span class="material-icons dp48 icon-header custom">phone</span> 021-9213392</li>
+              </ul>
+            </div>
+        </div>  
+    </nav>
     
     <div class="container">
-        <!-- <div class="row custom-header">
-            <div class="col s1">
-                <div class="logo">
-                    Sims
-                </div>
-            </div>
-
-            <div class="col s4 custom-header-1">
-                <div class="icon-preview col s6 m9">
-                    <div class="col s3">
-                        <i class="material-icons dp48 icon-header">email</i>
-                    </div>
-                    <div class="col s3 icon-description custom">
-                        Support@sims.com
-                    </div>
-                </div>
-            </div>
-
-            <div class="col s4 custom-header-2">
-                <div class="icon-preview col s6 m9">
-                    <div class="col s3">
-                        <i class="material-icons dp48 icon-header custom">phone</i>
-                    </div>
-                    <div class="col s7 icon-description custom">
-                        021-9213392
-                    </div>
-                </div>
-            </div>
-
-        </div> -->
         <div class="row custom-layout">
 
             <div class="col s1">
@@ -104,7 +74,7 @@
 
             </div>
 
-            <div id="slide-div-2">
+            <div id="slide-div-2" class="custom-slide">
                 
                 <div class="col s7">
                     <div class="content-text-1">
@@ -120,7 +90,7 @@
 
             </div>
 
-            <div id="slide-div-3">
+            <div id="slide-div-3" class="custom-slide">
                 
                 <div class="col s7">
                     <div class="content-text-1">
@@ -141,12 +111,12 @@
 
                     <div class="input-field col s12">
                         <input id="last_name" type="text">
-                        <label for="last_name" class="">NIS</label>
+                        <label for="last_name" class="">NO ID</label>
                     </div>
 
                     <div class="input-field col s12">
                         <input id="last_name" type="password">
-                        <label for="last_name" class="">Password</label>
+                        <label for="last_name" class="">PASSWORD</label>
                     </div>
                     
                     <div class="custom-login-filled">
