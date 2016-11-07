@@ -1,4 +1,23 @@
 @extends('../../layouts.app')
+
+@section('navbar')
+	<nav>
+      <div class="container">
+        <div class="nav-wrapper">
+          <ul class="left hide-on-med-and-down">
+            <li class="active"><a href="/beranda">Beranda</a></li>
+            <li><a href="elearning">E-Learning</a></li>
+            <li><a href="#">Pelajaran</a></li>
+            <li><a href="#">Forum</a></li>
+          </ul>
+            <ul class="right hide-on-med-and-down">
+              <li ><a href="#" class="waves-effect waves-light btn">Forum</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+@endsection
+
 @section('content')
 <section>
 	<div class="row">

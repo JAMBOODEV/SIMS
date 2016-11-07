@@ -8,7 +8,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>SIMS</title>
 
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="style.css/icon?family=Material+Icons" rel="stylesheet">
     <!-- Import materialize.css -->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
     <link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
@@ -25,12 +25,12 @@
     <script src="js/custom.js"> </script>
 
     </head>
-    <body>
+    <body class="background-custom-login-siswa">
 
     <nav>
         <div class="container">
             <div class="nav-wrapper custom-header">
-              <a href="#" class="logo">Sims</a>
+              <a href="siswa/beranda" class="logo">Sims</a>
               <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><span class="material-icons dp48 icon-header">email</span> Support@sims.com</li>
                 <li><span class="material-icons dp48 icon-header custom">phone</span> 021-9213392</li>
@@ -132,10 +132,6 @@
         </div>
         
     </div>
-
-
-
-
 
     <!-- Scripts -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>

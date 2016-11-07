@@ -27,4 +27,4 @@ Route::get('/siswa/elearning', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
-Route::get('/siswa/elearning', 'ElearningController@read');
+// Route::get('/siswa/elearning', 'ElearningController@read');

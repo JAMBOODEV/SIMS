@@ -14,6 +14,7 @@
       <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
     <link type="text/css" rel="stylesheet" href="../css/style.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="../css/line-progress.css"  media="screen,projection"/>
 
       <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -27,24 +28,11 @@
 </head>
 <body>
     
-        <nav>
-          <div class="container">
-            <div class="nav-wrapper">
-              <ul class="left hide-on-med-and-down">
-                <li class="active"><a href="/beranda">Beranda</a></li>
-                <li><a href="#">E-Learning</a></li>
-                <li><a href="#">Pelajaran</a></li>
-                <li><a href="#">Forum</a></li>
-              </ul>
-               <ul class="right hide-on-med-and-down">
-                 <li ><a href="#" class="waves-effect waves-light btn">Forum</a></li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-    
-        <!-- Page Content goes here -->
-            @yield('content')
+    <!-- Navbar -->
+    @yield('navbar')
+
+    <!-- Page Content goes here -->
+    @yield('content')
     
     @yield('footer')
     <!-- Scripts -->
