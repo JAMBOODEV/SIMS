@@ -31,6 +31,15 @@ nav ,nav ul a{
 #nav-mobile li{
 	padding: 0 30px;
 }
+#login{
+    position: relative;
+    top: -80%;
+}
+.info-news{
+    width: 50%;
+    margin-top: 10%;
+    margin-left: 5%;
+}
 .material-icons.dp48.icon-header{
 	font-size: 30px !important;
 	position: relative;
@@ -53,11 +62,12 @@ nav ul li.active::before{
 	background-color: #0d47a1;
 }
 
+
 #info_sims_user{
-	background-color: #0d47a1;
-	padding: 10px;
-	height:240px;
-	color: #fff;
+    background-color: #0099ff;
+    padding: 10px;
+    height:240px;
+    color: #fff;
 }
 
 #user_detile{
@@ -71,8 +81,8 @@ nav ul li.active::before{
 .info_El,
 .user_info_img,
 .user_info_prof{
-	display: inline-block;
-	padding: 20px 50px;
+    display: inline-block;
+    padding: 20px 50px;
 }
 .rank_user h2,
 .info_El h2{
@@ -98,6 +108,89 @@ nav ul li.active::before{
 
 }
 
+
+.linemaster td{
+    padding: 5px  6px !important;
+
+}
+.collection .collection-item{
+    padding-bottom: 0;
+}
+.materi_kelas,
+.guru_materi{
+    position: relative;
+    top: -5px
+}
+
+.linemaster{
+    padding-bottom: 0;
+    color: rgba(000,000,000,.8);
+    font-weight: bold;
+}
+.masterJam{
+    margin: 3px;
+}
+.linemaster td .jam{
+    text-align: right;
+    border-right: 1px solid #ddd;   
+    padding-right: 10px;
+}
+
+.line1{
+    display: block;
+}
+
+.content h2{
+    color: rgba(000,000,000,.5);
+    font-size: 2em;
+}
+.hari span:nth-child(1){
+    font-size: 1.5em;
+    font-weight: normal;
+}
+.top-rank{
+    padding-top:1px; 
+}
+.top-rank h2{
+    margin-left: 20px;
+}
+
+.top-rank .collection-item .name{
+    margin-left: 30px;
+}
+
+.top-rank .collection-item .name span{
+    display: block;
+    text-align: left;
+}
+.top-rank .collection-item .name span:nth-child(2){
+    color: rgba(000,000,000,.4);
+    font-size: 0.8em;
+}
+.top-rank .collection-item .rank{
+    font-size: 2em;
+    line-height: 50px
+}
+.top-rank .collection-item .img
+,.top-rank .collection-item .name
+,.top-rank .collection-item .rank{
+    display: inline-block;
+    height: 65px;
+}
+
+.trans{
+    color: rgba(000,000,000,.4);
+    font-weight: normal;
+}
+@media only screen and (min-width: 993px){
+    .content{
+        margin-top: 10px;
+    }
+.container {
+
+    width: 100%;
+}
+}
 .background-custom-login-siswa {
 	background-color:#0099FF; 
 }
@@ -106,17 +199,52 @@ nav ul li.active::before{
 	background-color:#E9F6FE; 
 }
 
-div.sircle{
-	width: 50px;
-	height: 50px;
-	position: relative;
-	border: 2px solid #0d47a1;
-	line-height: 50px;
 
-	border-radius: 50%;
+
+.dot{
+    width: 15px;
+    height: 30px;
 }
-tbody tr{
-	border-left: 3px solid #0d47a1
+.dot_icon1{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: tomato;
+    border-radius: 50%;
+}
+.hari{
+    position: relative;
+    top: -60px;
+}
+.dot_icon2{
+        position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #9c27b0;
+    border-radius: 50%;
+
+}
+.dot_icon3{
+        position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #4dd0e1;
+    border-radius: 50%;
+
+}
+
+.dot,.materi{
+    display: inline-block;
+}
+
+div.sircle{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    border: 2px solid #0d47a1;
+    line-height: 50px;
+
+    border-radius: 50%;
 }
 
 body{
@@ -188,17 +316,18 @@ body{
     padding: 12px 0px 0px 65px;
 }
 
-/*.row.custom-layout {
-	margin-left: -9.75rem;
-    margin-right: -0.75rem;
-	padding-bottom: 136px;
-}*/
-
-.row.custom-layout {
-    margin-left: -9.75rem;
-    margin-right: -0.75rem;
-    padding-top: 149px;
+/* ============= Start fullgpage ======*/
+#fullpage{
+    margin-top: -64px: 
 }
+.fp-controlArrow{
+    display: none;
+}
+/* =============End Fullpage */
+.row.custom-layout {
+}
+
+    
 
 .row.custom-layout-learning {
     margin-left: -12.75rem;
