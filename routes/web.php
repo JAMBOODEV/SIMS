@@ -23,6 +23,10 @@ Route::get('/siswa/elearning', function () {
     return view('siswa/elearning');
 });
 
+Route::get('/siswa/elearningUtama', function () {
+    return view('siswa/elearningUtama');
+});
+
 
 Auth::routes();
 

@@ -191,7 +191,7 @@ nav ul li.active::before{
 }
 @media only screen and (min-width: 993px){
     .content{
-        margin-top: 10px;
+        margin-top: -25px;
     }
 .container {
 
@@ -255,7 +255,7 @@ div.sircle{
 }
 
 body{
-             
+    font-family: 'Montserrat', sans-serif;        
     /*background-color: #fff;*/
     -webkit-background-size: cover;
     background-size: cover;
@@ -558,3 +558,115 @@ div.question-selection:hover {
     margin-left: 20px;
 }
 
+/* ============= EelearningUtama ========= */
+#subheader{
+    position: relative;
+    height: 90px;
+    top: -30px;
+    background-color: #0099ff;
+}
+.elearningUtama{
+    position: relative;
+    top: 29px;
+    text-align: center;
+    color: #fff;
+}
+.elearningUtama p{
+    font-size: 1.3em;
+}
+.panel-sims1{
+    width: 100%;
+    padding: 0px;
+    height: 270px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+} 
+.color-Panel1{
+        background-color: #c0392b;
+}
+.color-Panel2{
+        background-color: #3498db;
+}
+.color-Panel3{
+        background-color: #16a085;
+}
+.color-Panel4{
+        background-color: #d35400;
+}
+.content-elearning{
+    width: 90%;
+    position: relative;
+    top: -10px;
+    left: 2%;
+    text-align: justify;
+    color: #fff;
+    margin: 10px ;
+    font-family: 'Open Sans', sans-serif;
+}
+.content-elearning h2{
+    color: #fff;
+    font-size: 2em;
+     font-family: 'Montserrat', sans-serif;   
+
+
+}
+.content-elearning button{
+    color: #888;
+}
+
+.elearning-waktu{
+    width: 100%;
+    position: relative;
+    top: 18px;
+    right: 0;
+    text-align: right;
+}
+.reset-col{
+    padding: 0 0.32rem !important; 
+}
+.card-sims1{
+    position: relative;
+    background-color: #fff;
+    transition: box-shadow .25s;
+    border-radius: 2px;
+    padding: 18px;
+    padding-top: 5px;
+    margin-top: 15px;
+    box-shadow: 1px 1px 5px #888;
+}
+.head-pannel{
+    padding-bottom: 30px;
+    border-bottom: 1px solid #000;
+}
+
+.elearning-waktu span{
+    background-color: yellow;
+    padding:20px 10px;
+}
+.materi,.materi_des{
+    font-size: 1.3em;
+}
+.des_nilai,.ref_nilai{
+    height: 50px;
+    width: 90%;
+    margin-left: 5%;
+}
+.des_nilai{
+    margin-top: -20px;
+    font-size: 11px;
+    color: rgba(000,000,000,.6);
+}
+.modal-header{
+    padding: 10px;
+}
+.modal-content{
+    background-color: #fff;
+}
+.modal{
+    border-radius: 5px;
+    background-color: #0099FF;
+}
+.modal-table tr,.modal-table td{
+    padding: 5px 5px;
+}
