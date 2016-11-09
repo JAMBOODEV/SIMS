@@ -23,15 +23,12 @@ Route::get('/siswa/elearning', function () {
     return view('siswa/elearning');
 });
 
-<<<<<<< HEAD
-Route::get('/siswa/nilai', function() {
-	return view('siswa/nilai');
-=======
-Route::get('/siswa/elearningUtama', function () {
-    return view('siswa/elearningUtama');
->>>>>>> 99ffbb1aaf85957073ae9657581bb061c3d62478
+Route::get('/siswa/elearningSoal', function () {
+    return view('siswa/elearningSoal');
 });
 
+Route::get('/siswa/nilai', function() {
+	return view('siswa/nilai');
 
 Auth::routes();
 

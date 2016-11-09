@@ -657,7 +657,8 @@ div.col.s1.custom-question-download a:hover {
     text-align: center;
     top: 15px;
     position: relative;
-=======
+}
+
 .card-sims{
     position: relative;
     background-color: #fff;
@@ -783,5 +784,5 @@ div.col.s1.custom-question-download a:hover {
 }
 .modal-table tr,.modal-table td{
     padding: 5px 5px;
->>>>>>> 99ffbb1aaf85957073ae9657581bb061c3d62478
+
 }
