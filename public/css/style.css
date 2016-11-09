@@ -31,6 +31,15 @@ nav ,nav ul a{
 #nav-mobile li{
 	padding: 0 30px;
 }
+#login{
+    position: relative;
+    top: -80%;
+}
+.info-news{
+    width: 50%;
+    margin-top: 10%;
+    margin-left: 5%;
+}
 .material-icons.dp48.icon-header{
 	font-size: 30px !important;
 	position: relative;
@@ -53,11 +62,12 @@ nav ul li.active::before{
 	background-color: #0d47a1;
 }
 
+
 #info_sims_user{
-	background-color: #0d47a1;
-	padding: 10px;
-	height:240px;
-	color: #fff;
+    background-color: #0099ff;
+    padding: 10px;
+    height:240px;
+    color: #fff;
 }
 
 #user_detile{
@@ -71,8 +81,8 @@ nav ul li.active::before{
 .info_El,
 .user_info_img,
 .user_info_prof{
-	display: inline-block;
-	padding: 20px 50px;
+    display: inline-block;
+    padding: 20px 50px;
 }
 .rank_user h2,
 .info_El h2{
@@ -98,25 +108,143 @@ nav ul li.active::before{
 
 }
 
+
+.linemaster td{
+    padding: 5px  6px !important;
+
+}
+.collection .collection-item{
+    padding-bottom: 0;
+}
+.materi_kelas,
+.guru_materi{
+    position: relative;
+    top: -5px
+}
+
+.linemaster{
+    padding-bottom: 0;
+    color: rgba(000,000,000,.8);
+    font-weight: bold;
+}
+.masterJam{
+    margin: 3px;
+}
+.linemaster td .jam{
+    text-align: right;
+    border-right: 1px solid #ddd;   
+    padding-right: 10px;
+}
+
+.line1{
+    display: block;
+}
+
+.content h2{
+    color: rgba(000,000,000,.5);
+    font-size: 2em;
+}
+.hari span:nth-child(1){
+    font-size: 1.5em;
+    font-weight: normal;
+}
+.top-rank{
+    padding-top:1px; 
+}
+.top-rank h2{
+    margin-left: 20px;
+}
+
+.top-rank .collection-item .name{
+    margin-left: 30px;
+}
+
+.top-rank .collection-item .name span{
+    display: block;
+    text-align: left;
+}
+.top-rank .collection-item .name span:nth-child(2){
+    color: rgba(000,000,000,.4);
+    font-size: 0.8em;
+}
+.top-rank .collection-item .rank{
+    font-size: 2em;
+    line-height: 50px
+}
+.top-rank .collection-item .img
+,.top-rank .collection-item .name
+,.top-rank .collection-item .rank{
+    display: inline-block;
+    height: 65px;
+}
+
+.trans{
+    color: rgba(000,000,000,.4);
+    font-weight: normal;
+}
+@media only screen and (min-width: 993px){
+    .content{
+        margin-top: 10px;
+    }
+.container {
+
+    width: 100%;
+}
+}
 .background-custom-login-siswa {
 	background-color:#0099FF; 
 }
 
-.background-custom-login-elearning {
+.background-custom-siswa {
 	background-color:#E9F6FE; 
 }
 
-div.sircle{
-	width: 50px;
-	height: 50px;
-	position: relative;
-	border: 2px solid #0d47a1;
-	line-height: 50px;
 
-	border-radius: 50%;
+
+.dot{
+    width: 15px;
+    height: 30px;
 }
-tbody tr{
-	border-left: 3px solid #0d47a1
+.dot_icon1{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: tomato;
+    border-radius: 50%;
+}
+.hari{
+    position: relative;
+    top: -60px;
+}
+.dot_icon2{
+        position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #9c27b0;
+    border-radius: 50%;
+
+}
+.dot_icon3{
+        position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #4dd0e1;
+    border-radius: 50%;
+
+}
+
+.dot,.materi{
+    display: inline-block;
+}
+
+div.sircle{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    border: 2px solid #0d47a1;
+    line-height: 50px;
+
+    border-radius: 50%;
 }
 
 body{
@@ -134,12 +262,13 @@ body{
 
 
 .logo {	
-    color: #fff;
-    font-size: 37px;
-    font-weight: bold;
     position: absolute;
-    left: -131px;
-    top: 18px;
+    color: #fff;
+    display: inline-block;
+    font-size: 2.1rem;
+    padding: 0;
+    white-space: nowrap;
+    font-weight: bold;
 }
 
 .logo-learning {
@@ -188,21 +317,21 @@ body{
     padding: 12px 0px 0px 65px;
 }
 
-/*.row.custom-layout {
-	margin-left: -9.75rem;
-    margin-right: -0.75rem;
-	padding-bottom: 136px;
-}*/
+/* ============= Start fullgpage ======*/
+#fullpage{
+    margin-top: -64px: 
+}
+.fp-controlArrow{
+    display: none;
+}
 
+/* =============End Fullpage */
 .row.custom-layout {
-    margin-left: -9.75rem;
-    margin-right: -0.75rem;
-    padding-top: 149px;
 }
 
 .row.custom-layout-learning {
-    margin-left: -12.75rem;
-    margin-right: -12.75rem;
+    margin-left: -1.75rem;
+    margin-right: -1.75rem;
     padding-top: 9px;
 }
 
@@ -247,23 +376,23 @@ body{
     background-color: #fff;
     padding: 17px 15px 25px 40px;
     border-radius: 6px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .content-2 {
     background-color: #fff;
-    padding: 17px 38px 25px 40px;
+    padding: 31px 24px 18px 26px;
     border-radius: 6px;
+    height: 561px;
 }
 
 .on-learning {
 	font-size: 17px;
-	font-weight: bold;
 }
 
 .of-learning {
 	color:#dadada;
 	font-size: 17px;
-	font-weight: bold;
 }
 
 .image-siswa-learning {
@@ -273,7 +402,7 @@ body{
 
 .content-image-learning {
     text-align: center;
-    padding-top: 34px;
+    padding-top: 0px;
 }
 
 .name-tittle-learning {
@@ -322,13 +451,16 @@ body{
 }
 
 .btn.next-answer-learning {
-	background-color: #00CD30;
+    background-color: #00CD30;
     position: absolute;
-    left: 145px;
+    left: 111px;
+    width: 161px;
 }
 
 .btn.next-answer-learning-back {
     background-color: #e8e8e8;
+    width: 0px;
+    padding: 1px 29px 0px 18px;
 }
 
 .col.s12.custom-question {
@@ -336,7 +468,15 @@ body{
 }
 
 .nav-custom-learning {
-	height: 185px;
+    height: 185px;
+    position: relative;
+    top: -20px;
+}
+
+.back-question-learning {
+    color: #fff;
+    top: -2px;
+    position: relative;
 }
 
 .header-learning {
@@ -353,6 +493,7 @@ body{
 	width: 100%;
 }
 
+
 .header-tittle-learning-desc {
 	position: relative;
 	top: -26px;
@@ -365,21 +506,28 @@ body{
 }
 
 .col.s9.custom-tittle-learning {
-	text-align: center;
-    top: 6px;
-    padding-top: 41px;
+    text-align: center;
+    top: -13px;
+    padding-top: 24px;
     position: absolute;
-    left: 107px;
+    left: -132px;
 }
 
-.col.s3.custom-image-learning {
+.col.s3.custom-image-learning-1 {
 	position: absolute;
-    left: 1008px;
+    left: 876px;
+}
+
+.col.s3.custom-image-learning-2 {
+    position: absolute;
+    left: 1014px;
 }
 
 .content-image-learning-header {
-	text-align: center;
+    text-align: center;
     padding-top: 21px;
+    font-size: 13px;
+    font-weight: bold;
 }
 
 .image-tittle-learning {
@@ -390,10 +538,11 @@ body{
 .name-tittle-learning {	
     text-align: center;
     font-weight: bold;
-    font-size: 13px;
+    font-size: 46px;
     color: #fff;
-    top: -15px;
+    top: -31px;
     position: relative;
+    left: 4px;
 }
 
 .row.custom-question {
@@ -401,9 +550,103 @@ body{
 }
 
 div.question-learning:hover {
-	background-color: #87CEEB;
+	background-color: #00CD30;
 }
 
 div.question-selection:hover {
 	color: #fff;
+}
+
+.header-learning-top {
+    background: #0099FF; 
+    color: #fff; 
+}
+
+.col.s1.custom-logo {
+    color: #fff;
+    font-size: 37px;
+    font-weight: bold;
+    left: -131px;top: 18px;
+    padding: 20px 0px 0px 88px;
+}
+
+.col.s9.custom-header-learning {
+    color: #fff;
+    font-size: 37px;
+    font-weight: bold;
+    left: -131px;top: 18px;
+    padding: 20px 0px 0px 88px;
+}
+
+#nav-mobile-custom-navbar li {
+    padding: 0px 6px;
+}
+
+.right-custom-learning {
+    float: right !important;
+    position: relative;
+    left: 208px;
+}
+
+.col.s3.custom-time {
+    position: relative;
+    right: -46px;
+}
+
+.active-line {
+    border-bottom: 1px solid #fff;
+}
+
+/*line bar learning*/
+.w3-justify{text-align:justify!important}.w3-center{text-align:center!important}
+.w3-blue,.w3-hover-blue:hover{color:#fff!important;background-color:#2196F3!important}
+.w3-light-blue,.w3-hover-light-blue:hover{color:#000!important;background-color:#dadada!important}
+
+.col.s8.custom-missed {
+    text-align: right;
+    font-size: 15px;
+    font-weight: bold;
+    top: 30px;
+    position: relative;
+}
+
+.col.s1.custom-question-download {
+    font-size: 11px;
+    right: -54px;
+    position: relative;
+}
+
+.custom-text-answer {
+    color:#dadada
+}
+
+.custom-text-answer-number {
+    color :#f10000;
+}
+
+.custom-icon-download {
+    color: #6b6969;
+}
+
+div.col.s1.custom-question-download a:hover {
+    color:#0099FF;
+}
+
+.right.custom-nav.hide-on-med-and-down {
+    right: 155px;
+    position: relative;
+}
+
+.nav-custom-nilai {
+    height: 99px;
+    position: relative;
+    top: -20px;
+}
+
+.header-tittle-nilai {
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    top: 15px;
+    position: relative;
 }

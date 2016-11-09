@@ -1,29 +1,10 @@
-@extends('../../layouts.app')
-
-@section('navbar')
-	<nav>
-      <div class="container">
-        <div class="nav-wrapper">
-          <ul class="left hide-on-med-and-down">
-            <li class="active"><a href="/beranda">Beranda</a></li>
-            <li><a href="elearning">E-Learning</a></li>
-            <li><a href="#">Pelajaran</a></li>
-            <li><a href="#">Forum</a></li>
-          </ul>
-            <ul class="right hide-on-med-and-down">
-              <li ><a href="#" class="waves-effect waves-light btn">Forum</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-@endsection
-
+@extends('layouts.app')
 @section('content')
-<section>
+<section class="col l12 s12">
 	<div class="row">
 		<div id="info_sims_user">
 			<div id="user_detile">
-				<div class="user_info_img">
+				<div class="user_info_img ">
 					<img src="../img/avatar_siswi.jpg" alt="" class="circle responsive-img">
 				</div>
 				<div class="user_info_prof">
@@ -35,194 +16,387 @@
 					</ul>
 				</div>
 			</div>
-			<div id="info_prof">
-				<div class="rank_user">
-					<p>Rank</p>
-					<h2>41</h2>
-				</div>
-				<div class="info_El">
-					<p>panding E-learning</p>
-					<h2>2</h2>
-				</div>
-			</div>
 		</div>
 		
 		<div class="row">
-			<div class="col l6">
-				<div class="row">
-					<div class="col s12 m6">
-						<div class="card">
-							<div class="card-image">
-								<img src="../img/avatar_siswi.jpg">
-								<span class="card-title">Card Title</span>
-							</div>
-							<div class="card-content">
-								<p>I am a very simple card. I am good at containing small bits of information.
-								I am convenient because I require little markup to use effectively.</p>
-							</div>
-							<div class="card-action">
-								<a href="#">This is a link</a>
-							</div>
-						</div>
-					</div>
-					<div class="col s12 m6">
-						<div class="card">
-							<div class="card-image">
-								<img src="../img/avatar_siswi.jpg">
-								<span class="card-title">Card Title</span>
-							</div>
-							<div class="card-content">
-								<p>I am a very simple card. I am good at containing small bits of information.
-								I am convenient because I require little markup to use effectively.</p>
-							</div>
-							<div class="card-action">
-								<a href="#">This is a link</a>
-							</div>
-						</div>
-					</div>
+			<div class="container content">
+			<div class="col l8 card">
+				<h2>Jadwal Kelas</h2>
+				<div class="collection">
+				    <a href="#!" class="collection-item">
+				    	<table class="table linemaster">
+				    		<tr>
+				    			<td rowspan="3">
+				    				<div class="hari">
+				    					<span class="line1">Senin</span>
+					    				<span class="line1 trans">Jan 01 2016</span> 
+				    				</div>
+				    			</td>
+				    			<td class="masterJam">
+				    				<div class="lineInit">
+				    					<span class="line1 jam">7:30</span>
+				    					<span class="line1 jam">9:00</span>
+				    				</div>
+				    			</td>
+				    			<td>
+				    				<div class="lineInit">
+				    					<div class="dot">
+											<span class="dot_icon1"></span>
+										</div>
+										<div class="materi">
+											<span class="line1">MATEMATIKA</span>
+				    						<span class="line1 trans">XII IPA 5</span>
+										</div>
+
+				    				</div>
+				    			</td>
+				    			<td>
+				    				<div class="lineInit">Sukron Ma'mun S.kom</div>
+				    			</td>
+				    		</tr>
+				    		<tr>
+				    			<td class="masterJam">
+				    				<div class="lineInit">
+				    					<span class="line1 jam">9:00</span>
+				    					<span class="line1 jam">10:30</span>
+				    				</div>
+				    			</td>
+				    			<td>
+				    				<div class="lineInit">
+				    					<div class="dot">
+											<span class="dot_icon2"></span>
+										</div>
+										<div class="materi">
+											<span class="line1">PHOTOSHOP BASIC </span>
+					    					<span class="line1 trans">XII IPA 5</span>
+										</div>
+				    				</div>
+				    			</td>
+				    			<td>
+					    			<div class="lineInit">
+					    				<span class="line1">Sukron Ma'mun S.kom</span>
+					    				<span class="line1 trans">1 Attachment</span>
+					    			</div>
+				    			</td>
+				    		</tr>
+				    		<tr>
+				    			<td class="masterJam">
+					    			<div class="lineInit">
+						    			<span class="line1 jam">10:30</span>
+						    			<span class="line1 jam">12:00</p></span>
+						    		</div>
+				    			</td>
+				    			<td class="materi_kelas">
+				    				<div class="lineInit ">
+										<div class="dot">
+											<span class="dot_icon3"></span>
+										</div>
+										<div class="materi">
+											<span class="line1">KECAKAPAN</span>
+					    					<span class="line1 trans">XII IPA 5</span>
+										</div>
+				    					
+				    				</div>
+				    			</td>
+				    			<td class="guru_materi">
+				    				<div class="lineInit">
+				    					<span class="line1">
+				    						Krisna Singgih S.kom
+				    					</span>
+				    					<span class="line1 trans">1 Attachment</span>
+				    				</div>
+				    			</td>
+				    		</tr>
+
+				    	</table>
+				    </a>
+				    <a href="#!" class="collection-item">
+				    	<table class="table linemaster">
+				    		<tr>
+				    			<td rowspan="3">
+				    				<div class="hari">
+				    					<span class="line1">Selasa</span>
+					    				<span class="line1 trans trans">Jan 02 2016</span> 
+				    				</div>
+				    			</td>
+				    			<td class="masterJam">
+				    				<div class="lineInit">
+				    					<span class="line1 jam">7:30</span>
+				    					<span class="line1 jam">9:00</span>
+				    				</div>
+				    			</td>
+				    			<td>
+				    				<div class="lineInit">
+				    					<div class="dot">
+											<span class="dot_icon1"></span>
+										</div>
+										<div class="materi">
+											<span class="line1">MATEMATIKA</span>
+				    						<span class="line1 trans">XII IPA 5</span>
+										</div>
+
+				    				</div>
+				    			</td>
+				    			<td>
+				    				<div class="lineInit">Sukron Ma'mun S.kom</div>
+				    			</td>
+				    		</tr>
+				    		<tr>
+				    			<td class="masterJam">
+				    				<div class="lineInit">
+				    					<span class="line1 jam">9:00</span>
+				    					<span class="line1 jam">10:30</span>
+				    				</div>
+				    			</td>
+				    			<td>
+				    				<div class="lineInit">
+				    					<div class="dot">
+											<span class="dot_icon2"></span>
+										</div>
+										<div class="materi">
+											<span class="line1">PHOTOSHOP BASIC </span>
+					    					<span class="line1 trans">XII IPA 5</span>
+										</div>
+				    				</div>
+				    			</td>
+				    			<td>
+					    			<div class="lineInit">
+					    				<span class="line1">Sukron Ma'mun S.kom</span>
+					    				<span class="line1 trans">1 Attachment</span>
+					    			</div>
+				    			</td>
+				    		</tr>
+				    		<tr>
+				    			<td class="masterJam">
+					    			<div class="lineInit">
+						    			<span class="line1 jam">10:30</span>
+						    			<span class="line1 jam">12:00</p></span>
+						    		</div>
+				    			</td>
+				    			<td class="materi_kelas">
+				    				<div class="lineInit ">
+										<div class="dot">
+											<span class="dot_icon3"></span>
+										</div>
+										<div class="materi">
+											<span class="line1">KECAKAPAN</span>
+					    					<span class="line1 trans">XII IPA 5</span>
+										</div>
+				    					
+				    				</div>
+				    			</td>
+				    			<td class="guru_materi">
+				    				<div class="lineInit">
+				    					<span class="line1">
+				    						Krisna Singgih S.kom
+				    					</span>
+				    					<span class="line1 trans">1 Attachment</span>
+				    				</div>
+				    			</td>
+				    		</tr>
+
+				    	</table>
+				    </a>
+				    <a href="#!" class="collection-item">
+				    	<table class="table linemaster">
+				    		<tr>
+				    			<td rowspan="3">
+				    				<div class="hari">
+				    					<span class="line1">Rabu</span>
+					    				<span class="line1 trans">Jan 03 2016</span> 
+				    				</div>
+				    			</td>
+				    			<td class="masterJam">
+				    				<div class="lineInit">
+				    					<span class="line1 jam">7:30</span>
+				    					<span class="line1 jam">9:00</span>
+				    				</div>
+				    			</td>
+				    			<td>
+				    				<div class="lineInit">
+				    					<div class="dot">
+											<span class="dot_icon1"></span>
+										</div>
+										<div class="materi">
+											<span class="line1">MATEMATIKA</span>
+				    						<span class="line1 trans">XII IPA 5</span>
+										</div>
+
+				    				</div>
+				    			</td>
+				    			<td>
+				    				<div class="lineInit">Sukron Ma'mun S.kom</div>
+				    			</td>
+				    		</tr>
+				    		<tr>
+				    			<td class="masterJam">
+				    				<div class="lineInit">
+				    					<span class="line1 jam">9:00</span>
+				    					<span class="line1 jam">10:30</span>
+				    				</div>
+				    			</td>
+				    			<td>
+				    				<div class="lineInit">
+				    					<div class="dot">
+											<span class="dot_icon2"></span>
+										</div>
+										<div class="materi">
+											<span class="line1">PHOTOSHOP BASIC </span>
+					    					<span class="line1 trans">XII IPA 5</span>
+										</div>
+				    				</div>
+				    			</td>
+				    			<td>
+					    			<div class="lineInit">
+					    				<span class="line1">Sukron Ma'mun S.kom</span>
+					    				<span class="line1 trans">1 Attachment</span>
+					    			</div>
+				    			</td>
+				    		</tr>
+				    		<tr>
+				    			<td class="masterJam">
+					    			<div class="lineInit">
+						    			<span class="line1 jam">10:30</span>
+						    			<span class="line1 jam">12:00</p></span>
+						    		</div>
+				    			</td>
+				    			<td class="materi_kelas">
+				    				<div class="lineInit ">
+										<div class="dot">
+											<span class="dot_icon3"></span>
+										</div>
+										<div class="materi">
+											<span class="line1">KECAKAPAN</span>
+					    					<span class="line1 trans">XII IPA 5</span>
+										</div>
+				    					
+				    				</div>
+				    			</td>
+				    			<td class="guru_materi">
+				    				<div class="lineInit">
+				    					<span class="line1">
+				    						Krisna Singgih S.kom
+				    					</span>
+				    					<span class="line1 trans">1 Attachment</span>
+				    				</div>
+				    			</td>
+				    		</tr>
+
+				    	</table>
+				    </a>
+				    <a href="#!" class="collection-item">
+				    	<table class="table linemaster">
+				    		<tr>
+				    			<td rowspan="3">
+				    				<div class="hari">
+				    					<span class="line1">Kamis</span>
+					    				<span class="line1 trans">Jan 04 2016</span> 
+				    				</div>
+				    			</td>
+				    			<td class="masterJam">
+				    				<div class="lineInit">
+				    					<span class="line1 jam">7:30</span>
+				    					<span class="line1 jam">9:00</span>
+				    				</div>
+				    			</td>
+				    			<td>
+				    				<div class="lineInit">
+				    					<div class="dot">
+											<span class="dot_icon1"></span>
+										</div>
+										<div class="materi">
+											<span class="line1">MATEMATIKA</span>
+				    						<span class="line1 trans">XII IPA 5</span>
+										</div>
+
+				    				</div>
+				    			</td>
+				    			<td>
+				    				<div class="lineInit">Sukron Ma'mun S.kom</div>
+				    			</td>
+				    		</tr>
+				    		<tr>
+				    			<td class="masterJam">
+				    				<div class="lineInit">
+				    					<span class="line1 jam">9:00</span>
+				    					<span class="line1 jam">10:30</span>
+				    				</div>
+				    			</td>
+				    			<td>
+				    				<div class="lineInit">
+				    					<div class="dot">
+											<span class="dot_icon2"></span>
+										</div>
+										<div class="materi">
+											<span class="line1">PHOTOSHOP BASIC </span>
+					    					<span class="line1 trans">XII IPA 5</span>
+										</div>
+				    				</div>
+				    			</td>
+				    			<td>
+					    			<div class="lineInit">
+					    				<span class="line1">Sukron Ma'mun S.kom</span>
+					    				<span class="line1 trans">1 Attachment</span>
+					    			</div>
+				    			</td>
+				    		</tr>
+				    		<tr>
+				    			<td class="masterJam">
+					    			<div class="lineInit">
+						    			<span class="line1 jam">10:30</span>
+						    			<span class="line1 jam">12:00</p></span>
+						    		</div>
+				    			</td>
+				    			<td class="materi_kelas">
+				    				<div class="lineInit ">
+										<div class="dot">
+											<span class="dot_icon3"></span>
+										</div>
+										<div class="materi">
+											<span class="line1">KECAKAPAN</span>
+					    					<span class="line1 trans">XII IPA 5</span>
+										</div>
+				    					
+				    				</div>
+				    			</td>
+				    			<td class="guru_materi">
+				    				<div class="lineInit">
+				    					<span class="line1">
+				    						Krisna Singgih S.kom
+				    					</span>
+				    					<span class="line1 trans">1 Attachment</span>
+				    				</div>
+				    			</td>
+				    		</tr>
+
+				    	</table>
+				    </a>
 				</div>
+
 			</div>
-			<div class="col l6">
-				<div class="row tabsrank">
-					<div class="col s12">
-						<ul class="tabs">
-							<li class="tab col s3"><a class="active" href="#test1">Tingkat 1</a></li>
-							<li class="tab col s3"><a href="#test2">Tingkat 2</a></li>
-							<li class="tab col s3"><a href="#test4">Tingkat 4</a></li>
-						</ul>
-					</div>
-					<div id="test1" class="col s12">
-						<table class="bordered">
-							<tr>
-								<td>
-									<img src="../img/avatar_siswi.jpg" alt="" width="50" class="circle responsive-img">
-								</td>
-								<td>Eclair <br> 2011142164</td>
-								<td><div class="sircle">&nbsp;$0.87</div></td>
-							</tr>
-							<tr>
-								<td>
-									<img src="../img/avatar_siswi.jpg" alt="" width="50" class="circle responsive-img">
-								</td>
-								<td>Jellybean <br> 2010142133</td>
-								<td><div class="sircle">&nbsp;$3.76</div></td>
-							</tr>
-							<tr>
-								<td>
-									<img src="../img/avatar_siswi.jpg" alt="" width="50" class="circle responsive-img">
-								</td>
-								<td>Lollipop <br> 2009142100</td>
-								<td><div class="sircle">&nbsp;$7.00</div></td>
-							</tr>
-							<tr>
-								<td>
-									<img src="../img/avatar_siswi.jpg" alt="" width="50" class="circle responsive-img">
-								</td>
-								<td>Lollipop <br> 2009142112</td>
-								<td><div class="sircle">&nbsp;$7.00</div></td>
-							</tr>
-							<tr>
-								<td>
-									<img src="../img/avatar_siswi.jpg" alt="" width="50" class="circle responsive-img">
-								</td>
-								<td>Lollipop <br> 2009142140</td>
-								<td><div class="sircle">&nbsp;$7.00</div></td>
-							</tr>
-							
-						</table>
-					</div>
-					<div id="test2" class="col s12">
-						<table class="bordered">
-							<tr>
-								<td>
-									<img src="../img/avatar_siswi.jpg" alt="" width="50" class="circle responsive-img">
-								</td>
-								<td>Eclair <br> 2011142164</td>
-								<td><div class="sircle">&nbsp;$0.87</div></td>
-							</tr>
-							<tr>
-								<td>
-									<img src="../img/avatar_siswi.jpg" alt="" width="50" class="circle responsive-img">
-								</td>
-								<td>Jellybean <br> 2010142133</td>
-								<td><div class="sircle">&nbsp;$3.76</div></td>
-							</tr>
-							<tr>
-								<td>
-									<img src="../img/avatar_siswi.jpg" alt="" width="50" class="circle responsive-img">
-								</td>
-								<td>Lollipop <br> 2009142100</td>
-								<td><div class="sircle">&nbsp;$7.00</div></td>
-							</tr>
-							<tr>
-								<td>
-									<img src="../img/avatar_siswi.jpg" alt="" width="50" class="circle responsive-img">
-								</td>
-								<td>Lollipop <br> 2009142112</td>
-								<td><div class="sircle">&nbsp;$7.00</div></td>
-							</tr>
-							<tr>
-								<td>
-									<img src="../img/avatar_siswi.jpg" alt="" width="50" class="circle responsive-img">
-								</td>
-								<td>Lollipop <br> 2009142140</td>
-								<td><div class="sircle">&nbsp;$7.00</div></td>
-							</tr>
-							
-						</table>
-					</div>
-					<div id="test4" class="col s12">
-						<table class="bordered">
-							<tr>
-								<td>
-									<img src="../img/avatar_siswi.jpg" alt="" width="50" class="circle responsive-img">
-								</td>
-								<td>Eclair <br> 2011142164</td>
-								<td><div class="sircle">&nbsp;$0.87</div></td>
-							</tr>
-							<tr>
-								<td>
-									<img src="../img/avatar_siswi.jpg" alt="" width="50" class="circle responsive-img">
-								</td>
-								<td>Jellybean <br> 2010142133</td>
-								<td><div class="sircle">&nbsp;$3.76</div></td>
-							</tr>
-							<tr>
-								<td>
-									<img src="../img/avatar_siswi.jpg" alt="" width="50" class="circle responsive-img">
-								</td>
-								<td>Lollipop <br> 2009142100</td>
-								<td><div class="sircle">&nbsp;$7.00</div></td>
-							</tr>
-							
-							<tr>
-								<td>
-									<img src="../img/avatar_siswi.jpg" alt="" width="50" class="circle responsive-img">
-								</td>
-								<td>Lollipop <br> 2009142112</td>
-								<td><div class="sircle">&nbsp;$7.00</div></td>
-							</tr>
-							<tr>
-								<td>
-									<img src="../img/avatar_siswi.jpg" alt="" width="50" class="circle responsive-img">
-								</td>
-								<td>Lollipop <br> 2009142140</td>
-								<td><div class="sircle">&nbsp;$7.00</div></td>
-							</tr>
-							
-						</table>
-					</div>
-				</div>
+	
+			<div class="col l4">
+				<div class="col l12">
+					<div class="card top-rank">
+						<h2 >TOP RANK</h2>
+						<div class="collection">
+						    <a href="#!" class="collection-item">
+						    	<div class="img left"><img src="../img/avatar_siswi.jpg" class="circle responsive-img" width="60" alt=""></div><div class="name center"><span>Krisna</span><span>XII IPA 5</span></div><div class="rank right">1</div>
+						    </a>
+						    <a href="#!" class="collection-item">
+						    	<div class="img left"><img src="../img/avatar_siswi.jpg" class="circle responsive-img" width="60" alt=""></div><div class="name center"><span>Rendi</span><span>XII IPA 5</span></div><div class="rank right">2</div>
+						    </a>
+						    <a href="#!" class="collection-item">
+						    	<div class="img left"><img src="../img/avatar_siswi.jpg" class="circle responsive-img" width="60" alt=""></div><div class="name center"><span>Inu</span><span>XII IPA 5</span></div><div class="rank right">3</div>
+						    </a>
+					  </div>
+					</div>	
+				</div>			
+			</div>
+	
 			</div>
 		</div>
 		
 	</div>
 </section>
-@endsection
-@section('content')
-<script>
-	$(document).ready(function(){
-	$('ul.tabs').tabs();
-	});
-</script>
 @endsection
