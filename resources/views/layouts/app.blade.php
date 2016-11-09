@@ -13,15 +13,12 @@
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
     <link type="text/css" rel="stylesheet" href="../css/style.css"  media="screen,projection"/>
-<<<<<<< HEAD
     <link type="text/css" rel="stylesheet" href="../css/font-awesome.css" media="screen,projection"/>
     <!--Let browser know website is optimized for mobile-->
-=======
     <link type="text/css" rel="stylesheet" href="../css/line-progress.css"  media="screen,projection"/>
     <link rel="stylesheet" href="../css/responsive.css">
     <!--Let browser know website is optimized for mobile-->
     
->>>>>>> 99ffbb1aaf85957073ae9657581bb061c3d62478
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <!-- Scripts -->
     <script>

@@ -11,14 +11,13 @@
               
                 <nav>
                 <div class="nav-wrapper">
-                  <ul id="nav-mobile-custom-navbar" class="right-custom-learning hide-on-med-and-down">
-                    <li><a href="sass.html">Beranda</a></li>
-                    <li><a class="active-line" href="elearning">E-Learning</a></li>
-                    <li><a href="nilai">Nilai</a></li>
-                    <li><a href="badges.html">Info</a></li>
-                    <li><a href="badges.html">Pembayaran</a></li>
-                    <li><a href="collapsible.html">Forum</a></li>
-                    <li><a href="collapsible.html"> <i class="fa fa-sign-out" aria-hidden="true"></i> </a></li>
+                  <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="beranda">Beranda</a></li>
+                        <li><a href="elearning">E-learning</a></li>
+                        <li><a href="pembayaran">Pembayaran</a></li>
+                        <li><a href="nilai">Nilai</a></li>
+                        <li><a href="info">Info</a></li>
+                        <li><a href="forum">Forum</a></li>
                   </ul>
                 </div>
               </nav>

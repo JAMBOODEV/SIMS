@@ -390,7 +390,8 @@ body{
     background-color: #fff;
     padding: 31px 24px 18px 26px;
     border-radius: 6px;
-    height: 561px;
+    height: 591px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .on-learning {
@@ -471,13 +472,13 @@ body{
 }
 
 .col.s12.custom-question {
-	padding-top: 21px;
+	padding-top: 53px;
 }
 
 .nav-custom-learning {
     height: 185px;
     position: relative;
-    top: -20px;
+    top: 0px;
 }
 
 .back-question-learning {
@@ -564,7 +565,6 @@ div.question-selection:hover {
 	color: #fff;
 }
 
-<<<<<<< HEAD
 .header-learning-top {
     background: #0099FF; 
     color: #fff; 

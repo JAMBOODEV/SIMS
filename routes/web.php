@@ -29,6 +29,11 @@ Route::get('/siswa/elearningSoal', function () {
 
 Route::get('/siswa/nilai', function() {
 	return view('siswa/nilai');
+});
+
+Route::get('/siswa/pembayaran', function() {
+	return view('siswa/pembayaran');
+});
 
 Auth::routes();
 
