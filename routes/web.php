@@ -23,13 +23,20 @@ Route::get('/siswa/elearning', function () {
     return view('siswa/elearning');
 });
 
-Route::get('/siswa/elearningUtama', function () {
-    return view('siswa/elearningUtama');
+Route::get('/siswa/elearningSoal', function () {
+    return view('siswa/elearningSoal');
 });
 Route::get('/siswa/pesan', function () {
     return view('siswa/pesan');
 });
 
+Route::get('/siswa/nilai', function() {
+	return view('siswa/nilai');
+});
+
+Route::get('/siswa/pembayaran', function() {
+	return view('siswa/pembayaran');
+});
 
 Auth::routes();
 

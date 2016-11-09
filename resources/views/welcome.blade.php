@@ -34,13 +34,14 @@
         <script src="js/custom.js"> </script>
     </head>
     <body class="background-custom-login-siswa">
+
         <nav>
             <div class="container">
                 <div class="nav-wrapper custom-header">
                     
-                    <a href="siswa/beranda" class="brand-logo">Sims</a>
+                    <a href="siswa/beranda" class="logo">Sims</a>
                     
-                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <ul id="nav-mobile" class="right custom-nav hide-on-med-and-down">
                         <li><span class="material-icons dp48 icon-header">email</span> Support@sims.com</li>
                         <li><span class="material-icons dp48 icon-header custom">phone</span> 021-9213392</li>
                     </ul>
@@ -52,93 +53,7 @@
             </div>
         </nav>
 
-       
-        
-        <div id="fullpage">
-            <div class="section" id="section1">
-                <div class="intro">
-                     <div class="col info-news ">
-                     <h2>Lorem ipsum dolor.</h2>
-                                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. Ut enim aminim veniam,</p>
-                            </div>
-                </div>
-            </div>
-            <div class="section" id="section2">
-                <div class="intro">
-                     <div class="col info-news ">
-                     <h2>Lorem ipsum dolor.</h2>
-                      
-                                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. Ut enim aminim veniam,</p>
-                            </div>
-                </div>
-            </div>
-            <div class="section" id="section3">
-                <div class="intro">
-                     <div class="col info-news ">
-                     <h2>Lorem ipsum dolor.</h2>
-                      
-                                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. Ut enim aminim veniam,</p>
-                            </div>
-                </div>
-            </div>
-            <div class="section" id="section4">
-                <div class="slide" id="slide1">
-                    <div class="container">
-                        <div class="intro">
-                            <div class="col info-news ">
-                                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. Ut enim aminim veniam,</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="slide" id="slide2">
-                    <div class="container">
-                        <div class="col info-news ">
-                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim aminim veniam,</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="slide" id="slide3">
-                    <div class="container">
-                        <div class="col info-news ">
-                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim aminim veniam,</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row" id="login">
-            <div class="col s10 offset-s1 l4 offset-l8">
-                    <div class="card-panel">
-                        
-                        <div class="input-field col s12">
-                            <input id="last_name" type="text">
-                            <label for="last_name" class="">NO ID</label>
-                        </div>
-                        
-                        <div class="input-field col s12">
-                            <input id="last_name" type="password">
-                            <label for="last_name" class="">PASSWORD</label>
-                        </div>
-                        
-                        <div class="custom-login-filled">
-                            <input type="checkbox" class="filled-in" id="filled-in-box">
-                            <label for="filled-in-box">Ingatkan login lain kali</label>
-                        </div>
-                        <button class="btn waves-effect waves-light custom-button-login" type="submit" name="action"> Masuk
-                        </button>
-                        
-                    </div>
-                </div>
-        </div>
-
-        <!-- <div class="container">
+        <div class="container">
             <div class="row custom-layout">
                 
                 <div class="col l1 s1">
@@ -230,7 +145,7 @@
                 
             </div>
             
-        </div> -->
+        </div>
         <!-- Scripts -->
         <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <script type="text/javascript" src="js/materialize.min.js"></script>
