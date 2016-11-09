@@ -26,6 +26,9 @@ Route::get('/siswa/elearning', function () {
 Route::get('/siswa/elearningUtama', function () {
     return view('siswa/elearningUtama');
 });
+Route::get('/siswa/pesan', function () {
+    return view('siswa/pesan');
+});
 
 
 Auth::routes();

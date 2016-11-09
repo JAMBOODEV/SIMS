@@ -42,6 +42,7 @@
       $(function(){
         $('.button-collapse').sideNav();
         $('.modal-trigger').leanModal();
+        $('.collapsible').collapsible();
       }); // end of document ready
     })(jQuery);
     </script>
@@ -84,6 +85,6 @@
     </div>
   </div>
   <div class="modal-footer">
-    <a href="#!" class="btn modal-action modal-close waves-effect waves-green btn-flat" style="background-color:#0099ff">Agree</a>
+    <a href="#!" class="btn modal-action modal-close waves-effect waves-green btn-flat center-button" style="background-color:#0099ff">Agree</a>
   </div>
 </div>
