@@ -1,4 +1,4 @@
-@media only screen and (MIN-width: 768px){
+@media only screen and (min-width: 768px){
     .row.custom-layout {
     margin-left: -9.75rem;
     margin-right: -0.75rem;
@@ -12,12 +12,43 @@
     position: relative;
     top:-50% !important;
    }
+    #info_sims_user{
+        height: 100vh;
+    }
+    .user_info_img {
+        width: 100%;
+        margin-top: 50px;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+         
+    }
+
+    .user_info_img img{
+        align-items: center;
+
+    }
+
 }
 
 @media only screen and (max-width: 992px){
     nav .brand-logo {
-    left: 43%;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
     }
+    table.responsive-table td{
+        display: inline-block;
+    }
+    .hari{
+       top: 0;
+       height: 30px;
+    }
+    #info_sims_user{
+        display: none;
+    }
+    #slide-out a{
+        background-color: rgba(255,255,255,.0);
+     }
+
 }
