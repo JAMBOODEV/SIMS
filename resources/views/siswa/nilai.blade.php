@@ -1,43 +1,43 @@
 @extends('layouts.app')
 
+@section('navbar')
+
     <body class="background-custom-siswa">
 
-    <div class="header-learning-top">
-        <div class="row">
-            <div class="col s1 custom-logo">
-                Sims    
-            </div>
-            <div class="col s9 custom-header-learning">
-              
-                <nav>
-                <div class="nav-wrapper">
-                  <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li><a href="beranda">Beranda</a></li>
-                        <li><a href="elearning">E-learning</a></li>
-                        <li><a href="pembayaran">Pembayaran</a></li>
-                        <li><a href="nilai">Nilai</a></li>
-                        <li><a href="info">Info</a></li>
-                        <li><a href="forum">Forum</a></li>
-                  </ul>
-                </div>
-              </nav>
+    <nav class="custom-nav-siswa-payment">
+        <div class="container nav-wrapper">
+            <a href="#" class="brand-logo ">Sims</a>
+            <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
 
-            </div>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a class="" href="beranda">Beranda</a></li>
+                <li><a class="" href="elearning">E-learning</a></li>
+                <li><a class="active-line" href="nilai">Nilai</a></li>
+                <li><a class="" href="pembayaran">Pembayaran</a></li>
+                <li><a class="" href="info">Info</a></li>
+                <li><a class="" href="forum">Forum</a></li>
+                <li><a class="" href="#"><i class="fa fa-sign-out" aria-hidden="true"></i></a></li>
+            </ul>
+
+
         </div>
-    </div>
-    
+    </nav>
 
     <nav class="nav-custom-nilai">
         <div class="container">
             <div class="row">
                 <div class="col s12 custom-tittle-learning">
                     <div class="header-tittle-nilai">
-                        Hari rabu ada lomba 17 agusutus 1945 agusutus agusutus 1945 agusutus
+                        Rapat pengumuman kenaikan kelas akan dilaksanakan pada hari Selasa
                     </div>
                 </div>
             </div>
         </div>  
     </nav>
+
+@endsection
+
+@section('content')
 
     <div class="container">
         <div class="row custom-layout-learning">
@@ -56,7 +56,7 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td>123ABC</td>
+                                <td>BO9001</td>
                                 <td>Matematika</td>
                                 <td>Muhammad Wisnu</td>
                                 <td>80</td>
@@ -159,13 +159,14 @@
                                 <td>70</td>
                                 <td>A</td>
                             </tr>
-
-                            
                         </tbody>
                     </table>
+
                 </div>
             </div>
         </div>
     </div>
+    
+@endsection
 
 

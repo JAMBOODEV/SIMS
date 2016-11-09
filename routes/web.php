@@ -23,11 +23,11 @@ Route::get('/siswa/elearning', function () {
     return view('siswa/elearning');
 });
 
-Route::get('/siswa/elearningSoal', function () {
-    return view('siswa/elearningSoal');
+Route::get('/siswa/soal', function () {
+    return view('siswa/soal');
 });
-Route::get('/siswa/pesan', function () {
-    return view('siswa/pesan');
+Route::get('/siswa/info', function () {
+    return view('siswa/info');
 });
 
 Route::get('/siswa/nilai', function() {
@@ -36,6 +36,10 @@ Route::get('/siswa/nilai', function() {
 
 Route::get('/siswa/pembayaran', function() {
 	return view('siswa/pembayaran');
+});
+
+Route::get('/siswa/forum', function() {
+	return view('siswa/forum');
 });
 
 Auth::routes();

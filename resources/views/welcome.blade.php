@@ -41,9 +41,13 @@
                     
                     <a href="siswa/beranda" class="logo">Sims</a>
                     
-                    <ul id="nav-mobile" class="right custom-nav hide-on-med-and-down">
-                        <li><span class="material-icons dp48 icon-header">email</span> Support@sims.com</li>
-                        <li><span class="material-icons dp48 icon-header custom">phone</span> 021-9213392</li>
+                    <ul id="nav-mobile" class="right custom-nav hide-on-med-and-down custom-login">
+                        <li>
+                            <span id="icon-header-login-1" class="material-icons dp48 icon-header">email</span> Support@sims.com
+                        </li>
+                        <li>
+                            <span id="icon-header-login-2" class="material-icons dp48 icon-header custom">phone</span> 021-9213392
+                        </li>
                     </ul>
                     <ul id="mobile-demo" class="side-nav">
                         <li><span class="material-icons dp48 icon-header">email</span> Support@sims.com</li>

@@ -324,7 +324,6 @@ body{
     padding: 12px 0px 0px 65px;
 }
 
-/* ============= Start fullgpage ======*/
 #fullpage{
     margin-top: -64px: 
 }
@@ -332,7 +331,6 @@ body{
     display: none;
 }
 
-/* =============End Fullpage */
 .row.custom-layout {
 }
 
@@ -461,7 +459,7 @@ body{
 .btn.next-answer-learning {
     background-color: #00CD30;
     position: absolute;
-    left: 111px;
+    left: 114px;
     width: 161px;
 }
 
@@ -610,18 +608,17 @@ div.question-selection:hover {
 .w3-blue,.w3-hover-blue:hover{color:#fff!important;background-color:#2196F3!important}
 .w3-light-blue,.w3-hover-light-blue:hover{color:#000!important;background-color:#dadada!important}
 
-.col.s8.custom-missed {
-    text-align: right;
+.col.s12.custom-missed {
     font-size: 15px;
-    font-weight: bold;
-    top: 30px;
+    top: -27px;
     position: relative;
+    text-align: right;
 }
 
-.col.s1.custom-question-download {
-    font-size: 11px;
-    right: -54px;
+.col.s3.custom-question-download {
     position: relative;
+    top: -22px;
+    right: -30px;
 }
 
 .custom-text-answer {
@@ -636,9 +633,10 @@ div.question-selection:hover {
     color: #6b6969;
 }
 
-div.col.s1.custom-question-download a:hover {
+div.col.s3.custom-question-download i:hover {
     color:#0099FF;
 }
+                                }
 
 .right.custom-nav.hide-on-med-and-down {
     right: 155px;
@@ -784,7 +782,6 @@ div.col.s1.custom-question-download a:hover {
 }
 .modal-table tr,.modal-table td{
     padding: 5px 5px;
-<<<<<<< HEAD
 }
 
 /* ============= Info ============== */
@@ -799,7 +796,7 @@ div.col.s1.custom-question-download a:hover {
     z-index: 888;
 }
 .content-pesan{
-    margin-top: 10px;
+    margin-top: 23px;
 }
 .breadcrumb::before{
     margin-top:2px; 
@@ -942,7 +939,33 @@ font-size: .8em;
     border-radius: 3px;
     background-color: #fff;
     -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,0.5);
-=======
->>>>>>> 078ef81555988b9a46b89c74bb2e3481ed4c32d8
+}
 
+#icon-header-login-1 {
+    top: -2px;
+    position: relative;
+    right: -8px;
+}
+
+#icon-header-login-2 {
+    top: -2px;
+    position: relative;
+    right: -13px;
+}
+
+.btn.modal-action.modal-close.waves-effect.waves-green.btn-flat.center-button.custom-modal-elearning {
+    background-color:#0099ff;
+}
+
+.custom-nav {
+    height: 77px;
+}
+
+.custom-nav-siswa-payment {
+    height: 89px;
+}
+
+.right.custom-nav.hide-on-med-and-down.custom-login {
+    position: relative;
+    left: -171px;
 }
