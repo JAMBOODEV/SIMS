@@ -56,16 +56,99 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td>BO9001</td>
-                                <td>Matematika</td>
-                                <td>Muhammad Wisnu</td>
-                                <td>80</td>
-                                <td>70</td>
-                                <td>A</td>
+                                <td style="position: absolute;">BO9001</td>
+                                <td>
+
+                                    <div class="collapse">
+                                        <h6>
+                                            <div class="row" style="top: -12px; position: relative;">
+                                                <div class="col s7" style="position: relative; top: 11px;">
+                                                    Matematika        
+                                                </div>
+                                                <div class="col s2" style="position: relative; top: 11px;">
+                                                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                                </div>
+                                            </div> 
+                                        </h6>
+
+                                        <div class="row custom-value" style="position: relative; top: -8px;">
+                                            <div class="col s10" style="margin-bottom: 8px;">
+                                                1. Ulangan Harian
+                                            </div>
+                                            <div class="col s2">
+                                                90
+                                            </div>
+                                            <div class="col s10">
+                                                2. UTS
+                                            </div>
+                                            <div class="col s2">
+                                                70
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </td>
+                                <td style="position: absolute;">Krisna Singgih</td>
+                                <td>Krisna Singgih</td>
+                                <td>Krisna Singgih</td>
+                                <td>Krisna Singgih</td>
+                                
                             </tr>
                             <tr>
                                 <td>323ABC</td>
-                                <td>Penjaskes</td>
+                                <td>
+                                    <div class="collapse">
+                                        <h6>
+                                            <div class="row">
+                                                <div class="col s7" style="position: relative; top: 11px;">
+                                                    Matematika        
+                                                </div>
+                                                <div class="col s2" style="position: relative; top: 11px;">
+                                                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                                </div>
+                                            </div> 
+                                        </h6>
+
+                                        <div class="row custom-value">
+                                            <div class="col s10">
+                                                1. Ulangan Harian
+                                            </div>
+                                            <div class="col s2">
+                                                90
+                                            </div>
+                                            <div class="col s10">
+                                                2. UTS
+                                            </div>
+                                            <div class="col s2">
+                                                70
+                                            </div>
+                                            <div class="col s10">
+                                                3. Ulangan Harian
+                                            </div>
+                                            <div class="col s2">
+                                                90
+                                            </div>
+                                            <div class="col s10">
+                                                4. UTS
+                                            </div>
+                                            <div class="col s2">
+                                                70
+                                            </div>
+                                            <div class="col s10">
+                                                5. Ulangan Harian
+                                            </div>
+                                            <div class="col s2">
+                                                90
+                                            </div>
+                                            <div class="col s10">
+                                                6. UTS
+                                            </div>
+                                            <div class="col s2">
+                                                70
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
                                 <td>Krisna Singgih</td>
                                 <td>50</td>
                                 <td>90</td>
@@ -73,7 +156,37 @@
                             </tr>
                             <tr>
                                 <td>123APC</td>
-                                <td>Bahasa Indonesia</td>
+                                <td>
+
+                                    <div class="collapse">
+                                        <h6>
+                                            <div class="row">
+                                                <div class="col s7" style="position: relative; top: 11px;">
+                                                    Matematika        
+                                                </div>
+                                                <div class="col s2" style="position: relative; top: 11px;">
+                                                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                                </div>
+                                            </div> 
+                                        </h6>
+
+                                        <div class="row custom-value">
+                                            <div class="col s10">
+                                                1. Ulangan Harian
+                                            </div>
+                                            <div class="col s2">
+                                                90
+                                            </div>
+                                            <div class="col s10">
+                                                2. UTS
+                                            </div>
+                                            <div class="col s2">
+                                                70
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </td>
                                 <td>Sukron Makmun</td>
                                 <td>60</td>
                                 <td>30</td>
@@ -81,7 +194,37 @@
                             </tr>
                             <tr>
                                 <td>193OBC</td>
-                                <td>Bahasa Sunda</td>
+                                <td>
+
+                                    <div class="collapse">
+                                        <h6>
+                                            <div class="row">
+                                                <div class="col s7" style="position: relative; top: 11px;">
+                                                    Matematika        
+                                                </div>
+                                                <div class="col s2" style="position: relative; top: 11px;">
+                                                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                                </div>
+                                            </div> 
+                                        </h6>
+
+                                        <div class="row custom-value">
+                                            <div class="col s10">
+                                                1. Ulangan Harian
+                                            </div>
+                                            <div class="col s2">
+                                                90
+                                            </div>
+                                            <div class="col s10">
+                                                2. UTS
+                                            </div>
+                                            <div class="col s2">
+                                                70
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </td>
                                 <td>Muhammad Wisnu</td>
                                 <td>80</td>
                                 <td>70</td>
@@ -89,7 +232,37 @@
                             </tr>
                             <tr>
                                 <td>323ABC</td>
-                                <td>Penjaskes</td>
+                                <td>
+
+                                    <div class="collapse">
+                                        <h6>
+                                            <div class="row">
+                                                <div class="col s7" style="position: relative; top: 11px;">
+                                                    Matematika        
+                                                </div>
+                                                <div class="col s2" style="position: relative; top: 11px;">
+                                                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                                </div>
+                                            </div> 
+                                        </h6>
+
+                                        <div class="row custom-value">
+                                            <div class="col s10">
+                                                1. Ulangan Harian
+                                            </div>
+                                            <div class="col s2">
+                                                90
+                                            </div>
+                                            <div class="col s10">
+                                                2. UTS
+                                            </div>
+                                            <div class="col s2">
+                                                70
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </td>
                                 <td>Krisna Singgih</td>
                                 <td>50</td>
                                 <td>90</td>
@@ -97,7 +270,37 @@
                             </tr>
                             <tr>
                                 <td>123APC</td>
-                                <td>Bahasa Indonesia</td>
+                                <td>
+
+                                    <div class="collapse">
+                                        <h6>
+                                            <div class="row">
+                                                <div class="col s7" style="position: relative; top: 11px;">
+                                                    Matematika        
+                                                </div>
+                                                <div class="col s2" style="position: relative; top: 11px;">
+                                                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                                </div>
+                                            </div> 
+                                        </h6>
+
+                                        <div class="row custom-value">
+                                            <div class="col s10">
+                                                1. Ulangan Harian
+                                            </div>
+                                            <div class="col s2">
+                                                90
+                                            </div>
+                                            <div class="col s10">
+                                                2. UTS
+                                            </div>
+                                            <div class="col s2">
+                                                70
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </td>
                                 <td>Sukron Makmun</td>
                                 <td>60</td>
                                 <td>30</td>
@@ -105,7 +308,37 @@
                             </tr>
                             <tr>
                                 <td>193OBC</td>
-                                <td>Bahasa Sunda</td>
+                                <td>
+
+                                    <div class="collapse">
+                                        <h6>
+                                            <div class="row">
+                                                <div class="col s7" style="position: relative; top: 11px;">
+                                                    Matematika        
+                                                </div>
+                                                <div class="col s2" style="position: relative; top: 11px;">
+                                                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                                </div>
+                                            </div> 
+                                        </h6>
+
+                                        <div class="row custom-value">
+                                            <div class="col s10">
+                                                1. Ulangan Harian
+                                            </div>
+                                            <div class="col s2">
+                                                90
+                                            </div>
+                                            <div class="col s10">
+                                                2. UTS
+                                            </div>
+                                            <div class="col s2">
+                                                70
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </td>
                                 <td>Muhammad Wisnu</td>
                                 <td>80</td>
                                 <td>70</td>
@@ -113,7 +346,37 @@
                             </tr>
                             <tr>
                                 <td>123APC</td>
-                                <td>Bahasa Indonesia</td>
+                                <td>
+
+                                    <div class="collapse">
+                                        <h6>
+                                            <div class="row">
+                                                <div class="col s7" style="position: relative; top: 11px;">
+                                                    Matematika        
+                                                </div>
+                                                <div class="col s2" style="position: relative; top: 11px;">
+                                                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                                </div>
+                                            </div> 
+                                        </h6>
+
+                                        <div class="row custom-value">
+                                            <div class="col s10">
+                                                1. Ulangan Harian
+                                            </div>
+                                            <div class="col s2">
+                                                90
+                                            </div>
+                                            <div class="col s10">
+                                                2. UTS
+                                            </div>
+                                            <div class="col s2">
+                                                70
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </td>
                                 <td>Sukron Makmun</td>
                                 <td>60</td>
                                 <td>30</td>
@@ -121,7 +384,37 @@
                             </tr>
                             <tr>
                                 <td>193OBC</td>
-                                <td>Bahasa Sunda</td>
+                                <td>
+
+                                    <div class="collapse">
+                                        <h6>
+                                            <div class="row">
+                                                <div class="col s7" style="position: relative; top: 11px;">
+                                                    Matematika        
+                                                </div>
+                                                <div class="col s2" style="position: relative; top: 11px;">
+                                                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                                </div>
+                                            </div> 
+                                        </h6>
+
+                                        <div class="row custom-value">
+                                            <div class="col s10">
+                                                1. Ulangan Harian
+                                            </div>
+                                            <div class="col s2">
+                                                90
+                                            </div>
+                                            <div class="col s10">
+                                                2. UTS
+                                            </div>
+                                            <div class="col s2">
+                                                70
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </td>
                                 <td>Muhammad Wisnu</td>
                                 <td>80</td>
                                 <td>70</td>
@@ -129,7 +422,37 @@
                             </tr>
                             <tr>
                                 <td>123APC</td>
-                                <td>Bahasa Indonesia</td>
+                                <td>
+                                    
+                                    <div class="collapse">
+                                        <h6>
+                                            <div class="row">
+                                                <div class="col s7" style="position: relative; top: 11px;">
+                                                    Matematika        
+                                                </div>
+                                                <div class="col s2" style="position: relative; top: 11px;">
+                                                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                                </div>
+                                            </div> 
+                                        </h6>
+
+                                        <div class="row custom-value">
+                                            <div class="col s10">
+                                                1. Ulangan Harian
+                                            </div>
+                                            <div class="col s2">
+                                                90
+                                            </div>
+                                            <div class="col s10">
+                                                2. UTS
+                                            </div>
+                                            <div class="col s2">
+                                                70
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </td>
                                 <td>Sukron Makmun</td>
                                 <td>60</td>
                                 <td>30</td>
@@ -137,7 +460,37 @@
                             </tr>
                             <tr>
                                 <td>193OBC</td>
-                                <td>Bahasa Sunda</td>
+                                <td>
+
+                                    <div class="collapse">
+                                        <h6>
+                                            <div class="row">
+                                                <div class="col s7" style="position: relative; top: 11px;">
+                                                    Matematika        
+                                                </div>
+                                                <div class="col s2" style="position: relative; top: 11px;">
+                                                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                                </div>
+                                            </div> 
+                                        </h6>
+
+                                        <div class="row custom-value">
+                                            <div class="col s10">
+                                                1. Ulangan Harian
+                                            </div>
+                                            <div class="col s2">
+                                                90
+                                            </div>
+                                            <div class="col s10">
+                                                2. UTS
+                                            </div>
+                                            <div class="col s2">
+                                                70
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </td>
                                 <td>Muhammad Wisnu</td>
                                 <td>80</td>
                                 <td>70</td>
@@ -145,7 +498,37 @@
                             </tr>
                             <tr>
                                 <td>123APC</td>
-                                <td>Bahasa Indonesia</td>
+                                <td>
+
+                                    <div class="collapse">
+                                        <h6>
+                                            <div class="row">
+                                                <div class="col s7" style="position: relative; top: 11px;">
+                                                    Matematika        
+                                                </div>
+                                                <div class="col s2" style="position: relative; top: 11px;">
+                                                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                                </div>
+                                            </div> 
+                                        </h6>
+
+                                        <div class="row custom-value">
+                                            <div class="col s10">
+                                                1. Ulangan Harian
+                                            </div>
+                                            <div class="col s2">
+                                                90
+                                            </div>
+                                            <div class="col s10">
+                                                2. UTS
+                                            </div>
+                                            <div class="col s2">
+                                                70
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </td>
                                 <td>Sukron Makmun</td>
                                 <td>60</td>
                                 <td>30</td>
@@ -153,7 +536,37 @@
                             </tr>
                             <tr>
                                 <td>193OBC</td>
-                                <td>Bahasa Sunda</td>
+                                <td>
+
+                                    <div class="collapse">
+                                        <h6>
+                                            <div class="row">
+                                                <div class="col s7" style="position: relative; top: 11px;">
+                                                    Matematika        
+                                                </div>
+                                                <div class="col s2" style="position: relative; top: 11px;">
+                                                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                                </div>
+                                            </div> 
+                                        </h6>
+
+                                        <div class="row custom-value">
+                                            <div class="col s10">
+                                                1. Ulangan Harian
+                                            </div>
+                                            <div class="col s2">
+                                                90
+                                            </div>
+                                            <div class="col s10">
+                                                2. UTS
+                                            </div>
+                                            <div class="col s2">
+                                                70
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </td>
                                 <td>Muhammad Wisnu</td>
                                 <td>80</td>
                                 <td>70</td>

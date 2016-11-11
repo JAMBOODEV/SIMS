@@ -15,7 +15,7 @@
                 <li><a class="" href="nilai">Nilai</a></li>
                 <li><a class="" href="pembayaran">Pembayaran</a></li>
                 <li><a class="" href="info">Info</a></li>
-                <li><a class="active-line" href="forum">Forum</a></li>
+                <li><a class="" target="_blank" href="http://localhost/SIMS/forum/">Forum</a></li>
                 <li><a class="" href="#"><i class="fa fa-sign-out" aria-hidden="true"></i></a></li>
             </ul>
 

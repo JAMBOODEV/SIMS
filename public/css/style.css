@@ -969,3 +969,24 @@ font-size: .8em;
     position: relative;
     left: -171px;
 }
+
+.collapse {
+    margin: 0;
+    padding: 0;
+    width: 197px;    
+    margin: 0px -91px 0px 0px;
+}
+
+h6 {
+    margin: 1px;
+    color: #464141;
+    padding: 3px 0px;
+    cursor: pointer;
+    position: relative;
+    
+}
+
+p {
+    padding: -1px 10px;
+    margin: 0;
+}
