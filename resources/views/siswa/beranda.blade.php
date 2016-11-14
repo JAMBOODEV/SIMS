@@ -1,21 +1,18 @@
 @extends('layouts.app')
-
 @section('navbar')
 
 	<body class="background-custom-siswa">
-
 	<nav>
 		<div class="container nav-wrapper">
-			<a href="#" class="brand-logo ">Sims</a>
+			<a href="/siswa/beranda" class="brand-logo ">Sims</a>
 			<a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
-
 			<ul id="nav-mobile" class="right hide-on-med-and-down">
 				<li><a class="active-line" href="beranda">Beranda</a></li>
 				<li><a class="" href="elearning">E-learning</a></li>
 				<li><a class="" href="nilai">Nilai</a></li>
 				<li><a class="" href="pembayaran">Pembayaran</a></li>
 				<li><a class="" href="info">Info</a></li>
-				<li><a class="" target="_blank" href="http://localhost/SIMS/forum/">Forum</a></li>
+				<li><a class="" href="forum">Forum</a></li>
 				<li><a class="" href="#"><i class="fa fa-sign-out" aria-hidden="true"></i></a></li>
 			</ul>
 
@@ -61,12 +58,21 @@
 						</ul>
 					</div>
 				</div>
+				<div id="info_splash">
+					
+					<div><p>Headline 1</p></div>
+					<div><p>Headline 2</p></div>
+					<div><p>Headline 3</p></div>
+					<div><p>Headline 4</p></div>
+					<div><p>Headline 5</p></div>
+
+				</div>
 			</div>
 			<div class="row">
 				<div class="container content">
 				<div class="col s12 l8">
 					<div class="card-sims">
-					<h2>Jadwal Kelas</h2>
+					<p class="sub-headline3 head-margin">Jadwal Kelas</p>
 					<div class="collection">
 					    <div class="collection-item">
 					    	<table class="responsive-table linemaster">
@@ -89,8 +95,8 @@
 												<span class="dot_icon1"></span>
 											</div>
 											<div class="materi">
-												<span class="line1">MATEMATIKA</span>
-					    						<span class="line1 trans">XII IPA 5</span>
+												<span class="line1 headline5">MATEMATIKA</span>
+					    						<span class="line1 trans sub-headline5">XII IPA 5</span>
 											</div>
 
 					    				</div>
@@ -112,8 +118,8 @@
 												<span class="dot_icon2"></span>
 											</div>
 											<div class="materi">
-												<span class="line1">PHOTOSHOP BASIC </span>
-						    					<span class="line1 trans">XII IPA 5</span>
+												<span class="line1 headline5">PHOTOSHOP BASIC </span>
+						    					<span class="line1 trans sub-headline5">XII IPA 5</span>
 											</div>
 					    				</div>
 					    			</td>
@@ -137,8 +143,8 @@
 												<span class="dot_icon3"></span>
 											</div>
 											<div class="materi">
-												<span class="line1">KECAKAPAN</span>
-						    					<span class="line1 trans">XII IPA 5</span>
+												<span class="line1 headline5">KECAKAPAN</span>
+						    					<span class="line1 trans sub-headline5">XII IPA 5</span>
 											</div>
 					    					
 					    				</div>
@@ -161,7 +167,7 @@
 					    			<td rowspan="3">
 					    				<div class="hari">
 					    					<span class="line1">Selasa</span>
-						    				<span class="line1 trans trans">Jan 02 2016</span> 
+						    				<span class="line1 trans">Jan 02 2016</span> 
 					    				</div>
 					    			</td>
 					    			<td class="masterJam">
@@ -176,8 +182,8 @@
 												<span class="dot_icon1"></span>
 											</div>
 											<div class="materi">
-												<span class="line1">MATEMATIKA</span>
-					    						<span class="line1 trans">XII IPA 5</span>
+												<span class="line1 headline5">MATEMATIKA</span>
+					    						<span class="line1 trans sub-headline5">XII IPA 5</span>
 											</div>
 
 					    				</div>
@@ -199,8 +205,8 @@
 												<span class="dot_icon2"></span>
 											</div>
 											<div class="materi">
-												<span class="line1">PHOTOSHOP BASIC </span>
-						    					<span class="line1 trans">XII IPA 5</span>
+												<span class="line1 headline5">PHOTOSHOP BASIC </span>
+						    					<span class="line1 trans sub-headline5">XII IPA 5</span>
 											</div>
 					    				</div>
 					    			</td>
@@ -224,8 +230,8 @@
 												<span class="dot_icon3"></span>
 											</div>
 											<div class="materi">
-												<span class="line1">KECAKAPAN</span>
-						    					<span class="line1 trans">XII IPA 5</span>
+												<span class="line1 headline5">KECAKAPAN</span>
+						    					<span class="line1 trans sub-headline5">XII IPA 5</span>
 											</div>
 					    					
 					    				</div>
@@ -263,8 +269,8 @@
 												<span class="dot_icon1"></span>
 											</div>
 											<div class="materi">
-												<span class="line1">MATEMATIKA</span>
-					    						<span class="line1 trans">XII IPA 5</span>
+												<span class="line1 headline5">MATEMATIKA</span>
+					    						<span class="line1 trans sub-headline5">XII IPA 5</span>
 											</div>
 
 					    				</div>
@@ -286,8 +292,8 @@
 												<span class="dot_icon2"></span>
 											</div>
 											<div class="materi">
-												<span class="line1">PHOTOSHOP BASIC </span>
-						    					<span class="line1 trans">XII IPA 5</span>
+												<span class="line1 headline5">PHOTOSHOP BASIC </span>
+						    					<span class="line1 trans sub-headline5">XII IPA 5</span>
 											</div>
 					    				</div>
 					    			</td>
@@ -311,8 +317,8 @@
 												<span class="dot_icon3"></span>
 											</div>
 											<div class="materi">
-												<span class="line1">KECAKAPAN</span>
-						    					<span class="line1 trans">XII IPA 5</span>
+												<span class="line1 headline5">KECAKAPAN</span>
+						    					<span class="line1 trans sub-headline5">XII IPA 5</span>
 											</div>
 					    					
 					    				</div>
@@ -350,8 +356,8 @@
 												<span class="dot_icon1"></span>
 											</div>
 											<div class="materi">
-												<span class="line1">MATEMATIKA</span>
-					    						<span class="line1 trans">XII IPA 5</span>
+												<span class="line1 headline5">MATEMATIKA</span>
+					    						<span class="line1 trans sub-headline5">XII IPA 5</span>
 											</div>
 
 					    				</div>
@@ -373,8 +379,8 @@
 												<span class="dot_icon2"></span>
 											</div>
 											<div class="materi">
-												<span class="line1">PHOTOSHOP BASIC </span>
-						    					<span class="line1 trans">XII IPA 5</span>
+												<span class="line1 headline5">PHOTOSHOP BASIC </span>
+						    					<span class="line1 trans sub-headline5">XII IPA 5</span>
 											</div>
 					    				</div>
 					    			</td>
@@ -399,8 +405,8 @@
 												<span class="dot_icon3"></span>
 											</div>
 											<div class="materi">
-												<span class="line1">KECAKAPAN</span>
-						    					<span class="line1 trans">XII IPA 5</span>
+												<span class="line1 headline5">KECAKAPAN</span>
+						    					<span class="line1 trans sub-headline5">XII IPA 5</span>
 											</div>
 					    					
 					    				</div>
@@ -438,8 +444,8 @@
 												<span class="dot_icon1"></span>
 											</div>
 											<div class="materi">
-												<span class="line1">MATEMATIKA</span>
-					    						<span class="line1 trans">XII IPA 5</span>
+												<span class="line1 headline5">MATEMATIKA</span>
+					    						<span class="line1 trans sub-headline5">XII IPA 5</span>
 											</div>
 
 					    				</div>
@@ -461,8 +467,8 @@
 												<span class="dot_icon2"></span>
 											</div>
 											<div class="materi">
-												<span class="line1">PHOTOSHOP BASIC </span>
-						    					<span class="line1 trans">XII IPA 5</span>
+												<span class="line1 headline5">PHOTOSHOP BASIC </span>
+						    					<span class="line1 trans sub-headline5">XII IPA 5</span>
 											</div>
 					    				</div>
 					    			</td>
@@ -486,8 +492,8 @@
 												<span class="dot_icon3"></span>
 											</div>
 											<div class="materi">
-												<span class="line1">KECAKAPAN</span>
-						    					<span class="line1 trans">XII IPA 5</span>
+												<span class="line1 headline5">KECAKAPAN</span>
+						    					<span class="line1 trans sub-headline5">XII IPA 5</span>
 											</div>
 					    					
 					    				</div>
@@ -525,8 +531,8 @@
 												<span class="dot_icon1"></span>
 											</div>
 											<div class="materi">
-												<span class="line1">MATEMATIKA</span>
-					    						<span class="line1 trans">XII IPA 5</span>
+												<span class="line1 headline5">MATEMATIKA</span>
+					    						<span class="line1 trans sub-headline5">XII IPA 5</span>
 											</div>
 
 					    				</div>
@@ -548,8 +554,8 @@
 												<span class="dot_icon2"></span>
 											</div>
 											<div class="materi">
-												<span class="line1">PHOTOSHOP BASIC </span>
-						    					<span class="line1 trans">XII IPA 5</span>
+												<span class="line1 headline5">PHOTOSHOP BASIC </span>
+						    					<span class="line1 trans sub-headline5">XII IPA 5</span>
 											</div>
 					    				</div>
 					    			</td>
@@ -573,8 +579,8 @@
 												<span class="dot_icon3"></span>
 											</div>
 											<div class="materi">
-												<span class="line1">KECAKAPAN</span>
-						    					<span class="line1 trans">XII IPA 5</span>
+												<span class="line1 headline5">KECAKAPAN</span>
+						    					<span class="line1 trans sub-headline5">XII IPA 5</span>
 											</div>
 					    					
 					    				</div>
@@ -599,24 +605,25 @@
 				<div class="col s12 l4">
 					<div class="card-sims">
 						<div class="top-rank">
-							<h2 >Ceritanya Ini Tanggal</h2>
+							<p class="sub-headline3 head-margin">Kalender</p>
 							<div class="collection">
-							    <div class="collection-item">
-							    	<div class="img left"><img src="../img/avatar_siswi.jpg" class="circle responsive-img" width="60" alt=""></div><div class="name center"><span>Krisna</span><span>XII IPA 5</span></div><div class="rank right">1</div>
-							    </div>
-							    <div class="collection-item">
-							    	<div class="img left"><img src="../img/avatar_siswi.jpg" class="circle responsive-img" width="60" alt=""></div><div class="name center"><span>Rendi</span><span>XII IPA 5</span></div><div class="rank right">2</div>
-							    </div>
-							    <div class="collection-item">
-							    	<div class="img left"><img src="../img/avatar_siswi.jpg" class="circle responsive-img" width="60" alt=""></div><div class="name center"><span>Inu</span><span>XII IPA 5</span></div><div class="rank right">3</div>
-							    </div>
+							  <div class="cal1"></div>							   
 						  </div>
 						</div>	
 						</div>
+					<!-- Chart Siswa-->
+					<div class="card-sims">
+						<div class="top-rank">
+							<p class="sub-headline3 head-margin">Statistk Penilaian</p>
+							<div class="collection">
+								<canvas id="statistik" height="300" width="500"></canvas>
+						  	</div>
+						</div>	
+					</div>
 					<!-- ====== Rangking ====== -->
 					<div class="card-sims">
 						<div class="top-rank">
-							<h2 >TOP RANK</h2>
+							<p class="sub-headline3 head-margin">TOP RANK</p>
 							<div class="collection">
 							    <div class="collection-item">
 							    	<div class="img left"><img src="../img/avatar_siswi.jpg" class="circle responsive-img" width="60" alt=""></div><div class="name center"><span>Krisna</span><span>XII IPA 5</span></div><div class="rank right">1</div>

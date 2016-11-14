@@ -924,22 +924,6 @@ font-size: .8em;
     text-align: justify;
     color: rgba(000,000,000,.6);
 }
-::-webkit-scrollbar {
-    width: 8px;
-}
- 
-::-webkit-scrollbar-track {
-    background-color: #0388e2;
-    border-radius: 3px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
-
-}
- 
-::-webkit-scrollbar-thumb {
-    border-radius: 3px;
-    background-color: #fff;
-    -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,0.5);
-}
 
 #icon-header-login-1 {
     top: -2px;
@@ -989,4 +973,96 @@ h6 {
 p {
     padding: -1px 10px;
     margin: 0;
+}
+
+/*  Custem Scroll */
+#content-side::-webkit-scrollbar {
+    width: 8px;
+}
+ 
+#content-side::-webkit-scrollbar-track {
+    background-color: #0388e2;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+
+}
+ 
+#content-side::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background-color: #fff;
+    -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,0.5);
+}
+
+/* info_splash */
+ #info_splash {position: relative;}    
+ #info_splash p{transition: 1s all}    
+
+/* Set headline */
+.headline1{
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sub-headline1{
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(000,000,000,.4);
+}
+
+.headline2{
+    font-size: 1.6em;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.sub-headline2{
+    font-size: 1.6em;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(000,000,000,.4);
+
+}
+
+.headline3{
+    font-size: 1.2em;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.sub-headline3{
+    font-size: 1.2em;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(000,000,000,.4);
+
+}
+
+.headline4{
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sub-headline4{
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(000,000,000,.4);
+}
+
+.headline5{
+    font-size: .8em;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.sub-headline5{
+    font-size: .8em;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(000,000,000,.4);
+
+}
+.des_berita,.des-article{
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+}
+.head-margin{
+    margin-left: 27px;
+}
+.set-margin{
+    margin:15px 0;
 }

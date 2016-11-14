@@ -15,11 +15,10 @@
     <link type="text/css" rel="stylesheet" href="../css/style.css"  media="screen,projection"/>
     <link type="text/css" rel="stylesheet" href="../css/font-awesome.css" media="screen,projection"/>
     <!--Let browser know website is optimized for mobile-->
-    <link type="text/css" rel="stylesheet" href="../css/line-progress.css"  media="screen,projection"/>
     <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../css/clndr.css">
+    
     <!--Let browser know website is optimized for mobile-->
-
-
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <!-- Scripts -->
@@ -28,6 +27,10 @@
     'csrfToken' => csrf_token(),
     ]); ?>
     </script>
+    <style>
+       
+
+    </style>
   </head>
   <body>
     
@@ -38,19 +41,66 @@
     
     @yield('script')
     <!-- Scripts -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  
+    <!-- START CLNDR -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
+    <script src="../js/clndr.js"></script>
+    <!-- END CLNDR -->
+
+    <!-- chart.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.bundle.min.js"></script>
+    
     <script type="text/javascript" src="../js/materialize.min.js"></script>
     <script type="text/javascript" src="../js/custom.js"></script>
   
     <script type="text/javaScript">
-    (function($){
-      $(function(){
-        $('.button-collapse').sideNav();
-        $('.modal-trigger').leanModal();
-        $('.collapsible').collapsible();
-      }); // end of document ready
-    })(jQuery);
+
+
     </script>
   
   </body>
 </html>
+
+<div id="modal1" class="modal">
+    <div class="modal-header">
+        <h2>Geografi</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, eum.</p>
+    </div>
+    
+    <div class="modal-content">
+        <div class="col m12">
+            <table class="modal-table">
+                <tr>
+                    <td style="width: 170px">Kode</td>
+                    <td style="width: 10px">:</td>
+                    <td>2011142164</td>
+                </tr>
+                <tr>
+                    <td>Guru</td>
+                    <td>:</td>
+                    <td>Lorem ipsum dolor sit amet.</td>
+                </tr>
+                <tr>
+                    <td>Nilai Minimum</td>
+                    <td>:</td>
+                    <td>90</td>
+                </tr>
+                <tr>
+                    <td>Waktu Pengerjaan</td>
+                    <td>:</td>
+                    <td>60 menit</td>
+                </tr>
+            </table>
+        </div>
+        <div class="content_modal">
+
+        </div>
+    </div>
+
+    <div class="modal-footer">
+    <a href="soal" class="btn modal-action modal-close waves-effect waves-green btn-flat center-button custom-modal-elearning">Agree</a>
+    </div>
+
+</div>
