@@ -34,13 +34,13 @@
         <div id="content-side">
           <a href="#" class="message">
             <span class="from">
-              <span class="email left-align">Pesan Masuk</span>
+              <span class="email left-align"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp; Pesan Masuk</span>
               <span class="from_date right-align">12</span>
             </span>
            </a>
            <a href="#" class="message">
             <span class="from">
-              <span class="email left-align">Pesan Terkirim</span>
+              <span class="email left-align"><i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp; Pesan Terkirim</span>
               <span class="from_date right-align">4</span>
             </span>
           </a>         

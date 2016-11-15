@@ -786,6 +786,7 @@ div.col.s3.custom-question-download i:hover {
 
 /* ============= Info ============== */
 .side-nav.static{
+    width: 250px;
     top: 64px;
     left: 0;
     -webkit-transform: translateX(0);
@@ -802,7 +803,7 @@ div.col.s3.custom-question-download i:hover {
     margin-top:2px; 
 }
 .nav-add{
-    margin-left: 300px;
+    margin-left: 250px;
 }
 .breadcrumb,.breadcrumb::before,.breadcrumb:last-child{
     color: rgba(000,000,000,.5);
