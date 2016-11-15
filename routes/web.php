@@ -29,6 +29,9 @@ Route::get('/siswa/soal', function () {
 Route::get('/siswa/info', function () {
     return view('siswa/info');
 });
+Route::get('/siswa/pesan-masuk', function () {
+    return view('siswa/pesan_masuk');
+});
 
 Route::get('/siswa/nilai', function() {
 	return view('siswa/nilai');

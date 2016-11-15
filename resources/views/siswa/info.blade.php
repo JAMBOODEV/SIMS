@@ -32,21 +32,19 @@
       <div id="nav-mobile" class="side-nav static">
         
         <div id="content-side">
-          <a href="#" class="message">
+          <a href="/siswa/pesan-masuk" class="message">
             <span class="from">
               <span class="email left-align"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp; Pesan Masuk</span>
               <span class="from_date right-align">12</span>
             </span>
            </a>
-           <a href="#" class="message">
+           <a href="/siswa/pesan-terkirim" class="message">
             <span class="from">
               <span class="email left-align"><i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp; Pesan Terkirim</span>
               <span class="from_date right-align">4</span>
             </span>
           </a>         
         </div>
-        
-        
       </div>
     </header>
     <div  class="row nav-add">

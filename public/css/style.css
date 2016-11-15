@@ -792,7 +792,8 @@ div.col.s3.custom-question-download i:hover {
     -webkit-transform: translateX(0);
     transform: translateX(0);
     position: fixed;
-    background-color: #0099ff;
+    background-color: #E9F6FE;
+    color:rgba(000,000,000,.3);
     box-shadow: 0 0 0 #000;
     z-index: 888;
 }
@@ -804,6 +805,7 @@ div.col.s3.custom-question-download i:hover {
 }
 .nav-add{
     margin-left: 250px;
+    margin-top: 10px;
 }
 .breadcrumb,.breadcrumb::before,.breadcrumb:last-child{
     color: rgba(000,000,000,.5);
@@ -819,7 +821,7 @@ div.col.s3.custom-question-download i:hover {
     margin-top: 5px;
     margin-right: 20px;
     margin-left: 20px;
-    border-bottom: 1px solid rgba(255,255,255,.4);
+    border-bottom: 1px solid rgba(000,000,000,.2);
 }
 .from,
 .subject{
@@ -833,7 +835,6 @@ div.col.s3.custom-question-download i:hover {
 .email,
 .from_date{
     display: inline-block;
-    color: rgba(255,255,255,1);
 }
 .from_date {
     font-size: .8em;
@@ -851,7 +852,6 @@ div.col.s3.custom-question-download i:hover {
     margin-top:60px;
     left: 0;
     height: 80%;
-    overflow-y: scroll;
 }
 .talign-demo{
     background-color: #ddd;
