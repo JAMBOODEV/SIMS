@@ -786,12 +786,14 @@ div.col.s3.custom-question-download i:hover {
 
 /* ============= Info ============== */
 .side-nav.static{
+    width: 250px;
     top: 64px;
     left: 0;
     -webkit-transform: translateX(0);
     transform: translateX(0);
     position: fixed;
-    background-color: #0099ff;
+    background-color: #E9F6FE;
+    color:rgba(000,000,000,.3);
     box-shadow: 0 0 0 #000;
     z-index: 888;
 }
@@ -802,7 +804,8 @@ div.col.s3.custom-question-download i:hover {
     margin-top:2px; 
 }
 .nav-add{
-    margin-left: 300px;
+    margin-left: 250px;
+    margin-top: 10px;
 }
 .breadcrumb,.breadcrumb::before,.breadcrumb:last-child{
     color: rgba(000,000,000,.5);
@@ -810,15 +813,15 @@ div.col.s3.custom-question-download i:hover {
 
 }
 .static a{
-    height: 70px;
-    line-height: 20px;
+    height: 40px;
+    line-height: 30px;
     padding: 0 15px !important;
 }
 .message{
     margin-top: 5px;
     margin-right: 20px;
     margin-left: 20px;
-    border-bottom: 1px solid rgba(255,255,255,.4);
+    border-bottom: 1px solid rgba(000,000,000,.2);
 }
 .from,
 .subject{
@@ -832,11 +835,13 @@ div.col.s3.custom-question-download i:hover {
 .email,
 .from_date{
     display: inline-block;
-    color: rgba(255,255,255,1);
 }
 .from_date {
     font-size: .8em;
     font-weight: normal;
+    background-color: rgba(229,115,115,.9);
+    padding:0 10px;
+    border-radius: 4px;
     float: right;}
 .subject{
     width: 180px;
@@ -847,7 +852,6 @@ div.col.s3.custom-question-download i:hover {
     margin-top:60px;
     left: 0;
     height: 80%;
-    overflow-y: scroll;
 }
 .talign-demo{
     background-color: #ddd;
@@ -861,10 +865,13 @@ div.col.s3.custom-question-download i:hover {
 .talign-demo{
     margin-top: 10px;
 }
+.sims-download p{
+    margin-top: 13px;
+}
 .sims-download p:nth-child(2){
     font-size: .8em;
     color: rgba(000,000,000,.6);
-    margin-top: -10px;
+    margin-top: -0px;
 }
 .sims-btn a{
     margin-top: 15px;
@@ -976,7 +983,8 @@ p {
 }
 
 /*  Custem Scroll */
-#content-side::-webkit-scrollbar {
+
+/* #content-side::-webkit-scrollbar {
     width: 8px;
 }
  
@@ -992,7 +1000,7 @@ p {
     background-color: #fff;
     -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,0.5);
 }
-
+ */
 /* info_splash */
  #info_splash {position: relative;}    
  #info_splash p{transition: 1s all}    
@@ -1067,6 +1075,7 @@ p {
     margin:15px 0;
 }
 
+<<<<<<< HEAD
 .custom-text-next-answer-learning {
     position: relative;
     top: -2px;
@@ -1104,4 +1113,43 @@ p {
 .right.hide-on-med-and-down.custom {
     position: relative; 
     right:-20px;
+=======
+/* Slide headline-news */
+
+#info_splash{
+    margin-top: 50px;
+    height: 150px;
+    overflow: hidden;
+    
+    }
+
+.headline-news{
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    color: #fff;
+}
+.headline-news p:before{
+    content: " ";
+    width: 3px;
+    height: 21px;
+    position: absolute;
+    margin-top: 65px;
+    margin-left: -10px;
+    border-radius: 2px;
+    background-color: #fff;
+}
+.balas{
+    max-height: 80% !important; 
+}
+
+.mce-panel{
+    border-radius: 2px;
+}
+.mce-btn,.mce-panel{
+    background-color: #E9F6FE !important;
+}
+.mce-btn-group:not(:first-child){
+        border-left: 0 !important;
+>>>>>>> eb2fee74b2cb0f7108152470dcfa8827fe02cd66
 }

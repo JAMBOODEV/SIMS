@@ -26,6 +26,15 @@ $(function() {
 
 
 
+    tinymce.init({
+        selector: "textarea",
+        toolbar_items_size: 'small',
+        theme: "modern",
+        menubar:false
+        
+
+    });
+    
 
 
 /* Slide Information */
@@ -35,9 +44,11 @@ $(function() {
     setInterval(function(){
         
         $("#info_splash div:first")
-            .fadeOut(1000)
+            .slideUp(1000)
             .next()
-            .fadeIn(1000)
+            .slideDown(1000,function(){
+                easing: 'swing'
+            })
             .end()
             .appendTo("#info_splash");
         
@@ -64,8 +75,12 @@ $(document).ready( function() {
     var eventArray = [
         {
             title: 'Multi-Day Event',
-            endDate: thisMonth + '-14',
-            startDate: thisMonth + '-10'
+            endDate: '2016-12-20',
+            startDate: '2016-12-19'
+        },{
+            title: 'Multi-Day Event',
+            endDate: thisMonth + '-17',
+            startDate: thisMonth + '-15'
         }, {
             endDate: thisMonth + '-23',
             startDate: thisMonth + '-21',
