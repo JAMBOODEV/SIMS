@@ -87,7 +87,7 @@
                             <a class="on-learning"> 5 </a> 
                             <a class="of-learning">of 25</a>
                         </div>
-                        <div class="col s3">
+                        <div class="col s3 custom-on-learning">
                             <a class="on-learning"> Waktu Tersisa : </a> 
                             <a class="on-learning"> 54:00 </a> 
                         </div>
@@ -160,11 +160,13 @@
                     </div>
                     
                     <div class="col s2 custom-button-learning">
-                        <button class="btn next-answer-learning-back">  </button>
+                        <button class="btn next-answer-learning-back"> <i class="fa fa-chevron-left"></i>  </button>
                     </div>
 
                     <div class="col s8 custom-button-learning">
-                        <button class="btn next-answer-learning"> Selanjutnya </button>
+                        <button class="btn next-answer-learning">
+                            <a class="custom-text-next-answer-learning"> Selanjutnya </a> <i class="fa fa-chevron-right"></i>
+                        </button>
                     </div>
 
                     <div class="col s12 custom-missed">

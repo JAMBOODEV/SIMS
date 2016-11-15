@@ -6,14 +6,29 @@
 		<div class="container nav-wrapper">
 			<a href="/siswa/beranda" class="brand-logo ">Sims</a>
 			<a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
-			<ul id="nav-mobile" class="right hide-on-med-and-down">
+			<ul id="nav-mobile" class="right hide-on-med-and-down custom">
 				<li><a class="active-line" href="beranda">Beranda</a></li>
-				<li><a class="" href="elearning">E-learning</a></li>
 				<li><a class="" href="nilai">Nilai</a></li>
+				<li><a class="" href="elearning">E-learning</a></li>
+				<li>
+				  <a class='dropdown-button' href='#' data-activates='dropdown1'> Informasi &nbsp; <i class="fa fa-chevron-down"></i></a>
+				  <!-- Dropdown Structure -->
+				  <ul id='dropdown1' class='dropdown-content'>
+				    <li><a href="#!">Pesan</a></li>
+				    <li><a href="#!">Berita</a></li>
+				    <li><a href="#!">Unduh</a></li>
+				  </ul>
+				</li>
 				<li><a class="" href="pembayaran">Pembayaran</a></li>
-				<li><a class="" href="info">Info</a></li>
 				<li><a class="" href="forum">Forum</a></li>
-				<li><a class="" href="#"><i class="fa fa-sign-out" aria-hidden="true"></i></a></li>
+				<li>
+				  <a class='dropdown-button' href='#' data-activates='dropdown2'><i class="fa fa-gear"></i></a>
+				  <!-- Dropdown Structure -->
+				  <ul id='dropdown2' class='dropdown-content custom-update-profile active'>
+				    <li><a href="#!">Ubah Profil</a></li>
+				    <li><a href="#!">Keluar</a></li>
+				  </ul>
+				</li>
 			</ul>
 
 			<ul id="slide-out" class="side-nav">

@@ -41,6 +41,13 @@
     
     @yield('script')
     <!-- Scripts -->
+
+    <footer class="page-footer custom-footer">
+        <div class="container">
+        2016-2017 SIMS
+        <a class="grey-text text-lighten-4 right" href="https://github.com/Dogfalo/materialize/blob/master/LICENSE">© Jamboo.id</a>
+        </div>
+    </footer>
   
     <!-- START CLNDR -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

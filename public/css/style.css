@@ -460,7 +460,7 @@ body{
     background-color: #00CD30;
     position: absolute;
     left: 114px;
-    width: 161px;
+    width: 172px;
 }
 
 .btn.next-answer-learning-back {
@@ -1065,4 +1065,43 @@ p {
 }
 .set-margin{
     margin:15px 0;
+}
+
+.custom-text-next-answer-learning {
+    position: relative;
+    top: -2px;
+    color: #fff;
+}
+
+.col.s3.custom-on-learning {
+    text-align: right;
+}
+
+
+.dropdown-content li>a, .dropdown-content li>span {
+    font-size: 14px;
+    color: #808080;
+    display: block;
+    padding: 14px 16px;
+    background-color: white;
+}
+
+.dropdown-content li:hover, .dropdown-content li.active, .dropdown-content li.selected {
+    background-color:#fff;
+}
+
+.page-footer.custom-footer {
+    background-color: #0099FF;
+    color: #fff;
+    font-size: 13px;
+    padding: 19px;
+}
+
+.dropdown-content.custom-update-profile {
+    min-width: 131px;
+}
+
+.right.hide-on-med-and-down.custom {
+    position: relative; 
+    right:-20px;
 }
