@@ -34,81 +34,16 @@
         <div id="content-side">
           <a href="#" class="message">
             <span class="from">
-              <span class="email left-align">Rendi Maulana </span>
-              <span class="from_date right-align">2 Jan 2017</span>
+              <span class="email left-align">Pesan Masuk</span>
+              <span class="from_date right-align">12</span>
             </span>
-            <span class="subject">Lorem ipsum dolor sit amet, consectetur adipisicing.</span>
-          </a>
-          <a href="#" class="message">
+           </a>
+           <a href="#" class="message">
             <span class="from">
-              <span class="email left-align">Rendi Maulana </span>
-              <span class="from_date right-align">2 Jan 2017</span>
+              <span class="email left-align">Pesan Terkirim</span>
+              <span class="from_date right-align">4</span>
             </span>
-            <span class="subject">Lorem ipsum dolor sit amet, consectetur adipisicing.</span>
-          </a>
-          <a href="#" class="message">
-            <span class="from">
-              <span class="email left-align">Rendi Maulana </span>
-              <span class="from_date right-align">2 Jan 2017</span>
-            </span>
-            <span class="subject">Lorem ipsum dolor sit amet, consectetur adipisicing.</span>
-          </a>
-          <a href="#" class="message">
-            <span class="from">
-              <span class="email left-align">Rendi Maulana </span>
-              <span class="from_date right-align">2 Jan 2017</span>
-            </span>
-            <span class="subject">Lorem ipsum dolor sit amet, consectetur adipisicing.</span>
-          </a>
-          <a href="#" class="message">
-            <span class="from">
-              <span class="email left-align">Rendi Maulana </span>
-              <span class="from_date right-align">2 Jan 2017</span>
-            </span>
-            <span class="subject">Lorem ipsum dolor sit amet, consectetur adipisicing.</span>
-          </a>
-          <a href="#" class="message">
-            <span class="from">
-              <span class="email left-align">Rendi Maulana </span>
-              <span class="from_date right-align">2 Jan 2017</span>
-            </span>
-            <span class="subject">Lorem ipsum dolor sit amet, consectetur adipisicing.</span>
-          </a>
-          <a href="#" class="message">
-            <span class="from">
-              <span class="email left-align">Rendi Maulana </span>
-              <span class="from_date right-align">2 Jan 2017</span>
-            </span>
-            <span class="subject">Lorem ipsum dolor sit amet, consectetur adipisicing.</span>
-          </a>
-          <a href="#" class="message">
-            <span class="from">
-              <span class="email left-align">Rendi Maulana </span>
-              <span class="from_date right-align">2 Jan 2017</span>
-            </span>
-            <span class="subject">Lorem ipsum dolor sit amet, consectetur adipisicing.</span>
-          </a>
-          <a href="#" class="message">
-            <span class="from">
-              <span class="email left-align">Rendi Maulana </span>
-              <span class="from_date right-align">2 Jan 2017</span>
-            </span>
-            <span class="subject">Lorem ipsum dolor sit amet, consectetur adipisicing.</span>
-          </a>
-          <a href="#" class="message">
-            <span class="from">
-              <span class="email left-align">Rendi Maulana </span>
-              <span class="from_date right-align">2 Jan 2017</span>
-            </span>
-            <span class="subject">Lorem ipsum dolor sit amet, consectetur adipisicing.</span>
-          </a>
-          <a href="#" class="message">
-            <span class="from">
-              <span class="email left-align">Rendi Maulana </span>
-              <span class="from_date right-align">2 Jan 2017</span>
-            </span>
-            <span class="subject">Lorem ipsum dolor sit amet, consectetur adipisicing.</span>
-          </a>
+          </a>         
         </div>
         
         
@@ -117,7 +52,7 @@
     <div  class="row nav-add">
       <div class="col l12 ">
         <div class="content-pesan">
-          <div class="col s12 l8">
+          <div class="col s12 l12">
             
             <div class="card-sims1">
               <div class="row">
@@ -149,103 +84,7 @@
             </div>
             
           </div>
-          
-          <div class="col s12 l4">
-            <div class="card-sims1">
-              <b><p class="head-pannel ">Berita</p></b>
-              <ul>
-                <li>
-                  <div class="master_berita">
-                    <div class="ref_berita">
-                        <div class="img_berita">
-                          <img src="../img/avatar_siswi.jpg" width="50" alt="" class="circle responsive-img">
-                        </div>
-
-                        <div class="berita_from">
-                          <span class="berita_name ">Rendi Maulana</span>
-                          <span class="berita_des ">12 Jan 2015</span>
-                        </div>
-                      </div>
-                      <div class="des_berita">
-                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas nesciunt tempore, sint dignissimos maiores perspiciatis, vel, nulla ex fugit a.
-                      </div>
-                    </div>
-                </li>
-                <li>
-                  <div class="master_berita">
-                    <div class="ref_berita">
-                        <div class="img_berita">
-                          <img src="../img/avatar_siswi.jpg" width="50" alt="" class="circle responsive-img">
-                        </div>
-
-                        <div class="berita_from">
-                          <span class="berita_name ">Rendi Maulana</span>
-                          <span class="berita_des ">12 Jan 2015</span>
-                        </div>
-                      </div>
-                      <div class="des_berita">
-                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas nesciunt tempore, sint dignissimos maiores perspiciatis, vel, nulla ex fugit a.
-                      </div>
-                    </div>
-                </li>
-                <li>
-                  <div class="master_berita">
-                    <div class="ref_berita">
-                        <div class="img_berita">
-                          <img src="../img/avatar_siswi.jpg" width="50" alt="" class="circle responsive-img">
-                        </div>
-
-                        <div class="berita_from">
-                          <span class="berita_name ">Rendi Maulana</span>
-                          <span class="berita_des ">12 Jan 2015</span>
-                        </div>
-                      </div>
-                      <div class="des_berita">
-                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas nesciunt tempore, sint dignissimos maiores perspiciatis, vel, nulla ex fugit a.
-                      </div>
-                    </div>
-                </li>
-                <li>
-                  <div class="master_berita">
-                    <div class="ref_berita">
-                        <div class="img_berita">
-                          <img src="../img/avatar_siswi.jpg" width="50" alt="" class="circle responsive-img">
-                        </div>
-
-                        <div class="berita_from">
-                          <span class="berita_name ">Rendi Maulana</span>
-                          <span class="berita_des ">12 Jan 2015</span>
-                        </div>
-                      </div>
-                      <div class="des_berita">
-                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas nesciunt tempore, sint dignissimos maiores perspiciatis, vel, nulla ex fugit a.
-                      </div>
-                    </div>
-                </li>
-                <li>
-                  <div class="master_berita">
-                    <div class="ref_berita">
-                        <div class="img_berita">
-                          <img src="../img/avatar_siswi.jpg" width="50" alt="" class="circle responsive-img">
-                        </div>
-
-                        <div class="berita_from">
-                          <span class="berita_name ">Rendi Maulana</span>
-                          <span class="berita_des ">12 Jan 2015</span>
-                        </div>
-                      </div>
-                      <div class="des_berita">
-                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas nesciunt tempore, sint dignissimos maiores perspiciatis, vel, nulla ex fugit a.
-                      </div>
-                    </div>
-                </li>
-                
-              </ul>
-            </div>
           </div>
-          <!-- ====== Rangking ====== -->
-          
-        </div>
       </div>
       
     </div>

@@ -59,13 +59,21 @@
 					</div>
 				</div>
 				<div id="info_splash">
-					
-					<div><p>Headline 1</p></div>
-					<div><p>Headline 2</p></div>
-					<div><p>Headline 3</p></div>
-					<div><p>Headline 4</p></div>
-					<div><p>Headline 5</p></div>
-
+					<div class="headline-news">
+						<p class="headline3">Tirakatan – Memaknai Hari Pahlawan Lebih Dalam</p>
+					</div>
+					<div class="headline-news">
+						<p class="headline3">Mengadu Kemampuan Sinlui Melawan ADU All Stars</p>
+					</div>
+					<div class="headline-news">
+						<p class="headline3">Bakti Sosial 2016: Mengakrabkan Sinlui Kepada yang Lemah dan Terpinggirkan</p>
+					</div>
+					<div class="headline-news">
+						<p class="headline3">Tes Penjajakan Bidang Ilmu (TPBI)</p>
+					</div>
+					<div class="headline-news">
+						<p class="headline3">Perayaan Vincentius Day 2016: Meningkatkan Kepedulian dan Semangat Simplisitas</p>
+					</div>
 				</div>
 			</div>
 			<div class="row">
@@ -641,8 +649,4 @@
 			</div>
 		</div>
 	</section>
-@endsection
-
-@section('script')
-	
 @endsection
