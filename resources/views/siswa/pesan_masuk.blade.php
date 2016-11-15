@@ -9,7 +9,6 @@
           <div class="container nav-wrapper">
               <a href="#" class="brand-logo ">Sims</a>
               <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
-
               <ul id="nav-mobile" class="right hide-on-med-and-down">
                   <li><a class="" href="beranda">Beranda</a></li>
                   <li><a class="" href="elearning">E-learning</a></li>
@@ -31,9 +30,10 @@
     <header>
       <div id="nav-mobile" class="side-nav static">    
         <div id="content-side">
-          <a href="/siswa/mengirim-pesan" class="message">
+
+          <a href="#buat-Pesan" class="modal-trigger message">
             <span class="from">
-              <span class="email left-align"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;Kirim Pesan</span>
+              <span class="email left-align"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp; Kirim Pesan</span>
             </span>
            </a>
           <a href="/siswa/pesan-masuk" class="message">
@@ -45,7 +45,6 @@
            <a href="/siswa/pesan-terkirim" class="message">
             <span class="from">
               <span class="email left-align"><i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp; Pesan Terkirim</span>
-              <span class="from_date right-align">4</span>
             </span>
           </a>         
         </div>
@@ -86,15 +85,15 @@
 					<table class="bordered">
 			          <tr>
 			            <td width="300px;">Dra. NENENG HENI MARDALENI, M.Pd.</td>
-			            <td class="sub-headline4">Bahasa Indonesia</td>
+			            <td class="sub-headline4"><a href="/siswa/detile_pesan">Bahasa Indonesia</a></td>
 			          </tr>
 			          <tr>
 			            <td>Dra. Hj. WIRDAWATI R, M.M.Pd</td>
-			            <td class="sub-headline4">bahasa Inggris</td>
+			            <td class="sub-headline4"><a href="/siswa/detile_pesan">bahasa Inggris</a></td>
 			          </tr>
 			          <tr>
 			            <td>Dra. Hj. YATI ROSDAYATI, M.Pd</td>
-			            <td class="sub-headline4">Quran dan Hadist</td>
+			            <td class="sub-headline4"><a href="/siswa/detile_pesan">Quran dan Hadist</a></td>
 			          </tr>
 			          <tr>
 			            <td>Hj. ELTIS NAZAR, S.Pd</td>
@@ -130,26 +129,29 @@
     </div>
   </main>
 
-  <div id="balas" class="modal bottom-sheet">
+<div id="buat-Pesan" class="modal bottom-sheet  balas">
     <div class="modal-content">
-        <h4>Modal Header</h4>
-        <p>A bunch of text</p>
+        <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <input id="first_name" type="text" class="validate">
+          <label for="first_name">Kepada</label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea id="main-kirim-pesan" rows="15" cols="80" name="pesan">asda</textarea>
+          
+        </div>
+      </div>
+    </form>
+  </div>
       </div>
       <div class="modal-footer">
         <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
     </div>
-  </div>
-
-  <div class="fixed-action-btn horizontal click-to-toggle">
-    <a class="btn-floating btn-large red">
-      <i class="material-icons">menu</i>
-    </a>
-    <ul>
-      <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
-      <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
-      <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
-      <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
-    </ul>
   </div>
 
 @endsection

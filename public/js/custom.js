@@ -26,6 +26,15 @@ $(function() {
 
 
 
+    tinymce.init({
+        selector: "textarea",
+        toolbar_items_size: 'small',
+        theme: "modern",
+        menubar:false
+        
+
+    });
+    
 
 
 /* Slide Information */

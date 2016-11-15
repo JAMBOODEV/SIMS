@@ -29,6 +29,15 @@ Route::get('/siswa/soal', function () {
 Route::get('/siswa/info', function () {
     return view('siswa/info');
 });
+
+Route::get('/siswa/pesan-terkirim', function () {
+    return view('siswa/pesan_terkirim');
+});
+
+Route::get('/siswa/detile_pesan', function () {
+    return view('siswa/info');
+});
+
 Route::get('/siswa/pesan-masuk', function () {
     return view('siswa/pesan_masuk');
 });

@@ -1100,3 +1100,16 @@ p {
     border-radius: 2px;
     background-color: #fff;
 }
+.balas{
+    max-height: 80% !important; 
+}
+
+.mce-panel{
+    border-radius: 2px;
+}
+.mce-btn,.mce-panel{
+    background-color: #E9F6FE !important;
+}
+.mce-btn-group:not(:first-child){
+        border-left: 0 !important;
+}

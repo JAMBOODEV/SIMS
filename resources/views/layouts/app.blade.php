@@ -14,6 +14,13 @@
     <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
     <link type="text/css" rel="stylesheet" href="../css/style.css"  media="screen,projection"/>
     <link type="text/css" rel="stylesheet" href="../css/font-awesome.css" media="screen,projection"/>
+    
+    <!-- cdn tinymce.com 4  tinymce.min.js -->
+    <script src="../js/tinymce.dev.js"></script><!-- 
+    <script src="../js/plugins/table/plugin.dev.js"></script>
+    <script src="../js/plugins/paste/plugin.dev.js"></script>
+    <script src="../js/plugins/spellchecker/plugin.dev.js"></script> -->
+
     <!--Let browser know website is optimized for mobile-->
     <link rel="stylesheet" href="../css/responsive.css">
     <link rel="stylesheet" href="../css/clndr.css">
@@ -23,10 +30,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <!-- Scripts -->
     <script>
+    
     window.SIMS = <?php echo json_encode([
     'csrfToken' => csrf_token(),
     ]); ?>
+
+    
     </script>
+    
     <style>
        
 
