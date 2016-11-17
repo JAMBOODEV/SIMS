@@ -18,7 +18,7 @@
 				      	Informasi &nbsp; <i class="fa fa-chevron-down"></i>
 				    	</a>
 				    	<ul class="dropdown-menu">
-					      	<li> <a href="#!"> Pesan  </a>  </li>
+					      	<li> <a href="/siswa/pesan-masuk"> Pesan  </a>  </li>
 					      	<li> <a href="#!"> Berita </a>  </li>
 					      	<li> <a href="#!"> Unduh  </a>  </li>
 						</ul>
