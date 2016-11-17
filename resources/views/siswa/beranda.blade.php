@@ -2,6 +2,7 @@
 @section('navbar')
 
 	<body class="background-custom-siswa">
+	
 	<nav>
 		<div class="container nav-wrapper">
 			<a href="/siswa/beranda" class="brand-logo ">Sims</a>
@@ -11,23 +12,33 @@
 				<li><a class="" href="nilai">Nilai</a></li>
 				<li><a class="" href="elearning">E-learning</a></li>
 				<li>
-				  <a class='dropdown-button' href='#' data-activates='dropdown1'> Informasi &nbsp; <i class="fa fa-chevron-down"></i></a>
-				  <!-- Dropdown Structure -->
-				  <ul id='dropdown1' class='dropdown-content'>
-				    <li><a href="#!">Pesan</a></li>
-				    <li><a href="#!">Berita</a></li>
-				    <li><a href="#!">Unduh</a></li>
-				  </ul>
+				<ul class="nav">
+				  	<li class="button-dropdown" style="background-color: #0099FF;">
+				    	<a href="javascript:void(0)" class="dropdown-toggle" style="background-color: #0099FF; color: #fff;">
+				      	Informasi &nbsp; <i class="fa fa-chevron-down"></i>
+				    	</a>
+				    	<ul class="dropdown-menu">
+					      	<li> <a href="#!"> Pesan  </a>  </li>
+					      	<li> <a href="#!"> Berita </a>  </li>
+					      	<li> <a href="#!"> Unduh  </a>  </li>
+						</ul>
+				  	</li>
+				</ul>
 				</li>
 				<li><a class="" href="pembayaran">Pembayaran</a></li>
 				<li><a class="" href="forum">Forum</a></li>
 				<li>
-				  <a class='dropdown-button' href='#' data-activates='dropdown2'><i class="fa fa-gear"></i></a>
-				  <!-- Dropdown Structure -->
-				  <ul id='dropdown2' class='dropdown-content custom-update-profile active'>
-				    <li><a href="#!">Ubah Profil</a></li>
-				    <li><a href="#!">Keluar</a></li>
-				  </ul>
+				<ul class="nav">
+				  	<li class="button-dropdown" style="background-color: #0099FF;">
+				    	<a href="javascript:void(0)" class="dropdown-toggle" style="background-color: #0099FF; color: #fff;">
+				      	<i class="fa fa-gear"></i>
+				    	</a>
+				    	<ul class="dropdown-menu" style="margin-left: -90px;">
+					      	<li> <a href="#!" style="width: 133px;"> Ubah Profil </a> </li>
+					      	<li> <a href="#!" style="width: 133px;"> Keluar </a> </li>
+						</ul>
+				  	</li>
+				</ul>
 				</li>
 			</ul>
 

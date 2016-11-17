@@ -134,15 +134,16 @@
                         
                         <div class="input-field col s12">
                             <input id="last_name" type="password">
-                            <label for="last_name" class="">PASSWORD</label>
+                            <label for="last_name" class="">KATA SANDI</label>
                         </div>
                         
                         <div class="custom-login-filled">
                             <input type="checkbox" class="filled-in" id="filled-in-box">
-                            <label for="filled-in-box">Ingatkan login lain kali</label>
+                            <label for="filled-in-box">Ingatkan saya</label>
                         </div>
                         <button class="btn waves-effect waves-light custom-button-login" type="submit" name="action"> Masuk
                         </button>
+
                         
                     </div>
                 </div>
