@@ -1070,6 +1070,7 @@ p {
 }
 .head-margin{
     margin-left: 27px;
+    color: #3a3a3a;
 }
 .set-margin{
     margin:15px 0;
@@ -1205,3 +1206,115 @@ p {
 .nav li .dropdown-menu a {
     width: 129px;
     margin-bottom: -21px;
+}
+
+.container.content-guru {
+    padding-top: 25px;
+}
+
+.col.s1.custom-content-guru {
+    position: relative;
+    left: 24px;
+}
+
+.row.custom-content-guru {
+    top: 28px;
+    position: relative;
+}
+
+.content-text-teacher-1 {
+    position: relative;
+    top: 16px;
+    padding: 28px 0px 40px 22px;
+    width: 795px;
+}
+
+.card-sims.custom-teacher{
+    height: 541px;
+}
+
+.content-text-teacher-1-subbab {
+    position: absolute;
+    bottom: 73px;
+    color: #7d7878;
+    font-size: 12px;
+}
+
+.table-teacher-beranda {
+    padding: 25px 18px 0px 25px;
+}
+
+.dot_icon4{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #009B62;
+    border-radius: 50%;
+
+}
+
+.dot_icon5{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #C3C3C3;
+    border-radius: 50%;
+
+}
+
+.dot_icon4-custom-position {
+    position: relative;
+    left: 98px;
+    top: 9px;
+}
+
+.dot_icon5-custom-position-finish {
+    position: relative;
+    left: 140px;
+    top: 9px;
+}
+
+.w3-progress-container.w3-light-blue.custom-proccess {
+    border-radius: 7px;
+}
+
+.w3-progressbar.w3-blue.custom-proccess {
+    border-radius: 7px;
+}
+
+.progress-bar {
+    padding-right: 27px;
+}
+
+.price.custom-lesson {
+    width: 222px;
+}
+
+.price.custom-title {
+    width: 315px;
+}
+
+.price.custom-progress {
+    width: 318px;
+}
+
+.price.custom-followed {
+    width: 118px;
+}
+
+.price.custom-status {
+    width: 221px;
+}
+
+.line-title-learning {
+    border-bottom: 1px solid #d0d0d0;
+    width: 1205px;
+    top: 23px;
+    position: relative;
+    right: -35px;
+}
+
+.circle.responsive-img.teacher {
+    position: relative;
+    top: 24px;
+}

@@ -54,6 +54,10 @@ Route::get('/siswa/forum', function() {
 	return view('siswa/forum');
 });
 
+Route::get('/guru/beranda', function() {
+    return view('guru/beranda');
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
