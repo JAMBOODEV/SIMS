@@ -215,6 +215,12 @@ jQuery(document).ready(function (e) {
         var n = e(t.target);
         if (!n.parents().hasClass("button-dropdown")) e(".button-dropdown .dropdown-toggle").removeClass("active");
     });
-});
-        
 
+
+});
+
+$(function() {
+    $('.value-lesson').click(function() {
+        $($this).next().toggle('slow');
+    });
+});

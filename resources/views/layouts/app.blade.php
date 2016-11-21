@@ -15,6 +15,7 @@
     <link type="text/css" rel="stylesheet" href="../css/style.css"  media="screen,projection"/>
     <link type="text/css" rel="stylesheet" href="../css/font-awesome.css" media="screen,projection"/>
     
+    <script src="../js/jquery.min.js"> </script>
     <!-- cdn tinymce.com 4  tinymce.min.js -->
     <script src="../js/tinymce.dev.js"></script><!-- 
     <script src="../js/plugins/table/plugin.dev.js"></script>
@@ -53,22 +54,28 @@
     @yield('script')
     <!-- Scripts -->
 
-    <footer class="page-footer custom-footer">
-        <div class="container">
-        2016-2017 SIMS
-        <a class="grey-text text-lighten-4 right" href="https://github.com/Dogfalo/materialize/blob/master/LICENSE">© Jamboo.id</a>
+    <!-- <div class="footer">This footer will always be positioned at the bottom of the page, but 
+        <strong>not fixed</strong>.
+    </div> -->
+    
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+            <div class="col s10">
+                <p class="footer-text">@ Jamboo.id</p>
+            </div>
         </div>
+      </div>
     </footer>
   
     <!-- START CLNDR -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
+    <script src="../js/underscore-min.js"></script>
+    <script src="../js/moment.min.js"></script>
     <script src="../js/clndr.js"></script>
     <!-- END CLNDR -->
 
     <!-- chart.JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.bundle.min.js"></script>
+    <script src="../js/Chart.bundle.min.js"></script>
     
     <script type="text/javascript" src="../js/materialize.min.js"></script>
     <script type="text/javascript" src="../js/custom.js"></script>
