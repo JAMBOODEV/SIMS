@@ -787,11 +787,11 @@ div.col.s3.custom-question-download i:hover {
 /* ============= Info ============== */
 .side-nav.static{
     width: 250px;
-    top: 305px;
+    top: 0;
     left: 0;
     -webkit-transform: translateX(0);
     transform: translateX(0);
-    position: fixed;
+    position: relative;
     background-color: #E9F6FE;
     color:rgba(000,000,000,.3);
     box-shadow: 0 0 0 #000;
@@ -1360,4 +1360,7 @@ p {
 
 .footer-text {
     padding: 20px 10px 0px 0px;
+}
+.pesan-content{
+    margin-top: -240px !important;
 }

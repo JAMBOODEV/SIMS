@@ -11,9 +11,9 @@
             <ul id="nav-mobile" class="right hide-on-med-and-down custom">
                 <li><a class="" href="beranda">Beranda</a></li>
                 <li><a class="" href="nilai">Nilai</a></li>
-                <li><a class="active-line" href="elearning">E-learning</a></li>
+                <li><a class="" href="elearning">E-learning</a></li>
                 <li>
-                    <a class='dropdown-button' href='#' data-activates='dropdown1'>Informasi &nbsp; 
+                    <a class='active-line dropdown-button' href='#' data-activates='dropdown1'>Informasi &nbsp; 
                         <i class="fa fa-chevron-down"></i>
                     </a>
                     <ul id='dropdown1' class='dropdown-content active-setting'>
@@ -67,9 +67,9 @@
             <div class="user_info_prof">
                 <h3>Hello, Jessica !</h3>
                 <p>2011141971</p>
-                <ul>
-                    <li>Lorem ipsum dolor.</li>
-                    <li>Lorem ipsum dolor.</li>
+                 <ul>
+                    <li>Kelas</li>
+                    <li>Semester</li>
                 </ul>
             </div>
         </div>
@@ -120,7 +120,7 @@
         </div>
       </div>
     </header>
-    <div  class="row nav-add">
+    <div  class="row nav-add pesan-content">
       <div class="col l12 ">
         <div class="content-pesan">
           <div class="col s12 l12">

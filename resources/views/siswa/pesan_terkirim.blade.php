@@ -3,23 +3,93 @@
 @section('navbar')
 
     <body class="background-custom-siswa">
+    
+    <nav>
+        <div class="container nav-wrapper">
+            <a href="/siswa/beranda" class="brand-logo ">Sims</a>
+            <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down custom">
+                <li><a class="" href="beranda">Beranda</a></li>
+                <li><a class="" href="nilai">Nilai</a></li>
+                <li><a  href="elearning">E-learning</a></li>
+                <li>
+                    <a class='dropdown-button active-line' href='#' data-activates='dropdown1' >Informasi &nbsp; 
+                        <i class="fa fa-chevron-down"></i>
+                    </a>
+                    <ul id='dropdown1' class='dropdown-content active-setting'>
+                        <li><a href="/siswa/pesan-masuk">Pesan</a></li>
+                        <li><a href="#!">Berita</a></li>
+                        <li><a href="#!">Unduh</a></li>
+                    </ul>
+                </li>
+                <li>
+                </li>
+                <li><a class="" href="pembayaran">Pembayaran</a></li>
+                <li><a class="" href="forum">Forum</a></li>
+                <li>
+                    <a class='dropdown-button' href='#' data-activates='dropdown2'>
+                        <i class="fa fa-gear"></i>
+                    </a>
+                    <ul id='dropdown2' class='dropdown-content active-setting'>
+                        <li><a href="#!">Ubah Profil</a></li>
+                        <li><a href="#!">Keluar</a></li>
+                    </ul>
+                </li>
+            </ul>
 
-    <div class="navbar-fixed">
-      <nav class="custom-nav-siswa-payment">
-          <div class="container nav-wrapper">
-              <a href="#" class="brand-logo ">Sims</a>
-              <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
-              <ul id="nav-mobile" class="right hide-on-med-and-down">
-                  <li><a class="" href="beranda">Beranda</a></li>
-                  <li><a class="" href="elearning">E-learning</a></li>
-                  <li><a class="" href="nilai">Nilai</a></li>
-                  <li><a class="" href="pembayaran">Pembayaran</a></li>
-                  <li><a class="active-line" href="info">Info</a></li>
-                  <li><a class="" target="_blank" href="http://localhost/SIMS/forum/">Forum</a></li>
-                  <li><a class="" href="#"><i class="fa fa-sign-out" aria-hidden="true"></i></a></li>
-              </ul>
-          </div>
-      </nav>
+            <ul id="slide-out" class="side-nav">
+                <li>
+                    <div class="userView">
+                        <div class="background">
+                            <img src="../img/office.jpg">
+                        </div>
+                        <a href="#!user"><img class="circle" src="../img/avatar_siswi.jpg"></a>
+                        <a href="#!name"><span class="white-text name">John Doe</span></a>
+                        <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
+                    </div>
+                </li>
+                <li><a href="sass.html">Beranda</a></li>
+                <li><a class="active-line" href="elearning">E-Learning</a></li>
+                <li><a href="nilai">Nilai</a></li>
+                <li><a href="badges.html">Info</a></li>
+                <li><a href="badges.html">Pembayaran</a></li>
+                <li><a href="collapsible.html">Forum</a></li>
+                <li><a href="collapsible.html"> <i class="fa fa-sign-out" aria-hidden="true"></i> </a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="info_sims_user">
+        <div id="user_detile">
+            <div class="user_info_img ">
+                <img src="../img/avatar_siswi.jpg" alt="" class="circle responsive-img">
+            </div>
+            <div class="user_info_prof">
+                <h3>Hello, Jessica !</h3>
+                <p>2011141971</p>
+                 <ul>
+                    <li>Kelas</li>
+                    <li>Semester</li>
+                </ul>
+            </div>
+        </div>
+        <div id="info_splash">
+            <div class="headline-news">
+                <p class="headline3">Tirakatan – Memaknai Hari Pahlawan Lebih Dalam</p>
+            </div>
+            <div class="headline-news">
+                <p class="headline3">Mengadu Kemampuan Sinlui Melawan ADU All Stars</p>
+            </div>
+            <div class="headline-news">
+                <p class="headline3">Bakti Sosial 2016: Mengakrabkan Sinlui Kepada yang Lemah dan Terpinggirkan</p>
+            </div>
+            <div class="headline-news">
+                <p class="headline3">Tes Penjajakan Bidang Ilmu (TPBI)</p>
+            </div>
+            <div class="headline-news">
+                <p class="headline3">Perayaan Vincentius Day 2016: Meningkatkan Kepedulian dan Semangat Simplisitas</p>
+            </div>
+        </div>
     </div>
 
 @endsection
@@ -50,7 +120,7 @@
         </div>
       </div>
     </header>
-    <div  class="row nav-add">
+    <div  class="row nav-add pesan-content pesan-content">
       <div class="col l12 ">
         <div class="content-pesan">
           <div class="col s12 l12">
@@ -63,6 +133,7 @@
 				  <ul class="tabs">
 				    <li class="tab col s3"><a class="active" href="#sekolah">Sekolah</a></li>
 				    <li class="tab col s3"><a href="#guru">Guru</a></li>
+            <li class="tab col s3"><a href="#teman">Teman</a></li>
 				  </ul>
 				</div>
 				<div id="sekolah" class="col s12">
@@ -117,6 +188,42 @@
 			          </tr>
 			      </table>
 				</div>
+        <div id="teman" class="col s12">
+          <table class="bordered">
+                <tr>
+                  <td width="300px;">Dra. NENENG HENI MARDALENI, M.Pd.</td>
+                  <td class="sub-headline4">Bahasa Indonesia</td>
+                </tr>
+                <tr>
+                  <td>Dra. Hj. WIRDAWATI R, M.M.Pd</td>
+                  <td class="sub-headline4">bahasa Inggris</td>
+                </tr>
+                <tr>
+                  <td>Dra. Hj. YATI ROSDAYATI, M.Pd</td>
+                  <td class="sub-headline4">Quran dan Hadist</td>
+                </tr>
+                <tr>
+                  <td>Hj. ELTIS NAZAR, S.Pd</td>
+                  <td class="sub-headline4">TIK</td>
+                </tr>
+                <tr>
+                  <td>DIDI SUPRIADI, S.Pd</td>
+                  <td class="sub-headline4">Unduh Modul IPS</td>
+                </tr>
+                <tr>
+                  <td>ARIEF SYAFIOEDIN, S.Pd</td>
+                  <td class="sub-headline4">Unduh Modul IPA</td>
+                </tr>
+                <tr>
+                  <td>KIKA HERIATI, S.Pd</td>
+                  <td class="sub-headline4">Unduh Modul pendidikan Pancasila</td>
+                </tr>
+                <tr>
+                  <td>FRANSISCA HENDRY, M.Pd</td>
+                  <td class="sub-headline4">Unduh Modul Matematika</td>
+                </tr>
+            </table>
+        </div>
 				</div>
                 
               </div>

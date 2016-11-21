@@ -15,6 +15,11 @@
     <link type="text/css" rel="stylesheet" href="../css/style.css"  media="screen,projection"/>
     <link type="text/css" rel="stylesheet" href="../css/font-awesome.css" media="screen,projection"/>
     
+    {{-- css step learning --}}
+    <link rel="stylesheet" href="../css/step/normalize.css">
+    <link rel="stylesheet" href="../css/step/css/main.css">
+    <link rel="stylesheet" href="../css/step/css/jquery.steps.css">
+    
     <script src="../js/jquery.min.js"> </script>
     <!-- cdn tinymce.com 4  tinymce.min.js -->
     <script src="../js/tinymce.dev.js"></script><!-- 
@@ -72,6 +77,14 @@
     <script src="../js/underscore-min.js"></script>
     <script src="../js/moment.min.js"></script>
     <script src="../js/clndr.js"></script>
+    <script src="../js/step/jquery.steps.js"></script>
+    <script src="../js/step/jquery.steps.min.js"></script>
+
+    {{-- STEP LEARNING --}}
+    <script src="../js/step/lib/modernizr-2.6.2.min.js"></script>
+    <script src="../js/step/lib/jquery-1.9.1.min.js"></script>
+    <script src="../js/step/lib/jquery.cookie-1.3.1.js"></script>
+    <script src="../js/step/build/jquery.steps.js"></script>
     <!-- END CLNDR -->
 
     <!-- chart.JS -->
