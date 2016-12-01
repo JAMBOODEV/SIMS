@@ -22,6 +22,9 @@ Route::get('/siswa/beranda', function () {
 Route::get('/siswa/elearning', function () {
     return view('siswa/elearning');
 });
+Route::get('/siswa/unduh', function () {
+    return view('siswa/unduh');
+});
 
 Route::get('/siswa/soal', function () {
     return view('siswa/soal');
@@ -42,6 +45,10 @@ Route::get('/siswa/pesan-masuk', function () {
     return view('siswa/pesan_masuk');
 });
 
+Route::get('/siswa/berita', function () {
+    return view('siswa/berita');
+});
+
 Route::get('/siswa/nilai', function() {
 	return view('siswa/nilai');
 });
@@ -57,6 +64,39 @@ Route::get('/siswa/forum', function() {
 Route::get('/guru/beranda', function() {
     return view('guru/beranda');
 });
+
+Route::get('/guru/elearning', function () {
+    return view('guru/elearning');
+});
+
+Route::get('/guru/nilai', function () {
+    return view('guru/nilai');
+});
+
+Route::get('/guru/input-soal', function () {
+    return view('guru/input-soal');
+});
+
+Route::get('/guru/input-jawaban', function () {
+    return view('guru/input-jawaban');
+});
+
+Route::get('/guru/nilai-elearning', function () {
+    return view('guru/nilai-elearning');
+});
+
+Route::get('/guru/input-nilai', function () {
+    return view('guru/input-nilai');
+});
+
+Route::get('/guru/lihat-nilai', function () {
+    return view('guru/lihat-nilai');
+});
+
+Route::get('/guru/info', function () {
+    return view('guru/info');
+});
+
 
 Auth::routes();
 

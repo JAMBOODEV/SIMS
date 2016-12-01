@@ -1,64 +1,5 @@
-@extends('layouts.app')
-
-@section('navbar')
-
-    <body class="background-custom-siswa">
-    
-    <nav>
-        <div class="container nav-wrapper">
-            <a href="/siswa/beranda" class="brand-logo ">Sims</a>
-            <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down custom">
-                <li><a class="" href="beranda">Beranda</a></li>
-                <li><a class="active-line" href="nilai">Nilai</a></li>
-                <li><a class="" href="elearning">E-learning</a></li>
-                <li>
-                    <a class='dropdown-button' href='#' data-activates='dropdown1'>Informasi &nbsp; 
-                        <i class="fa fa-chevron-down"></i>
-                    </a>
-                    <ul id='dropdown1' class='dropdown-content active-setting'>
-                        <li><a href="/siswa/pesan-masuk">Pesan</a></li>
-                        <li><a href="#!">Berita</a></li>
-                        <li><a href="#!">Unduh</a></li>
-                    </ul>
-                </li>
-                <li>
-                </li>
-                <li><a class="" href="pembayaran">Pembayaran</a></li>
-                <li><a class="" href="forum">Forum</a></li>
-                <li>
-                    <a class='dropdown-button' href='#' data-activates='dropdown2'>
-                        <i class="fa fa-gear"></i>
-                    </a>
-                    <ul id='dropdown2' class='dropdown-content active-setting'>
-                        <li><a href="#!">Ubah Profil</a></li>
-                        <li><a href="#!">Keluar</a></li>
-                    </ul>
-                </li>
-            </ul>
-
-            <ul id="slide-out" class="side-nav">
-                <li>
-                    <div class="userView">
-                        <div class="background">
-                            <img src="../img/office.jpg">
-                        </div>
-                        <a href="#!user"><img class="circle" src="../img/avatar_siswi.jpg"></a>
-                        <a href="#!name"><span class="white-text name">John Doe</span></a>
-                        <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
-                    </div>
-                </li>
-                <li><a href="sass.html">Beranda</a></li>
-                <li><a class="active-line" href="elearning">E-Learning</a></li>
-                <li><a href="nilai">Nilai</a></li>
-                <li><a href="badges.html">Info</a></li>
-                <li><a href="badges.html">Pembayaran</a></li>
-                <li><a href="collapsible.html">Forum</a></li>
-                <li><a href="collapsible.html"> <i class="fa fa-sign-out" aria-hidden="true"></i> </a></li>
-            </ul>
-        </div>
-    </nav>
-
+@extends('layouts.appSiswa')
+@section('subHeader')
     <div id="info_sims_user">
         <div id="user_detile">
             <div class="user_info_img ">
@@ -68,8 +9,8 @@
                 <h3>Hello, Jessica !</h3>
                 <p>2011141971</p>
                 <ul>
-                    <li>Lorem ipsum dolor.</li>
-                    <li>Lorem ipsum dolor.</li>
+                    <li>Kelas</li>
+                    <li>Semester</li>
                 </ul>
             </div>
         </div>
@@ -91,7 +32,6 @@
             </div>
         </div>
     </div>
-
 @endsection
 
 @section('content')
@@ -100,7 +40,8 @@
         <div class="row custom-layout-learning">
             <div class="col s12 custom-div-table">
                 <div class="content-1">
-
+                <p class="sub-headline3 head-margin">Jadwal Pelajaran</p>
+                    <hr>
                     <table class="bordered">
                         <thead>
                             <tr>
@@ -124,38 +65,25 @@
                         <tr class="hide-value">
                             <td colspan="6"> 
                                 <div class="detail-value"> Detail Nilai </div>
-                                <div class="row custom-detail-value">
-                                    <div class="col s2">
-                                        1. Ulangan Harian 
-                                    </div>
-                                    <div class="col s10">
-                                        80
-                                    </div>
-                                    <div class="col s2">
-                                        2. UTS
-                                    </div>
-                                    <div class="col s10">
-                                        75
-                                    </div>
-                                    <div class="col s2">
-                                        3. E-Learning
-                                    </div>
-                                    <div class="col s10">
-                                        30
-                                    </div>
-                                    <div class="col s2">
-                                        4. Tryout
-                                    </div>
-                                    <div class="col s10">
-                                        30
-                                    </div>
-                                    <div class="col s2">
-                                        5. Ujian Nasional
-                                    </div>
-                                    <div class="col s10">
-                                        50
-                                    </div>
-                                </div>
+                                <table class="bordered">
+                                  <thead>
+                                    <tr>
+                                        <th>Ulangan Hariah</td>
+                                        <th>UTS</th>
+                                        <th>E-Learning</th>
+                                        <th>UAS</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                        <td>87</td>
+                                        <td>94</td>
+                                        <td>85</td>
+                                        <td>80</td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                                
                             </td>
                         </tr>
                         <tr class="value-lesson">
@@ -169,41 +97,27 @@
                         <tr class="hide-value">
                             <td colspan="6"> 
                                 <div class="detail-value"> Detail Nilai </div>
-                                <div class="row custom-detail-value">
-                                    <div class="col s2">
-                                        1. Ulangan Harian 
-                                    </div>
-                                    <div class="col s10">
-                                        80
-                                    </div>
-                                    <div class="col s2">
-                                        2. UTS
-                                    </div>
-                                    <div class="col s10">
-                                        75
-                                    </div>
-                                    <div class="col s2">
-                                        3. E-Learning
-                                    </div>
-                                    <div class="col s10">
-                                        30
-                                    </div>
-                                    <div class="col s2">
-                                        4. Tryout
-                                    </div>
-                                    <div class="col s10">
-                                        30
-                                    </div>
-                                    <div class="col s2">
-                                        5. Ujian Nasional
-                                    </div>
-                                    <div class="col s10">
-                                        50
-                                    </div>
-                                </div>
+                                <table class="bordered">
+                                  <thead>
+                                    <tr>
+                                        <th>Ulangan Hariah</td>
+                                        <th>UTS</th>
+                                        <th>E-Learning</th>
+                                        <th>UAS</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                        <td>87</td>
+                                        <td>94</td>
+                                        <td>85</td>
+                                        <td>80</td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                                
                             </td>
-                        </tr>
-                        <tr class="value-lesson">
+                        </tr><tr class="value-lesson">
                             <td> B0192 </td>
                             <td> Bahasa Indonesia &nbsp; <i class="fa fa-chevron-down" aria-hidden="true"></i> </td>
                             <td> Pak Bondan </td>
@@ -214,41 +128,27 @@
                         <tr class="hide-value">
                             <td colspan="6"> 
                                 <div class="detail-value"> Detail Nilai </div>
-                                <div class="row custom-detail-value">
-                                    <div class="col s2">
-                                        1. Ulangan Harian 
-                                    </div>
-                                    <div class="col s10">
-                                        80
-                                    </div>
-                                    <div class="col s2">
-                                        2. UTS
-                                    </div>
-                                    <div class="col s10">
-                                        75
-                                    </div>
-                                    <div class="col s2">
-                                        3. E-Learning
-                                    </div>
-                                    <div class="col s10">
-                                        30
-                                    </div>
-                                    <div class="col s2">
-                                        4. Tryout
-                                    </div>
-                                    <div class="col s10">
-                                        30
-                                    </div>
-                                    <div class="col s2">
-                                        5. Ujian Nasional
-                                    </div>
-                                    <div class="col s10">
-                                        50
-                                    </div>
-                                </div>
+                                <table class="bordered">
+                                  <thead>
+                                    <tr>
+                                        <th>Ulangan Hariah</td>
+                                        <th>UTS</th>
+                                        <th>E-Learning</th>
+                                        <th>UAS</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                        <td>87</td>
+                                        <td>94</td>
+                                        <td>85</td>
+                                        <td>80</td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                                
                             </td>
-                        </tr>
-                        <tr class="value-lesson">
+                        </tr><tr class="value-lesson">
                             <td> B0192 </td>
                             <td> Bahasa Indonesia &nbsp; <i class="fa fa-chevron-down" aria-hidden="true"></i> </td>
                             <td> Pak Bondan </td>
@@ -259,41 +159,27 @@
                         <tr class="hide-value">
                             <td colspan="6"> 
                                 <div class="detail-value"> Detail Nilai </div>
-                                <div class="row custom-detail-value">
-                                    <div class="col s2">
-                                        1. Ulangan Harian 
-                                    </div>
-                                    <div class="col s10">
-                                        80
-                                    </div>
-                                    <div class="col s2">
-                                        2. UTS
-                                    </div>
-                                    <div class="col s10">
-                                        75
-                                    </div>
-                                    <div class="col s2">
-                                        3. E-Learning
-                                    </div>
-                                    <div class="col s10">
-                                        30
-                                    </div>
-                                    <div class="col s2">
-                                        4. Tryout
-                                    </div>
-                                    <div class="col s10">
-                                        30
-                                    </div>
-                                    <div class="col s2">
-                                        5. Ujian Nasional
-                                    </div>
-                                    <div class="col s10">
-                                        50
-                                    </div>
-                                </div>
+                                <table class="bordered">
+                                  <thead>
+                                    <tr>
+                                        <th>Ulangan Hariah</td>
+                                        <th>UTS</th>
+                                        <th>E-Learning</th>
+                                        <th>UAS</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                        <td>87</td>
+                                        <td>94</td>
+                                        <td>85</td>
+                                        <td>80</td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                                
                             </td>
-                        </tr>
-                        <tr class="value-lesson">
+                        </tr><tr class="value-lesson">
                             <td> B0192 </td>
                             <td> Bahasa Indonesia &nbsp; <i class="fa fa-chevron-down" aria-hidden="true"></i> </td>
                             <td> Pak Bondan </td>
@@ -304,41 +190,27 @@
                         <tr class="hide-value">
                             <td colspan="6"> 
                                 <div class="detail-value"> Detail Nilai </div>
-                                <div class="row custom-detail-value">
-                                    <div class="col s2">
-                                        1. Ulangan Harian 
-                                    </div>
-                                    <div class="col s10">
-                                        80
-                                    </div>
-                                    <div class="col s2">
-                                        2. UTS
-                                    </div>
-                                    <div class="col s10">
-                                        75
-                                    </div>
-                                    <div class="col s2">
-                                        3. E-Learning
-                                    </div>
-                                    <div class="col s10">
-                                        30
-                                    </div>
-                                    <div class="col s2">
-                                        4. Tryout
-                                    </div>
-                                    <div class="col s10">
-                                        30
-                                    </div>
-                                    <div class="col s2">
-                                        5. Ujian Nasional
-                                    </div>
-                                    <div class="col s10">
-                                        50
-                                    </div>
-                                </div>
+                                <table class="bordered">
+                                  <thead>
+                                    <tr>
+                                        <th>Ulangan Hariah</td>
+                                        <th>UTS</th>
+                                        <th>E-Learning</th>
+                                        <th>UAS</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                        <td>87</td>
+                                        <td>94</td>
+                                        <td>85</td>
+                                        <td>80</td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                                
                             </td>
-                        </tr>
-                        <tr class="value-lesson">
+                        </tr><tr class="value-lesson">
                             <td> B0192 </td>
                             <td> Bahasa Indonesia &nbsp; <i class="fa fa-chevron-down" aria-hidden="true"></i> </td>
                             <td> Pak Bondan </td>
@@ -349,41 +221,27 @@
                         <tr class="hide-value">
                             <td colspan="6"> 
                                 <div class="detail-value"> Detail Nilai </div>
-                                <div class="row custom-detail-value">
-                                    <div class="col s2">
-                                        1. Ulangan Harian 
-                                    </div>
-                                    <div class="col s10">
-                                        80
-                                    </div>
-                                    <div class="col s2">
-                                        2. UTS
-                                    </div>
-                                    <div class="col s10">
-                                        75
-                                    </div>
-                                    <div class="col s2">
-                                        3. E-Learning
-                                    </div>
-                                    <div class="col s10">
-                                        30
-                                    </div>
-                                    <div class="col s2">
-                                        4. Tryout
-                                    </div>
-                                    <div class="col s10">
-                                        30
-                                    </div>
-                                    <div class="col s2">
-                                        5. Ujian Nasional
-                                    </div>
-                                    <div class="col s10">
-                                        50
-                                    </div>
-                                </div>
+                                <table class="bordered">
+                                  <thead>
+                                    <tr>
+                                        <th>Ulangan Hariah</td>
+                                        <th>UTS</th>
+                                        <th>E-Learning</th>
+                                        <th>UAS</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                        <td>87</td>
+                                        <td>94</td>
+                                        <td>85</td>
+                                        <td>80</td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                                
                             </td>
-                        </tr>
-                        <tr class="value-lesson">
+                        </tr><tr class="value-lesson">
                             <td> B0192 </td>
                             <td> Bahasa Indonesia &nbsp; <i class="fa fa-chevron-down" aria-hidden="true"></i> </td>
                             <td> Pak Bondan </td>
@@ -394,41 +252,27 @@
                         <tr class="hide-value">
                             <td colspan="6"> 
                                 <div class="detail-value"> Detail Nilai </div>
-                                <div class="row custom-detail-value">
-                                    <div class="col s2">
-                                        1. Ulangan Harian 
-                                    </div>
-                                    <div class="col s10">
-                                        80
-                                    </div>
-                                    <div class="col s2">
-                                        2. UTS
-                                    </div>
-                                    <div class="col s10">
-                                        75
-                                    </div>
-                                    <div class="col s2">
-                                        3. E-Learning
-                                    </div>
-                                    <div class="col s10">
-                                        30
-                                    </div>
-                                    <div class="col s2">
-                                        4. Tryout
-                                    </div>
-                                    <div class="col s10">
-                                        30
-                                    </div>
-                                    <div class="col s2">
-                                        5. Ujian Nasional
-                                    </div>
-                                    <div class="col s10">
-                                        50
-                                    </div>
-                                </div>
+                                <table class="bordered">
+                                  <thead>
+                                    <tr>
+                                        <th>Ulangan Hariah</td>
+                                        <th>UTS</th>
+                                        <th>E-Learning</th>
+                                        <th>UAS</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                        <td>87</td>
+                                        <td>94</td>
+                                        <td>85</td>
+                                        <td>80</td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                                
                             </td>
-                        </tr>
-                        <tr class="value-lesson">
+                        </tr><tr class="value-lesson">
                             <td> B0192 </td>
                             <td> Bahasa Indonesia &nbsp; <i class="fa fa-chevron-down" aria-hidden="true"></i> </td>
                             <td> Pak Bondan </td>
@@ -439,41 +283,27 @@
                         <tr class="hide-value">
                             <td colspan="6"> 
                                 <div class="detail-value"> Detail Nilai </div>
-                                <div class="row custom-detail-value">
-                                    <div class="col s2">
-                                        1. Ulangan Harian 
-                                    </div>
-                                    <div class="col s10">
-                                        80
-                                    </div>
-                                    <div class="col s2">
-                                        2. UTS
-                                    </div>
-                                    <div class="col s10">
-                                        75
-                                    </div>
-                                    <div class="col s2">
-                                        3. E-Learning
-                                    </div>
-                                    <div class="col s10">
-                                        30
-                                    </div>
-                                    <div class="col s2">
-                                        4. Tryout
-                                    </div>
-                                    <div class="col s10">
-                                        30
-                                    </div>
-                                    <div class="col s2">
-                                        5. Ujian Nasional
-                                    </div>
-                                    <div class="col s10">
-                                        50
-                                    </div>
-                                </div>
+                                <table class="bordered">
+                                  <thead>
+                                    <tr>
+                                        <th>Ulangan Hariah</td>
+                                        <th>UTS</th>
+                                        <th>E-Learning</th>
+                                        <th>UAS</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                        <td>87</td>
+                                        <td>94</td>
+                                        <td>85</td>
+                                        <td>80</td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                                
                             </td>
-                        </tr>
-                        <tr class="value-lesson">
+                        </tr><tr class="value-lesson">
                             <td> B0192 </td>
                             <td> Bahasa Indonesia &nbsp; <i class="fa fa-chevron-down" aria-hidden="true"></i> </td>
                             <td> Pak Bondan </td>
@@ -484,263 +314,25 @@
                         <tr class="hide-value">
                             <td colspan="6"> 
                                 <div class="detail-value"> Detail Nilai </div>
-                                <div class="row custom-detail-value">
-                                    <div class="col s2">
-                                        1. Ulangan Harian 
-                                    </div>
-                                    <div class="col s10">
-                                        80
-                                    </div>
-                                    <div class="col s2">
-                                        2. UTS
-                                    </div>
-                                    <div class="col s10">
-                                        75
-                                    </div>
-                                    <div class="col s2">
-                                        3. E-Learning
-                                    </div>
-                                    <div class="col s10">
-                                        30
-                                    </div>
-                                    <div class="col s2">
-                                        4. Tryout
-                                    </div>
-                                    <div class="col s10">
-                                        30
-                                    </div>
-                                    <div class="col s2">
-                                        5. Ujian Nasional
-                                    </div>
-                                    <div class="col s10">
-                                        50
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-lesson">
-                            <td> B0192 </td>
-                            <td> Bahasa Indonesia &nbsp; <i class="fa fa-chevron-down" aria-hidden="true"></i> </td>
-                            <td> Pak Bondan </td>
-                            <td> 90 </td>
-                            <td> 70 </td>  
-                            <td> A </td>
-                        </tr>
-                        <tr class="hide-value">
-                            <td colspan="6"> 
-                                <div class="detail-value"> Detail Nilai </div>
-                                <div class="row custom-detail-value">
-                                    <div class="col s2">
-                                        1. Ulangan Harian 
-                                    </div>
-                                    <div class="col s10">
-                                        80
-                                    </div>
-                                    <div class="col s2">
-                                        2. UTS
-                                    </div>
-                                    <div class="col s10">
-                                        75
-                                    </div>
-                                    <div class="col s2">
-                                        3. E-Learning
-                                    </div>
-                                    <div class="col s10">
-                                        30
-                                    </div>
-                                    <div class="col s2">
-                                        4. Tryout
-                                    </div>
-                                    <div class="col s10">
-                                        30
-                                    </div>
-                                    <div class="col s2">
-                                        5. Ujian Nasional
-                                    </div>
-                                    <div class="col s10">
-                                        50
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-lesson">
-                            <td> B0192 </td>
-                            <td> Bahasa Indonesia &nbsp; <i class="fa fa-chevron-down" aria-hidden="true"></i> </td>
-                            <td> Pak Bondan </td>
-                            <td> 90 </td>
-                            <td> 70 </td>  
-                            <td> A </td>
-                        </tr>
-                        <tr class="hide-value">
-                            <td colspan="6"> 
-                                <div class="detail-value"> Detail Nilai </div>
-                                <div class="row custom-detail-value">
-                                    <div class="col s2">
-                                        1. Ulangan Harian 
-                                    </div>
-                                    <div class="col s10">
-                                        80
-                                    </div>
-                                    <div class="col s2">
-                                        2. UTS
-                                    </div>
-                                    <div class="col s10">
-                                        75
-                                    </div>
-                                    <div class="col s2">
-                                        3. E-Learning
-                                    </div>
-                                    <div class="col s10">
-                                        30
-                                    </div>
-                                    <div class="col s2">
-                                        4. Tryout
-                                    </div>
-                                    <div class="col s10">
-                                        30
-                                    </div>
-                                    <div class="col s2">
-                                        5. Ujian Nasional
-                                    </div>
-                                    <div class="col s10">
-                                        50
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-lesson">
-                            <td> B0192 </td>
-                            <td> Bahasa Indonesia &nbsp; <i class="fa fa-chevron-down" aria-hidden="true"></i> </td>
-                            <td> Pak Bondan </td>
-                            <td> 90 </td>
-                            <td> 70 </td>  
-                            <td> A </td>
-                        </tr>
-                        <tr class="hide-value">
-                            <td colspan="6"> 
-                                <div class="detail-value"> Detail Nilai </div>
-                                <div class="row custom-detail-value">
-                                    <div class="col s2">
-                                        1. Ulangan Harian 
-                                    </div>
-                                    <div class="col s10">
-                                        80
-                                    </div>
-                                    <div class="col s2">
-                                        2. UTS
-                                    </div>
-                                    <div class="col s10">
-                                        75
-                                    </div>
-                                    <div class="col s2">
-                                        3. E-Learning
-                                    </div>
-                                    <div class="col s10">
-                                        30
-                                    </div>
-                                    <div class="col s2">
-                                        4. Tryout
-                                    </div>
-                                    <div class="col s10">
-                                        30
-                                    </div>
-                                    <div class="col s2">
-                                        5. Ujian Nasional
-                                    </div>
-                                    <div class="col s10">
-                                        50
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-lesson">
-                            <td> B0192 </td>
-                            <td> Bahasa Indonesia &nbsp; <i class="fa fa-chevron-down" aria-hidden="true"></i> </td>
-                            <td> Pak Bondan </td>
-                            <td> 90 </td>
-                            <td> 70 </td>  
-                            <td> A </td>
-                        </tr>
-                        <tr class="hide-value">
-                            <td colspan="6"> 
-                                <div class="detail-value"> Detail Nilai </div>
-                                <div class="row custom-detail-value">
-                                    <div class="col s2">
-                                        1. Ulangan Harian 
-                                    </div>
-                                    <div class="col s10">
-                                        80
-                                    </div>
-                                    <div class="col s2">
-                                        2. UTS
-                                    </div>
-                                    <div class="col s10">
-                                        75
-                                    </div>
-                                    <div class="col s2">
-                                        3. E-Learning
-                                    </div>
-                                    <div class="col s10">
-                                        30
-                                    </div>
-                                    <div class="col s2">
-                                        4. Tryout
-                                    </div>
-                                    <div class="col s10">
-                                        30
-                                    </div>
-                                    <div class="col s2">
-                                        5. Ujian Nasional
-                                    </div>
-                                    <div class="col s10">
-                                        50
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-lesson">
-                            <td> B0192 </td>
-                            <td> Bahasa Indonesia &nbsp; <i class="fa fa-chevron-down" aria-hidden="true"></i> </td>
-                            <td> Pak Bondan </td>
-                            <td> 90 </td>
-                            <td> 70 </td>  
-                            <td> A </td>
-                        </tr>
-                        <tr class="hide-value">
-                            <td colspan="6"> 
-                                <div class="detail-value"> Detail Nilai </div>
-                                <div class="row custom-detail-value">
-                                    <div class="col s2">
-                                        1. Ulangan Harian 
-                                    </div>
-                                    <div class="col s10">
-                                        80
-                                    </div>
-                                    <div class="col s2">
-                                        2. UTS
-                                    </div>
-                                    <div class="col s10">
-                                        75
-                                    </div>
-                                    <div class="col s2">
-                                        3. E-Learning
-                                    </div>
-                                    <div class="col s10">
-                                        30
-                                    </div>
-                                    <div class="col s2">
-                                        4. Tryout
-                                    </div>
-                                    <div class="col s10">
-                                        30
-                                    </div>
-                                    <div class="col s2">
-                                        5. Ujian Nasional
-                                    </div>
-                                    <div class="col s10">
-                                        50
-                                    </div>
-                                </div>
+                                <table class="bordered">
+                                  <thead>
+                                    <tr>
+                                        <th>Ulangan Hariah</td>
+                                        <th>UTS</th>
+                                        <th>E-Learning</th>
+                                        <th>UAS</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                        <td>87</td>
+                                        <td>94</td>
+                                        <td>85</td>
+                                        <td>80</td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                                
                             </td>
                         </tr>
                         </tbody>

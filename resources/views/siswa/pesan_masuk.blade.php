@@ -1,65 +1,6 @@
-@extends('layouts.app')
-
-@section('navbar')
-
-    <body class="background-custom-siswa">
-    
-    <nav>
-        <div class="container nav-wrapper">
-            <a href="/siswa/beranda" class="brand-logo ">Sims</a>
-            <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down custom">
-                <li><a class="" href="beranda">Beranda</a></li>
-                <li><a class="" href="nilai">Nilai</a></li>
-                <li><a class="" href="elearning">E-learning</a></li>
-                <li>
-                    <a class='active-line dropdown-button' href='#' data-activates='dropdown1'>Informasi &nbsp; 
-                        <i class="fa fa-chevron-down"></i>
-                    </a>
-                    <ul id='dropdown1' class='dropdown-content active-setting'>
-                        <li><a href="/siswa/pesan-masuk">Pesan</a></li>
-                        <li><a href="#!">Berita</a></li>
-                        <li><a href="#!">Unduh</a></li>
-                    </ul>
-                </li>
-                <li>
-                </li>
-                <li><a class="" href="pembayaran">Pembayaran</a></li>
-                <li><a class="" href="forum">Forum</a></li>
-                <li>
-                    <a class='dropdown-button' href='#' data-activates='dropdown2'>
-                        <i class="fa fa-gear"></i>
-                    </a>
-                    <ul id='dropdown2' class='dropdown-content active-setting'>
-                        <li><a href="#!">Ubah Profil</a></li>
-                        <li><a href="#!">Keluar</a></li>
-                    </ul>
-                </li>
-            </ul>
-
-            <ul id="slide-out" class="side-nav">
-                <li>
-                    <div class="userView">
-                        <div class="background">
-                            <img src="../img/office.jpg">
-                        </div>
-                        <a href="#!user"><img class="circle" src="../img/avatar_siswi.jpg"></a>
-                        <a href="#!name"><span class="white-text name">John Doe</span></a>
-                        <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
-                    </div>
-                </li>
-                <li><a href="sass.html">Beranda</a></li>
-                <li><a class="active-line" href="elearning">E-Learning</a></li>
-                <li><a href="nilai">Nilai</a></li>
-                <li><a href="badges.html">Info</a></li>
-                <li><a href="badges.html">Pembayaran</a></li>
-                <li><a href="collapsible.html">Forum</a></li>
-                <li><a href="collapsible.html"> <i class="fa fa-sign-out" aria-hidden="true"></i> </a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <div id="info_sims_user">
+@extends('layouts.appSiswa')
+@section('subHeader')
+  <div id="info_sims_user">
         <div id="user_detile">
             <div class="user_info_img ">
                 <img src="../img/avatar_siswi.jpg" alt="" class="circle responsive-img">
@@ -67,7 +8,7 @@
             <div class="user_info_prof">
                 <h3>Hello, Jessica !</h3>
                 <p>2011141971</p>
-                 <ul>
+                <ul>
                     <li>Kelas</li>
                     <li>Semester</li>
                 </ul>
@@ -91,7 +32,6 @@
             </div>
         </div>
     </div>
-
 @endsection
 
 @section('content')
@@ -133,6 +73,7 @@
 				  <ul class="tabs">
 				    <li class="tab col s3"><a class="active" href="#sekolah">Sekolah</a></li>
 				    <li class="tab col s3"><a href="#guru">Guru</a></li>
+            <li class="tab col s3"><a href="#teman">Teman</a></li>
 				  </ul>
 				</div>
 				<div id="sekolah" class="col s12">
@@ -187,6 +128,42 @@
 			          </tr>
 			      </table>
 				</div>
+        <div id="teman" class="col s12">
+          <table class="bordered">
+                <tr>
+                  <td width="300px;">Dra. NENENG HENI MARDALENI, M.Pd.</td>
+                  <td class="sub-headline4"><a href="/siswa/detile_pesan">Bahasa Indonesia</a></td>
+                </tr>
+                <tr>
+                  <td>Dra. Hj. WIRDAWATI R, M.M.Pd</td>
+                  <td class="sub-headline4"><a href="/siswa/detile_pesan">bahasa Inggris</a></td>
+                </tr>
+                <tr>
+                  <td>Dra. Hj. YATI ROSDAYATI, M.Pd</td>
+                  <td class="sub-headline4"><a href="/siswa/detile_pesan">Quran dan Hadist</a></td>
+                </tr>
+                <tr>
+                  <td>Hj. ELTIS NAZAR, S.Pd</td>
+                  <td class="sub-headline4">TIK</td>
+                </tr>
+                <tr>
+                  <td>DIDI SUPRIADI, S.Pd</td>
+                  <td class="sub-headline4">Unduh Modul IPS</td>
+                </tr>
+                <tr>
+                  <td>ARIEF SYAFIOEDIN, S.Pd</td>
+                  <td class="sub-headline4">Unduh Modul IPA</td>
+                </tr>
+                <tr>
+                  <td>KIKA HERIATI, S.Pd</td>
+                  <td class="sub-headline4">Unduh Modul pendidikan Pancasila</td>
+                </tr>
+                <tr>
+                  <td>FRANSISCA HENDRY, M.Pd</td>
+                  <td class="sub-headline4">Unduh Modul Matematika</td>
+                </tr>
+            </table>
+        </div>
 				</div>
                 
               </div>

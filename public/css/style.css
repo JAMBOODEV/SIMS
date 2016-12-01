@@ -21,12 +21,10 @@
   -webkit-font-feature-settings: 'liga';
   -webkit-font-smoothing: antialiased;
 }
-
 nav ,nav ul a{
 	background-color: #0099ff;
 	color: #fff; 
 	box-shadow: none;
-
 }
 #nav-mobile li{
 	padding: 0 10px;
@@ -64,9 +62,13 @@ nav ul li.active::before{
 
 
 #info_sims_user{
-    background-color: #0099ff;
+    /*background-color: #0099ff;
     padding: 10px;
     height:240px;
+    color: #fff;*/
+    background-color: #0099ff;
+    padding: 23px 14px 0px 14px;
+    height: 240px;
     color: #fff;
 }
 
@@ -82,7 +84,7 @@ nav ul li.active::before{
 .user_info_img,
 .user_info_prof{
     display: inline-block;
-    padding: 20px 50px;
+    padding: 22px 40px 0px 53px;
 }
 .rank_user h2,
 .info_El h2{
@@ -96,8 +98,7 @@ nav ul li.active::before{
 	text-align: center;
 }
 .user_info_img{
-	padding: 0;
-		
+    padding: 0px 0px 0px 27px;
 }
 .user_info_img img{
 	width: 150px;
@@ -337,7 +338,7 @@ body{
 .row.custom-layout-learning {
     margin-left: -1.75rem;
     margin-right: -1.75rem;
-    padding-top: 9px;
+    padding-top: 25px;
 }
 
 .content-text-1 {
@@ -380,14 +381,14 @@ body{
 .content-1 {
     background-color: #fff;
     padding: 17px 15px 25px 40px;
-    border-radius: 6px;
+    border-radius: 2px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .content-2 {
     background-color: #fff;
-    padding: 31px 24px 18px 26px;
-    border-radius: 6px;
+    padding: 31px 16px 18px 16px;
+    border-radius: 2px;
     height: 591px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
@@ -470,7 +471,7 @@ body{
 }
 
 .col.s12.custom-question {
-	padding-top: 53px;
+    margin: 9px 0;
 }
 
 .nav-custom-learning {
@@ -617,8 +618,8 @@ div.question-selection:hover {
 
 .col.s3.custom-question-download {
     position: relative;
-    top: -22px;
-    right: -30px;
+
+    right: -20px;
 }
 
 .custom-text-answer {
@@ -664,7 +665,7 @@ div.col.s3.custom-question-download i:hover {
     border-radius: 2px;
     padding: 5px;
     padding-top: 5px;
-    margin-top: 15px;
+    margin-top: 30px;
     box-shadow: 1px 1px 5px #888;
 }
 .card-sims h2{
@@ -690,7 +691,6 @@ div.col.s3.custom-question-download i:hover {
 .panel-sims1{
     width: 100%;
     padding: 0px;
-    height: 270px;
     margin-top: 5px;
     margin-bottom: 5px;
 
@@ -745,7 +745,7 @@ div.col.s3.custom-question-download i:hover {
     border-radius: 2px;
     padding: 28px;
     padding-top: 5px;
-    margin-top: 15px;
+    margin-top: 30px;
     box-shadow: 1px 1px 5px #888;
 }
 .head-pannel{
@@ -755,7 +755,7 @@ div.col.s3.custom-question-download i:hover {
 
 .elearning-waktu span{
     background-color: yellow;
-    padding:20px 10px;
+    padding:21px 10px;
 }
 .materi,.materi_des{
     font-size: 1.3em;
@@ -798,7 +798,7 @@ div.col.s3.custom-question-download i:hover {
     z-index: 888;
 }
 .content-pesan{
-    margin-top: 23px;
+    margin-top: -12px;
 }
 .breadcrumb::before{
     margin-top:2px; 
@@ -858,10 +858,7 @@ div.col.s3.custom-question-download i:hover {
 }
 .material-icons i{
 }
-.material-icons{
-    line-height: 70px;
-    width: 50px;
-}
+    
 .talign-demo{
     margin-top: 10px;
 }
@@ -879,11 +876,7 @@ div.col.s3.custom-question-download i:hover {
     background-color: #9e9e9e;
     color: #fff;
 }
-.material-icons,
-.sims-download{
-   float: left;
-   height: 70px;
-}
+
 .sims-btn1{
     background-color: #0099ff;
     color: #fff;
@@ -1069,7 +1062,8 @@ p {
     text-align: justify;
 }
 .head-margin{
-    margin-left: 27px;
+    margin-left: 25px;
+    padding-top: 15px;
     color: #3a3a3a;
 }
 .set-margin{
@@ -1118,7 +1112,7 @@ p {
 /* Slide headline-news */
 
 #info_splash{
-    margin-top: 50px;
+    margin-top: 34px;
     height: 150px;
     overflow: hidden;
     
@@ -1327,7 +1321,6 @@ p {
 
 .col.s12.custom-div-table {
     position: relative;
-    top: 8px;
     margin-bottom: -112px;
 }
 
@@ -1345,13 +1338,13 @@ p {
 }
 
 .dropdown-content.active-setting {
-    top: 73px !important;
+    top: 66px !important;
     width: 131px !important;
 }
 
 .footer {
     position: relative;
-    bottom: -115px;
+    bottom: -30px;
     width: 100%;
     height: 60px;
     background-color: #0099FF;
@@ -1363,4 +1356,338 @@ p {
 }
 .pesan-content{
     margin-top: -240px !important;
+}
+.nav-add-berita{
+    margin-right: 250px;
+    margin-top: 10px;
+}
+.side-nav.static-right{
+    width: 250px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    background-color: #E9F6FE;
+    color:rgba(000,000,000,.3);
+    box-shadow: 0 0 0 #000;
+    z-index: 888;
+}
+#content-side-berita{
+    width: 200px;
+    margin-top:263px;
+    right: 20px !important;
+    height: 80%;
+    position: absolute;
+
+}
+.r_beranda{
+    margin-top: 15px !important;
+}
+.clndr{
+        margin-top: -30px;
+}
+.detail_elerning{
+    width: 80%;
+}
+.desk_modal h2{
+    position: relative;
+    top: 14px;
+    font-size: 30px;
+    color: #fff
+}
+.margin-modal{
+    margin-top: 30px;
+}
+.border-penerbit{
+    border:1px solid #e5e5ea
+}
+nav ul a:hover .icon-dropdown{
+    visibility: visible;
+}
+.icon-dropdown{
+    visibility: hidden;
+    position: relative;
+    left: -50%;
+    top: 18px;
+    font-size: 10px !important;
+}
+.unduh-container{
+    margin: 20px;
+}
+
+/*--learning*/
+.card {
+  position: relative;
+  margin-bottom: 24px;
+  background-color: #fff;
+  /*-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);*/
+}
+
+.step-progress {
+  padding: 16px;
+  /*background-color: #FAFAFA;*/
+  margin: 0 auto;
+}
+
+.step-progress .step-slider {
+  width: 100%;
+}
+
+.step-progress .step-slider .step-slider-item {
+  width: 5%;
+  height: 1px;
+  position: relative;
+  float: left;
+  background-color: #E0E0E0;
+  opacity: .1;
+  transition: 500ms all ease-in;
+
+}
+
+.step-progress .step-slider .step-slider-item:after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: -6px;
+  right: 0;
+  background-color: #FAFAFA;
+  border: 1px solid #E0E0E0;
+  border-radius: 50%;
+  z-index: 2;
+  transition: all 0.3s ease-out 0.5s;
+  -webkit-transition: all 0.3s ease-out 0.5s;
+}
+
+.step-progress .step-slider .step-slider-item:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 1px;
+  background-color: #B0BEC5;
+  z-index: 1;
+  -webkit-transition: all 0.5s ease-out;
+}
+
+.step-progress .step-slider .step-slider-item.active:before {
+  width: 100%;
+  background-color: #FF8F00;
+}
+
+.step-progress .step-slider .step-slider-item.active:after {
+  border-color: #FF8F00;
+}
+
+.step-content {
+  padding: 16px 0;
+}
+
+
+.step-content .step-content-foot button {
+  border: 0;
+  padding: 8px 16px;
+  background-color: #CFD8DC;
+  font-size: 14px;
+  border-radius: 3px;
+  outline: 0;
+}
+
+.step-content .step-content-foot button:active {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.step-content .step-content-foot button.out {
+  display: none;
+}
+
+.step-content .step-content-foot button.disable {
+  background-color: #ECEFF1;
+}
+
+.step-content .step-content-foot button.active {
+  background-color: #00ACC1;
+  color: white;
+}
+
+.step-content .step-content-body {
+  padding: 16px 0;
+  font-size: 18px;
+  transition: .6s all ease-in-out; 
+}
+
+.step-content .step-content-body.out {
+  transition: 1s ease-out;
+  display: none;
+
+}
+
+.active.custom-prev {
+    background-color: #eee !important;
+}
+
+.active.custom-next {
+    background-color: #00CD30 !important;
+}
+.step-content-body .question{
+    padding-bottom: 20px !important;
+}
+.set-margin1{
+    margin-top: 20px;
+    margin-bottom: 27px;
+}
+.hide-value{
+    background-color: rgba(0,153,255,.11);
+}
+.content-pesan1{
+    margin-top: 4px;
+}
+hr{
+    border-top: 1px solid #9cc2da;
+}
+.brand-logo img{    
+    height: 50px;
+    margin-top: 15px;
+    right: -160px;
+    position: absolute;
+}
+
+/*----------------- Style Guru -----------------*/
+
+.title-learning {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    text-align: center;
+    padding: 1px 0px 14px 0px;
+    color: #696969;
+}
+
+.content-1.custom-height {
+    height: 315px;
+    padding: 13px;
+}
+
+.content-elarning-teacher {
+    padding: 53px 0px 0px 0px;
+    text-align: center;
+    font-size: 88px;
+}
+
+.row.elearning-teacher {
+    padding: 32px 192px 16px 155px;
+}
+
+.content-1.custom-value {
+    height: 287px;
+    width: 271px;
+    padding: 13px;
+}
+
+.row.value-teacher {
+    padding: 40px 277px 18px 328px;
+}
+
+.row.header-question {
+    padding: 25px 12px 24px 21px;
+}
+
+.title-question {
+    color: #545454;
+    border-bottom: 1px solid #c5c5c5;
+    padding: 7px 5px 12px 0px;
+}
+
+.header-create-teacher {
+    padding: 61px 292px -0px 296px;
+}
+
+.progress-create {
+    text-align: right;
+    font-size: 10px;
+    color: rgba(56, 56, 56, 0.87);
+    top: 12px;
+    position: relative;
+}
+
+.w3-progress-container.w3-light-blue.custom {
+    height: 12px;
+    top: 8px;
+    position: relative;
+}
+
+.w3-progressbar.w3-blue.custom {
+    height: 12px;
+}
+
+.button-create-teacher {
+    padding-top: 29px;
+}
+
+.btn:hover, .btn-large:hover {
+    background-color: #0099FF !important;
+}
+
+.btn:hover, .btn-large:hover, .btn-floating:hover {
+     box-shadow: 0 5px 0px 0; 
+}
+
+.waves-effect.waves-light.btn.custom {
+    background-color: #0099FF !important;
+}
+
+browser-default.custom {
+    border-bottom: 12px solid red;
+
+}
+
+.file-teacher {
+    border-bottom: 1px solid #dedede;
+    padding: 14px 0px 9px 396px;
+    margin-bottom: 10px;
+}
+
+.waves-effect.waves-light.btn.custom-read-value {
+    width: 179px;
+    font-size: 12px;
+    background-color: #0099FF;
+}
+
+.custom-read-value-1 {
+    position: relative;
+    right: 14px;
+    color: #fff;
+    top: -2px;
+}
+
+.custom-read-value-2 {
+    position: relative;
+    right: -19px;
+    color: #fff;
+    top: -2px;
+    font-size: 8px;
+}
+
+.fa.fa-chevron-down.custom-value {
+    font-size: 13px;
+}
+
+.download-book-value {
+    text-align: right;
+    font-size: 11px;
+    color: #585555;
+}
+
+#myselect {
+    border-bottom: 1px solid #757575;
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-top: 1px solid #fff;
+    color: #cacaca;
+}
+
+.select-teacher {
+    top: -17px; 
+    position: relative;
 }

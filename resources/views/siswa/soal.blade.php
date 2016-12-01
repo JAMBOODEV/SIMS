@@ -1,46 +1,5 @@
-@extends('layouts.app')
-
-@section('navbar')
-    
-    <body class="background-custom-siswa">
-
-    <nav class="custom-nav">
-        <div class="container nav-wrapper">
-            <a href="#" class="brand-logo ">Sims</a>
-            <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
-
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a class="" href="beranda">Beranda</a></li>
-                <li><a class="active-line" href="elearning">E-learning</a></li>
-                <li><a class="" href="nilai">Nilai</a></li>
-                <li><a class="" href="pembayaran">Pembayaran</a></li>
-                <li><a class="" href="info">Info</a></li>
-                <li><a class="" href="forum">Forum</a></li>
-                <li><a class="" href="#"><i class="fa fa-sign-out" aria-hidden="true"></i></a></li>
-            </ul>
-
-            <ul id="slide-out" class="side-nav">
-                <li>
-                    <div class="userView">
-                        <div class="background">
-                            <img src="../img/office.jpg">
-                        </div>
-                        <a href="#!user"><img class="circle" src="../img/avatar_siswi.jpg"></a>
-                        <a href="#!name"><span class="white-text name">John Doe</span></a>
-                        <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
-                    </div>
-                </li>
-                <li><a class="" href="beranda">Beranda</a></li>
-                <li><a class="" href="elearning">E-learning</a></li>
-                <li><a class="" href="nilai">Nilai</a></li>
-                <li><a class="active-line" href="pembayaran">Pembayaran</a></li>
-                <li><a class="" href="info">Info</a></li>
-                <li><a class="" target="_blank" href="http://localhost/SIMS/forum/">Forum</a></li>
-                <li><a class="" href="#"><i class="fa fa-sign-out" aria-hidden="true"></i></a></li>
-            </ul>
-        </div>
-    </nav>
-
+@extends('layouts.appSiswa')
+@section('subHeader')
     <nav class="nav-custom-learning">
         <div class="container">
             <div class="row">
@@ -69,11 +28,9 @@
                     </div>
                 </div>
             </div>
-        </div>  
+        </div>
     </nav>
-    
 @endsection
-
 
 @section('content')
     <div class="container">
@@ -82,56 +39,507 @@
             <div class="col s9">
                 <div class="content-1">
 
-                    <div class="content">
-                        <h1>Basic Demo</h1>
-
-                        <script>
-                            $(function ()
-                            {
-                                $("#wizard").steps({
-                                    headerTag: "h2",
-                                    bodyTag: "section",
-                                    transitionEffect: "slideLeft",
-                                    stepsOrientation: "vertical"
-                                });
-                            });
-                        </script>
-
-                        <div id="wizard">
-                            <h2>First Step</h2>
-                            <section>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut nulla nunc. Maecenas arcu sem, hendrerit a tempor quis, 
-                                    sagittis accumsan tellus. In hac habitasse platea dictumst. Donec a semper dui. Nunc eget quam libero. Nam at felis metus. 
-                                    Nam tellus dolor, tristique ac tempus nec, iaculis quis nisi.</p>
-                            </section>
-
-                            <h2 style="display: none; ">Second Step</h2>
-                            <section style="display: none; ">
-                                <p>Donec mi sapien, hendrerit nec egestas a, rutrum vitae dolor. Nullam venenatis diam ac ligula elementum pellentesque. 
-                                    In lobortis sollicitudin felis non eleifend. Morbi tristique tellus est, sed tempor elit. Morbi varius, nulla quis condimentum 
-                                    dictum, nisi elit condimentum magna, nec venenatis urna quam in nisi. Integer hendrerit sapien a diam adipiscing consectetur. 
-                                    In euismod augue ullamcorper leo dignissim quis elementum arcu porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                    Vestibulum leo velit, blandit ac tempor nec, ultrices id diam. Donec metus lacus, rhoncus sagittis iaculis nec, malesuada a diam. 
-                                    Donec non pulvinar urna. Aliquam id velit lacus.</p>
-                            </section>
-
-                            <h2 style="display: none; ">Third Step</h2>
-                            <section style="display: none; ">
-                                <p>Morbi ornare tellus at elit ultrices id dignissim lorem elementum. Sed eget nisl at justo condimentum dapibus. Fusce eros justo, 
-                                    pellentesque non euismod ac, rutrum sed quam. Ut non mi tortor. Vestibulum eleifend varius ullamcorper. Aliquam erat volutpat. 
-                                    Donec diam massa, porta vel dictum sit amet, iaculis ac massa. Sed elementum dui commodo lectus sollicitudin in auctor mauris 
-                                    venenatis.</p>
-                            </section>
-
-                            <h2 style="display: none; ">Forth Step</h2>
-                            <section style="display: none; ">
-                                <p>Quisque at sem turpis, id sagittis diam. Suspendisse malesuada eros posuere mauris vehicula vulputate. Aliquam sed sem tortor. 
-                                    Quisque sed felis ut mauris feugiat iaculis nec ac lectus. Sed consequat vestibulum purus, imperdiet varius est pellentesque vitae. 
-                                    Suspendisse consequat cursus eros, vitae tempus enim euismod non. Nullam ut commodo tortor.</p>
-                            </section>
+                    <div class="row">
+                        <div class="col s9">
+                            <a class="on-learning now-learning"> 5 </a> 
+                            <a class="of-learning off-learning"></a>
+                        </div>
+                        <div class="col s3 custom-on-learning">
+                            <a class="on-learning"> Waktu Tersisa : </a> 
+                            <a class="on-learning"> 54:00 </a> 
                         </div>
                     </div>
 
+                    <div class="card step-progress">
+                        <div class="step-slider">
+                          <div data-id="step1" class="step-slider-item" id="step-slider-item"></div>
+                          <div data-id="step2" class="step-slider-item" id="step-slider-item"></div>
+                          <div data-id="step3" class="step-slider-item" id="step-slider-item"></div>
+                          <div data-id="step4" class="step-slider-item" id="step-slider-item"></div>
+                          <div data-id="step5" class="step-slider-item" id="step-slider-item"></div>
+                          <div data-id="step6" class="step-slider-item" id="step-slider-item"></div>
+                          <div data-id="step7" class="step-slider-item" id="step-slider-item"></div>
+                          <div data-id="step8" class="step-slider-item" id="step-slider-item"></div>
+                          <div data-id="step9" class="step-slider-item" id="step-slider-item"></div>
+                          <div data-id="step10" class="step-slider-item" id="step-slider-item"></div>
+                          <!-- <div data-id="step5" class="step-slider-item"></div> -->
+                        </div>
+                        <div class="step-content">
+                            <div id="step1" class="step-content-body">
+                                <div class="row">
+                                    <div class="col s12 question">
+                                      <a class="on-learning"> 1. </a>
+                                      Sebuah web kita evaluasi ternyata kita membutuhkan bahwa suatu objek perlu link ke halaman situs lain, agar user mendaptkan kejelasan bila link ke halaman / situs lain. pada tahapan untuk di gunakan adalah :
+                                    </div>
+                                    <div class="col s12 custom-question">
+                                        <div class="question-learning">
+                                            <div class="question-selection">
+                                                a. Hyperteks Markup
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col s12 custom-question">
+                                        <div class="question-learning">
+                                            <div class="question-selection">
+                                                b. Hyperlink
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col s12 custom-question">
+                                        <div class="question-learning">
+                                            <div class="question-selection">
+                                                c. Link to web
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col s12 custom-question">
+                                        <div class="question-learning">
+                                            <div class="question-selection">
+                                                d. Hypertext
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col s12 custom-question">
+                                        <div class="question-learning">
+                                            <div class="question-selection">
+                                                e. Link URL
+                                            </div>
+                                        </div>
+                                    </div>
+                                 </div>
+                            </div>
+
+                            <div id="step2" class="step-content-body out">
+                                <div class="row">
+                                    <div class="col s12 question">
+                                      <a class="on-learning"> 2. </a>
+                                        Buatlah menjadi ekspresi logika dan buat tabel kebenarannya! Petunjuk: Suatu
+                                        kalimat merupakan sebuah premis, ditandai dengan adanya titik. Adapun kesimpulan
+                                        ditandai dengan kata dengan demikian, … Antar premis dihubungkan dengan tanda
+                                        dan, sedangkan kesimpulan dihubungkan dengan tanda maka.
+                                    </div>
+                                    <div class="col s12 custom-question">
+                                        <div class="question-learning">
+                                            <div class="question-selection">
+                                                a. Hyperteks Markup
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col s12 custom-question">
+                                        <div class="question-learning">
+                                            <div class="question-selection">
+                                                b. Hyperlink
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col s12 custom-question">
+                                        <div class="question-learning">
+                                            <div class="question-selection">
+                                                c. Link to web
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col s12 custom-question">
+                                        <div class="question-learning">
+                                            <div class="question-selection">
+                                                d. Hypertext
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col s12 custom-question">
+                                        <div class="question-learning">
+                                            <div class="question-selection">
+                                                e. Link URL
+                                            </div>
+                                        </div>
+                                    </div>
+                                 </div>
+                            </div>
+                            <div id="step3" class="step-content-body out">
+                                <div class="row">
+                                    <div class="col s12 question">
+                                      <a class="on-learning"> 3. </a>
+                                        Semua contoh di atas memiliki sebuah karakteristik yang sama, bisakah Anda
+                                        menyimpulkan karakteristik tersebut? Ekspresi logika dengan karakteristik tersebut
+                                        disebut sebagai apa?
+                                    </div>
+                                    <div class="col s12 custom-question">
+                                        <div class="question-learning">
+                                            <div class="question-selection">
+                                                a. Hyperteks Markup
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col s12 custom-question">
+                                        <div class="question-learning">
+                                            <div class="question-selection">
+                                                b. Hyperlink
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col s12 custom-question">
+                                        <div class="question-learning">
+                                            <div class="question-selection">
+                                                c. Link to web
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col s12 custom-question">
+                                        <div class="question-learning">
+                                            <div class="question-selection">
+                                                d. Hypertext
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col s12 custom-question">
+                                        <div class="question-learning">
+                                            <div class="question-selection">
+                                                e. Link URL
+                                            </div>
+                                        </div>
+                                    </div>
+                                 </div>
+                            </div>
+                            <div id="step4" class="step-content-body out">
+                                <div class="row">
+                                    <div class="col s12 question">
+                                      <a class="on-learning"> 4. </a>
+                                      Sebuah web kita evaluasi ternyata kita membutuhkan bahwa suatu objek perlu link ke halaman situs lain, agar user mendaptkan kejelasan bila link ke halaman / situs lain. pada tahapan untuk di gunakan adalah :
+                                    </div>
+                                    <div class="col s12 custom-question">
+                                        <div class="question-learning">
+                                            <div class="question-selection">
+                                                a. Hyperteks Markup
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col s12 custom-question">
+                                        <div class="question-learning">
+                                            <div class="question-selection">
+                                                b. Hyperlink
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col s12 custom-question">
+                                        <div class="question-learning">
+                                            <div class="question-selection">
+                                                c. Link to web
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col s12 custom-question">
+                                        <div class="question-learning">
+                                            <div class="question-selection">
+                                                d. Hypertext
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col s12 custom-question">
+                                        <div class="question-learning">
+                                            <div class="question-selection">
+                                                e. Link URL
+                                            </div>
+                                        </div>
+                                    </div>
+                                 </div>
+                            </div>
+                            <div id="step5" class="step-content-body out">
+                                <div class="row">
+                                    <div class="col s12 question">
+                                      <a class="on-learning"> 5. </a>
+                                        Buatlah menjadi ekspresi logika dan buat tabel kebenarannya! Petunjuk: Suatu
+                                        kalimat merupakan sebuah premis, ditandai dengan adanya titik. Adapun kesimpulan
+                                        ditandai dengan kata dengan demikian, … Antar premis dihubungkan dengan tanda
+                                        dan, sedangkan kesimpulan dihubungkan dengan tanda maka.
+                                    </div>
+                                    <div class="col s12 custom-question">
+                                        <div class="question-learning">
+                                            <div class="question-selection">
+                                                a. Hyperteks Markup
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col s12 custom-question">
+                                        <div class="question-learning">
+                                            <div class="question-selection">
+                                                b. Hyperlink
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col s12 custom-question">
+                                        <div class="question-learning">
+                                            <div class="question-selection">
+                                                c. Link to web
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col s12 custom-question">
+                                        <div class="question-learning">
+                                            <div class="question-selection">
+                                                d. Hypertext
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col s12 custom-question">
+                                        <div class="question-learning">
+                                            <div class="question-selection">
+                                                e. Link URL
+                                            </div>
+                                        </div>
+                                    </div>
+                                 </div>
+                            </div>
+                            <div id="step6" class="step-content-body out">
+                                <div class="row">
+                                    <div class="col s12 question">
+                                      <a class="on-learning"> 6. </a>
+                                        Buatlah menjadi ekspresi logika dan buat tabel kebenarannya! Petunjuk: Suatu
+                                        kalimat merupakan sebuah premis, ditandai dengan adanya titik. Adapun kesimpulan
+                                        ditandai dengan kata dengan demikian, … Antar premis dihubungkan dengan tanda
+                                        dan, sedangkan kesimpulan dihubungkan dengan tanda maka.
+                                    </div>
+                                    <div class="col s12 custom-question">
+                                        <div class="question-learning">
+                                            <div class="question-selection">
+                                                a. Hyperteks Markup
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col s12 custom-question">
+                                        <div class="question-learning">
+                                            <div class="question-selection">
+                                                b. Hyperlink
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col s12 custom-question">
+                                        <div class="question-learning">
+                                            <div class="question-selection">
+                                                c. Link to web
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col s12 custom-question">
+                                        <div class="question-learning">
+                                            <div class="question-selection">
+                                                d. Hypertext
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col s12 custom-question">
+                                        <div class="question-learning">
+                                            <div class="question-selection">
+                                                e. Link URL
+                                            </div>
+                                        </div>
+                                    </div>
+                                 </div>
+                            </div>
+                            <div id="step7" class="step-content-body out">
+                                <div class="row">
+                                    <div class="col s12 question">
+                                      <a class="on-learning"> 7. </a>
+                                        Buatlah menjadi ekspresi logika dan buat tabel kebenarannya! Petunjuk: Suatu
+                                        kalimat merupakan sebuah premis, ditandai dengan adanya titik. Adapun kesimpulan
+                                        ditandai dengan kata dengan demikian, … Antar premis dihubungkan dengan tanda
+                                        dan, sedangkan kesimpulan dihubungkan dengan tanda maka.
+                                    </div>
+                                    <div class="col s12 custom-question">
+                                        <div class="question-learning">
+                                            <div class="question-selection">
+                                                a. Hyperteks Markup
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col s12 custom-question">
+                                        <div class="question-learning">
+                                            <div class="question-selection">
+                                                b. Hyperlink
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col s12 custom-question">
+                                        <div class="question-learning">
+                                            <div class="question-selection">
+                                                c. Link to web
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col s12 custom-question">
+                                        <div class="question-learning">
+                                            <div class="question-selection">
+                                                d. Hypertext
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col s12 custom-question">
+                                        <div class="question-learning">
+                                            <div class="question-selection">
+                                                e. Link URL
+                                            </div>
+                                        </div>
+                                    </div>
+                                 </div>
+                            </div>
+                            <div id="step8" class="step-content-body out">
+                                <div class="row">
+                                    <div class="col s12 question">
+                                      <a class="on-learning"> 8. </a>
+                                        Buatlah menjadi ekspresi logika dan buat tabel kebenarannya! Petunjuk: Suatu
+                                        kalimat merupakan sebuah premis, ditandai dengan adanya titik. Adapun kesimpulan
+                                        ditandai dengan kata dengan demikian, … Antar premis dihubungkan dengan tanda
+                                        dan, sedangkan kesimpulan dihubungkan dengan tanda maka.
+                                    </div>
+                                    <div class="col s12 custom-question">
+                                        <div class="question-learning">
+                                            <div class="question-selection">
+                                                a. Hyperteks Markup
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col s12 custom-question">
+                                        <div class="question-learning">
+                                            <div class="question-selection">
+                                                b. Hyperlink
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col s12 custom-question">
+                                        <div class="question-learning">
+                                            <div class="question-selection">
+                                                c. Link to web
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col s12 custom-question">
+                                        <div class="question-learning">
+                                            <div class="question-selection">
+                                                d. Hypertext
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col s12 custom-question">
+                                        <div class="question-learning">
+                                            <div class="question-selection">
+                                                e. Link URL
+                                            </div>
+                                        </div>
+                                    </div>
+                                 </div>
+                            </div>
+                            <div id="step9" class="step-content-body out">
+                                <div class="row">
+                                    <div class="col s12 question">
+                                      <a class="on-learning"> 9. </a>
+                                        Buatlah menjadi ekspresi logika dan buat tabel kebenarannya! Petunjuk: Suatu
+                                        kalimat merupakan sebuah premis, ditandai dengan adanya titik. Adapun kesimpulan
+                                        ditandai dengan kata dengan demikian, … Antar premis dihubungkan dengan tanda
+                                        dan, sedangkan kesimpulan dihubungkan dengan tanda maka.
+                                    </div>
+                                    <div class="col s12 custom-question">
+                                        <div class="question-learning">
+                                            <div class="question-selection">
+                                                a. Hyperteks Markup
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col s12 custom-question">
+                                        <div class="question-learning">
+                                            <div class="question-selection">
+                                                b. Hyperlink
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col s12 custom-question">
+                                        <div class="question-learning">
+                                            <div class="question-selection">
+                                                c. Link to web
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col s12 custom-question">
+                                        <div class="question-learning">
+                                            <div class="question-selection">
+                                                d. Hypertext
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col s12 custom-question">
+                                        <div class="question-learning">
+                                            <div class="question-selection">
+                                                e. Link URL
+                                            </div>
+                                        </div>
+                                    </div>
+                                 </div>
+                            </div>
+                            <div id="step10" class="step-content-body out">
+                                <div class="row">
+                                    <div class="col s12 question">
+                                      <a class="on-learning"> 10. </a>
+                                        Buatlah menjadi ekspresi logika dan buat tabel kebenarannya! Petunjuk: Suatu
+                                        kalimat merupakan sebuah premis, ditandai dengan adanya titik. Adapun kesimpulan
+                                        ditandai dengan kata dengan demikian, … Antar premis dihubungkan dengan tanda
+                                        dan, sedangkan kesimpulan dihubungkan dengan tanda maka.
+                                    </div>
+                                    <div class="col s12 custom-question">
+                                        <div class="question-learning">
+                                            <div class="question-selection">
+                                                a. Hyperteks Markup
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col s12 custom-question">
+                                        <div class="question-learning">
+                                            <div class="question-selection">
+                                                b. Hyperlink
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col s12 custom-question">
+                                        <div class="question-learning">
+                                            <div class="question-selection">
+                                                c. Link to web
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col s12 custom-question">
+                                        <div class="question-learning">
+                                            <div class="question-selection">
+                                                d. Hypertext
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col s12 custom-question">
+                                        <div class="question-learning">
+                                            <div class="question-selection">
+                                                e. Link URL
+                                            </div>
+                                        </div>
+                                    </div>
+                                 </div>
+                            </div>
+                            <div id="stepLast" class="step-content-body out">Completed</div>
+
+                            <div class="step-content-foot">
+                                <button class="active custom-prev" name="prev"> 
+                                    <i class="fa fa-chevron-left"></i>  
+                                </button>
+
+                                <button class="active custom-next" name="next">
+                                    <a class="custom-text-next-answer-learning"> 
+                                        Selanjutnya </a> 
+                                    <i class="fa fa-chevron-right"></i>
+                                </button>
+
+                                <button class="active out" name="finish">
+                                        Selesai
+                                    <i class="fa fa-chevron-right"></i>
+                                </button>
+                            
+                          </div>
+                        </div>
+                      </div>
                 </div>
             </div>
 
@@ -154,7 +562,7 @@
                     </div>
                     <div class="col s3 custom-question-download">
                         <div>
-                            <i class="material-icons">file_download</i>
+                            <i class="fa fa-download" aria-hidden="true"></i>
                         </div>
                     </div>
                     <div class="col s9">
@@ -164,7 +572,7 @@
                     </div>
                     <div class="col s3 custom-question-download">
                         <div>
-                            <i class="material-icons">file_download</i>
+                            <i class="fa fa-download" aria-hidden="true"></i>
                         </div>
                     </div>
                     <div class="col s9">
@@ -175,7 +583,7 @@
 
                     <div class="col s3 custom-question-download">
                         <div>
-                            <i class="material-icons">file_download</i>
+                            <i class="fa fa-download" aria-hidden="true"></i>
                         </div>
                     </div>
                 </div>

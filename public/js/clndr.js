@@ -42,11 +42,11 @@
     var clndrTemplate =
         "<div class='clndr-controls'>" +
             "<div class='clndr-control-button'>" +
-                "<span class='clndr-previous-button'><i class='fa fa-chevron-left' aria-hidden='true'></i></span>" +
+                "<span class='clndr-previous-button'>previous</span>" +
             "</div>" +
             "<div class='month'><%= month %> <%= year %></div>" +
             "<div class='clndr-control-button rightalign'>" +
-                "<span class='clndr-next-button'><i class='fa fa-chevron-right' aria-hidden='true'></i></span>" +
+                "<span class='clndr-next-button'>next</span>" +
             "</div>" +
         "</div>" +
         "<table class='clndr-table' border='0' cellspacing='0' cellpadding='0'>" +
@@ -123,6 +123,7 @@
             past: "past",
             today: "today",
             event: "event",
+            eventColor :'eventColor',
             inactive: "inactive",
             selected: "selected",
             lastMonth: "last-month",
@@ -615,6 +616,7 @@
 
         if (day.isBefore(now, 'day')) {
             extraClasses += (" " + this.options.classes.past);
+           /* extraClasses += (" " + this.options.classes.eventColor);*/
         }
 
         if (eventsToday.length) {
@@ -1669,3 +1671,4 @@
         return this.data('plugin_clndr');
     };
 }));
+

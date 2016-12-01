@@ -1,75 +1,17 @@
-@extends('layouts.app')
+@extends('layouts.appSiswa')
 
-@section('navbar')
-
-    <body class="background-custom-siswa">
-    
-    <nav>
-        <div class="container nav-wrapper">
-            <a href="/siswa/beranda" class="brand-logo ">Sims</a>
-            <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down custom">
-                <li><a class="active-line" href="beranda">Beranda</a></li>
-                <li><a class="" href="nilai">Nilai</a></li>
-                <li><a class="" href="elearning">E-learning</a></li>
-                <li>
-                    <a class='dropdown-button' href='#' data-activates='dropdown1'>Informasi &nbsp; 
-                        <i class="fa fa-chevron-down"></i>
-                    </a>
-                    <ul id='dropdown1' class='dropdown-content active-setting'>
-                        <li><a href="/siswa/pesan-masuk">Pesan</a></li>
-                        <li><a href="#!">Berita</a></li>
-                        <li><a href="#!">Unduh</a></li>
-                    </ul>
-                </li>
-                <li>
-                </li>
-                <li><a class="" href="pembayaran">Pembayaran</a></li>
-                <li><a class="" href="forum">Forum</a></li>
-                <li>
-                    <a class='dropdown-button' href='#' data-activates='dropdown2'>
-                        <i class="fa fa-gear"></i>
-                    </a>
-                    <ul id='dropdown2' class='dropdown-content active-setting'>
-                        <li><a href="#!">Ubah Profil</a></li>
-                        <li><a href="#!">Keluar</a></li>
-                    </ul>
-                </li>
-            </ul>
-
-            <ul id="slide-out" class="side-nav">
-                <li>
-                    <div class="userView">
-                        <div class="background">
-                            <img src="../img/office.jpg">
-                        </div>
-                        <a href="#!user"><img class="circle" src="../img/avatar_siswi.jpg"></a>
-                        <a href="#!name"><span class="white-text name">John Doe</span></a>
-                        <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
-                    </div>
-                </li>
-                <li><a href="sass.html">Beranda</a></li>
-                <li><a class="active-line" href="elearning">E-Learning</a></li>
-                <li><a href="nilai">Nilai</a></li>
-                <li><a href="badges.html">Info</a></li>
-                <li><a href="badges.html">Pembayaran</a></li>
-                <li><a href="collapsible.html">Forum</a></li>
-                <li><a href="collapsible.html"> <i class="fa fa-sign-out" aria-hidden="true"></i> </a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <div id="info_sims_user">
+@section('subHeader')
+	<div id="info_sims_user">
         <div id="user_detile">
             <div class="user_info_img ">
-                <img src="../img/avatar_siswi.jpg" alt="" class="circle responsive-img">
+                <img src="../img/oki.jpg" alt="" class="circle responsive-img">
             </div>
             <div class="user_info_prof">
-                <h3>Hello, Jessica !</h3>
+                <h4>Hello, Oky Latupono !</h4>
                 <p>2011141971</p>
                 <ul>
-                    <li>Lorem ipsum dolor.</li>
-                    <li>Lorem ipsum dolor.</li>
+                    <li>XII A</li>
+                    <li>Semester 2</li>
                 </ul>
             </div>
         </div>
@@ -91,9 +33,7 @@
             </div>
         </div>
     </div>
-
 @endsection
-
 @section('content')
 
 	<section>
@@ -101,7 +41,7 @@
 			<div class="container content">
 			<div class="col s12 l8">
 				<div class="card-sims">
-				<p class="sub-headline3 head-margin">Jadwal Kelas</p>
+				<p class="sub-headline3 head-margin">Jadwal Pelajaran</p>
 				<div class="collection">
 				    <div class="collection-item">
 				    	<table class="responsive-table linemaster">
@@ -163,7 +103,7 @@
 				    			<td class="masterJam">
 					    			<div class="lineInit">
 						    			<span class="line1 jam">10:30</span>
-						    			<span class="line1 jam">12:00</p></span>
+						    			<span class="line1 jam">12:00</span>
 						    		</div>
 				    			</td>
 				    			<td class="materi_kelas">
@@ -250,7 +190,7 @@
 				    			<td class="masterJam">
 					    			<div class="lineInit">
 						    			<span class="line1 jam">10:30</span>
-						    			<span class="line1 jam">12:00</p></span>
+						    			<span class="line1 jam">12:00</span>
 						    		</div>
 				    			</td>
 				    			<td class="materi_kelas">
@@ -337,7 +277,7 @@
 				    			<td class="masterJam">
 					    			<div class="lineInit">
 						    			<span class="line1 jam">10:30</span>
-						    			<span class="line1 jam">12:00</p></span>
+						    			<span class="line1 jam">12:00</span>
 						    		</div>
 				    			</td>
 				    			<td class="materi_kelas">
@@ -425,7 +365,7 @@
 				    			<td class="masterJam">
 					    			<div class="lineInit">
 						    			<span class="line1 jam">10:30</span>
-						    			<span class="line1 jam">12:00</p></span>
+						    			<span class="line1 jam">12:00</span>
 						    		</div>
 				    			</td>
 				    			<td class="materi_kelas">
@@ -512,7 +452,7 @@
 				    			<td class="masterJam">
 					    			<div class="lineInit">
 						    			<span class="line1 jam">10:30</span>
-						    			<span class="line1 jam">12:00</p></span>
+						    			<span class="line1 jam">12:00</span>
 						    		</div>
 				    			</td>
 				    			<td class="materi_kelas">
@@ -599,7 +539,7 @@
 				    			<td class="masterJam">
 					    			<div class="lineInit">
 						    			<span class="line1 jam">10:30</span>
-						    			<span class="line1 jam">12:00</p></span>
+						    			<span class="line1 jam">12:00</span>
 						    		</div>
 				    			</td>
 				    			<td class="materi_kelas">
@@ -636,21 +576,49 @@
 					<div class="top-rank">
 						<p class="sub-headline3 head-margin">Kalender</p>
 						<div class="collection">
-						  <div class="cal1"></div>							   
+							<div id="mini-clndr">
+								<script id="mini-clndr-template" type="text/template">
+								<div class="controls">
+									<div class="clndr-previous-button">&lsaquo;</div><div class="month"><%= month %> <%= year %></div><div class="clndr-next-button">&rsaquo;</div>
+								</div>
+								<div class="days-container">
+									
+									<div class="days">
+										<div class="headers">
+											<% _.each(daysOfTheWeek, function(day) { %><div class="day-header"><%= day %></div><% }); %>
+										</div>
+										<% _.each(days, function(day) { %><div class="<%= day.classes %>" id="<%= day.id %>"><%= day.day %></div><% }); %>
+									</div>
+									<div class="events">
+										<div class="headers">
+											<div class="x-button">x</div>
+											<div class="event-header">EVENTS</div>
+										</div>
+										<div class="events-list">
+											<% _.each(eventsThisMonth, function(event) { %>
+											<div class="event">
+												<a href=" <%= event.link %>"><%= moment(event.date).format('MMMM Do') %>: <%= event.title %></a>
+											</div>
+											<% }); %>
+										</div>
+									</div>
+								</div>
+								</script>
+							</div>
 					  </div>
 					</div>	
 					</div>
 				<!-- Chart Siswa-->
-				<div class="card-sims">
+				<div class="card-sims r_beranda">
 					<div class="top-rank">
 						<p class="sub-headline3 head-margin">Statistk Penilaian</p>
 						<div class="collection">
-							<canvas id="statistik" height="300" width="500"></canvas>
+							<div id="chart_div" style="width: 100%; height: 50%;"></div>
 					  	</div>
 					</div>	
 				</div>
 				<!-- ====== Rangking ====== -->
-				<div class="card-sims">
+				<div class="card-sims r_beranda">
 					<div class="top-rank">
 						<p class="sub-headline3 head-margin">TOP RANK</p>
 						<div class="collection">
@@ -666,6 +634,7 @@
 					  	</div>
 					</div>	
 				</div>
+			</div>
 			</div>
 		</div>
 	</section>
