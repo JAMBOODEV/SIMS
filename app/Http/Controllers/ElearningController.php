@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use Closure;
+
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
@@ -19,4 +21,23 @@ class ElearningController extends Controller
 
     	return view ('siswa/elearning', ['SiswaS'=>$Siswa]);
     }
+
+    public function test(Closure $stdClass, array $arr, ... $null)
+    {
+    	return $stdClass(); // Closure
+
+    	Start::menu("bootstrap-theme", function () use ($user) {
+    		$user->authenticated;
+    	});
+
+    	Collection::init();
+
+    	Collection::form(['class' => 'form-control', 'action' => url('form')])
+    				->text('username')
+    				->hidden('token', csrf_token())
+    				->submit('Login')
+    				->render();
+    }
+
+
 }

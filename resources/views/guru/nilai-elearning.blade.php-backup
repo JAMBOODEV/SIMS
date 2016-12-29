@@ -2,7 +2,6 @@
 
 @section('content')
 
-<script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
 <script>
 	function filterGlobal () {
 		$('#example').DataTable().search(
@@ -50,10 +49,9 @@
             <div col s12>
                 <div class="content-1">
                 	<div class="title-question">
-                        Lihat Nilai Siswa 
+                        Lihat Nilai E-Learning Siswa 
                     </div> <br />
 
-	
 				    <table id="example" class="display" cellspacing="0" width="100%">
 				        <thead>
 				            <tr>
@@ -81,33 +79,16 @@
 				                </td>
 				            </tr>
 				            <tr>
-				                <td>Achmad Krisna</td>
+				                <td>Achmad Rizky</td>
 				                <td style="text-align: center;">2011141451</td>
 				                <td style="text-align: center;">Bahasa Indonesia</td>
 				                <td style="text-align: center;">XII A</td>
 				                <td style="text-align: center;">90</td>
 				                <td style="text-align: center;">80</td>
 				                <td>
-
 				                	<center>
 				                		<a class="click"> <i class="fa fa-ellipsis-v"></i> </a>
-				                		<!-- <div class="show">
-				                			
-				                		</div> -->
 				                	</center>
-
-				                	<p>Saya Ganteng</p>
-
-									<script>
-
-										$('p').hide();
-
-										$(".click").click(function(){
-										    $("p").toggle('slow');
-										});
-
-									</script>
-
 				                </td>
 				            </tr>
 				            <tr>

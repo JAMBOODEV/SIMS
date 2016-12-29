@@ -1,0 +1,89 @@
+.header-logo {
+    width: 124px;
+}
+
+.position-profile {
+    position: relative;
+    top: -13px;	
+}
+
+.x_panel-subbab {
+	text-align: center;
+}
+
+.logo-school {
+	width: 53%;
+}
+
+.x_panel-subbab.unggah {
+	position: relative;
+	top: 3px;
+}
+
+.name-school {
+    padding-bottom: 17px;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.email-school {
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+.email-school {
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+.call-school {
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+.fax-school {
+	font-weight: bold;
+    padding-bottom: 10px;
+    font-size: 14px;	
+}
+
+.address-school {
+	font-weight: bold;
+    padding-bottom: 10px;
+    font-size: 14px;	
+}
+
+.button-profile {
+	text-align: left;
+    top: 6px;
+    position: relative;
+}
+
+.x_panel.height {
+    height: 346px;
+}
+
+.position-logo {
+    top: 25px;
+    position: relative;
+}
+
+.x_panel.height-teacher {
+	height: 145px;
+    border-top: 7px solid #3B93FF;
+}
+
+.student-text {
+    font-size: 19px;
+    margin: 3px 2px 22px 0px;
+    color: #4e4e4e;
+}
+
+.position-subteacher {
+    position: relative;
+    top: 11px;
+    text-align: center;
+}

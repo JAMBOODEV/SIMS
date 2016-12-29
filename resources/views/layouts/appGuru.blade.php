@@ -23,6 +23,7 @@
 
     <script src="../js/tables/jquery-1.12.3.js"></script>           
     <script src="../js/tables/jquery.dataTables.min.js"></script>         
+    <script src="../js/materialize.min.js"></script>         
 
 
    <!--  <script src="../js/jquery.min.js"> </script> -->
@@ -57,10 +58,10 @@
     
     <nav>
         <div class="container nav-wrapper">
-            <a href="/siswa/beranda" class="brand-logo "><img src="../img/SIMS.png" alt=""></a>
+            <a href="/guru/" class="brand-logo "><img src="../img/SIMS.png" alt=""></a>
             <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down custom">
-            <li><a class="active-line" href="/guru/beranda">Beranda</a></li>
+            <li><a class="active-line" href="/guru/">Beranda</a></li>
                 <li><a class="" href="/guru/elearning">E-learning</a></li>
                 <li><a class="" href="/guru/nilai">Nilai</a></li>
                 <li><a class="" href="/guru/info">Info</a></li>
@@ -141,53 +142,262 @@
   </body>
 </html>
 
-<div id="modal1" class="modal detail_elerning">
-    <div class="modal-header desk_modal">
-        <h2>Geografi</h2>
+<div id="modal1" class="modal">
+    <div class="icon-header-value right">
+        <a class="modal-action modal-close custom-value">
+            <i class="fa fa-times custom-value" aria-hidden="true"></i>
+        </a>
     </div>
-    
-    <div class="modal-content">
+    <div class="modal-header desk_modal custom-input">
+        <div class="col s12 custom-input-option">
+            <div class="text-header-modal custom-header-modal">
+                INPUT NILAI Kalkulus 1 Kelas XII IPA 2
+            </div>
+        </div>
         <div class="row">
-            <div class="col m5">
-                <div class="col m12">
-                    <h3 class="headline2">Pengajar</h3>
-                    <table class="modal-table">
-                        <tr>
-                            <td style="width: 170px">Kode Mata Pelajaran</td>
-                            <td style="width: 10px">:</td>
-                            <td>2011142164</td>
-                        </tr>
-                        <tr>
-                            <td>Pengajar</td>
-                            <td>:</td>
-                            <td>Lorem ipsum dolor sit amet.</td>
-                        </tr>
-                        <tr>
-                            <td>Nilai Minimum</td>
-                            <td>:</td>
-                            <td>90</td>
-                        </tr>
-                        <tr>
-                            <td>Durasi</td>
-                            <td>:</td>
-                            <td>60 menit</td>
-                        </tr>
-                    </table>
+            <div class="col s12 custom-option-value">
+                <div class="col s7">
+                    <div class="input-field col s12 custom-option-value">
+                        <select>
+                          <option value="" disabled selected>Jenis Nilai</option>
+                          <option value="1">UTS</option>
+                          <option value="2">UAS</option>
+                          <option value="3">E-Learning</option>
+                        </select>
+                    </div>
                 </div>
-            </div>
-            <div class="col m7 ">
-                <h3 class="headline2">Kisi - kisi</h3>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis tenetur ducimus voluptas voluptates iure, asperiores dolores sit voluptatem deserunt nesciunt, repudiandae exercitationem officia nam saepe repellat! Ad, quibusdam inventore id.
+                
+                <div class="col s4 custom-button-modal-OK">
+                    <button class="waves-effect waves-light btn custom value modal-trigger custom-OK" data-target="modal2">
+                        OK
+                    </button>
+                </div>
+                
             </div>
         </div>
-        <div class="content_modal">
+    </div>
+</div>
 
+<div id="modal2" class="modal">
+    <div class="icon-header-value right">
+        <a class="modal-action modal-close custom-value">
+            <i class="fa fa-times custom-value" aria-hidden="true"></i>
+        </a>
+    </div>
+    <div class="modal-header desk_modal custom-input">
+        <div class="col s12 custom-input-option">
+            <div class="text-header-modal custom-header-modal">
+                INPUT NILAI UTS KALKULUS 1 KELAS XII IPA 2
+            </div>
         </div>
-    </div>
 
-    <div class="modal-footer">
-    <a href="soal" class="btn modal-action modal-close waves-effect waves-green btn-flat center-button custom-modal-elearning">Mulai</a>
-    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat custom-modal-elearning">Jangan Sekarang</a>
-    </div>
+        <div class="col s12 custom-position-value">
+                    <table>
+                        <tr class="border-header">
+                            <th class="header-input"> <center> No </center> </th>
+                            <th class="header-input custom-name"> Nama </th>
+                            <th class="header-input custom-option"> Jenis Nilai </th>
+                            <th class="header-input custom-value"> Nilai </th>
+                        </tr>
+                        <tr>
+                            <td class="value-input">1.</td>
+                            <td class="value-input">Achmad Rizky</td>
+                            <td class="value-input">UTS</td>
+                            <td class="value-input"> <input type="text" class="border-custom"> </td>
+                        </tr>
+                        <tr>
+                            <td class="value-input">2.</td>
+                            <td class="value-input">Danang Salaxa</td>
+                            <td class="value-input">UTS</td>
+                            <td class="value-input"> <input type="text" name="" class="border-custom"> </td>
+                        </tr>
+                        <tr>
+                            <td class="value-input">3.</td>
+                            <td class="value-input">Ryo Anantsya</td>
+                            <td class="value-input">UTS</td>
+                            <td class="value-input"> <input type="text" name="" class="border-custom"> </td>
+                        </tr>
+                        <tr>
+                            <td class="value-input">4.</td>
+                            <td class="value-input">Daniel Febyan</td>
+                            <td class="value-input">UTS</td>
+                            <td class="value-input"> <input type="text" name="" class="border-custom"> </td>
+                        </tr>
+                        <tr>
+                            <td class="value-input">5.</td>
+                            <td class="value-input">Mardian Akbar</td>
+                            <td class="value-input">UTS</td>
+                            <td class="value-input"> <input type="text" name="" class="border-custom"> </td>
+                        </tr>
+                        <tr>
+                            <td class="value-input">6.</td>
+                            <td class="value-input">Septian Ansyah</td>
+                            <td class="value-input">UTS</td>
+                            <td class="value-input"> <input type="text" name="" class="border-custom"> </td>
+                        </tr>
+                        <tr>
+                            <td class="value-input">7.</td>
+                            <td class="value-input">Bambang Susilo Yudoyono</td>
+                            <td class="value-input">UTS</td>
+                            <td class="value-input"> <input type="text" name="" class="border-custom"> </td>
+                        </tr>
+                        <tr>
+                            <td class="value-input">8.</td>
+                            <td class="value-input">Eko Haddy</td>
+                            <td class="value-input">UTS</td>
+                            <td class="value-input"> <input type="text" name="" class="border-custom"> </td>
+                        </tr>
+                        <tr>
+                            <td class="value-input">1.</td>
+                            <td class="value-input">Achmad Rizky</td>
+                            <td class="value-input">UTS</td>
+                            <td class="value-input"> <input type="text" name="" class="border-custom"> </td>
+                        </tr>
+                        <tr>
+                            <td class="value-input">2.</td>
+                            <td class="value-input">Danang Salaxa</td>
+                            <td class="value-input">UTS</td>
+                            <td class="value-input"> <input type="text" name="" class="border-custom"> </td>
+                        </tr>
+                        <tr>
+                            <td class="value-input">3.</td>
+                            <td class="value-input">Ryo Anantsya</td>
+                            <td class="value-input">UTS</td>
+                            <td class="value-input"> <input type="text" name="" class="border-custom"> </td>
+                        </tr>
+                        <tr>
+                            <td class="value-input">4.</td>
+                            <td class="value-input">Daniel Febyan</td>
+                            <td class="value-input">UTS</td>
+                            <td class="value-input"> <input type="text" name="" class="border-custom"> </td>
+                        </tr>
+                        <tr>
+                            <td class="value-input">5.</td>
+                            <td class="value-input">Mardian Akbar</td>
+                            <td class="value-input">UTS</td>
+                            <td class="value-input"> <input type="text" name="" class="border-custom"> </td>
+                        </tr>
+                        <tr>
+                            <td class="value-input">6.</td>
+                            <td class="value-input">Septian Ansyah</td>
+                            <td class="value-input">UTS</td>
+                            <td class="value-input"> <input type="text" name="" class="border-custom"> </td>
+                        </tr>
+                        <tr>
+                            <td class="value-input">7.</td>
+                            <td class="value-input">Bambang Susilo Yudoyono</td>
+                            <td class="value-input">UTS</td>
+                            <td class="value-input"> <input type="text" name="" class="border-custom"> </td>
+                        </tr>
+                        <tr>
+                            <td class="value-input">8.</td>
+                            <td class="value-input">Eko Haddy</td>
+                            <td class="value-input">UTS</td>
+                            <td class="value-input"> <input type="text" name="" class="border-custom"> </td>
+                        </tr>
+                        <tr>
+                            <td class="value-input">1.</td>
+                            <td class="value-input">Achmad Rizky</td>
+                            <td class="value-input">UTS</td>
+                            <td class="value-input"> <input type="text" name="" class="border-custom"> </td>
+                        </tr>
+                        <tr>
+                            <td class="value-input">2.</td>
+                            <td class="value-input">Danang Salaxa</td>
+                            <td class="value-input">UTS</td>
+                            <td class="value-input"> <input type="text" name="" class="border-custom"> </td>
+                        </tr>
+                        <tr>
+                            <td class="value-input">3.</td>
+                            <td class="value-input">Ryo Anantsya</td>
+                            <td class="value-input">UTS</td>
+                            <td class="value-input"> <input type="text" name="" class="border-custom"> </td>
+                        </tr>
+                        <tr>
+                            <td class="value-input">4.</td>
+                            <td class="value-input">Daniel Febyan</td>
+                            <td class="value-input">UTS</td>
+                            <td class="value-input"> <input type="text" name="" class="border-custom"> </td>
+                        </tr>
+                        <tr>
+                            <td class="value-input">5.</td>
+                            <td class="value-input">Mardian Akbar</td>
+                            <td class="value-input">UTS</td>
+                            <td class="value-input"> <input type="text" name="" class="border-custom"> </td>
+                        </tr>
+                        <tr>
+                            <td class="value-input">6.</td>
+                            <td class="value-input">Septian Ansyah</td>
+                            <td class="value-input">UTS</td>
+                            <td class="value-input"> <input type="text" name="" class="border-custom"> </td>
+                        </tr>
+                        <tr>
+                            <td class="value-input">7.</td>
+                            <td class="value-input">Bambang Susilo Yudoyono</td>
+                            <td class="value-input">UTS</td>
+                            <td class="value-input"> <input type="text" name="" class="border-custom"> </td>
+                        </tr>
+                        <tr>
+                            <td class="value-input">8.</td>
+                            <td class="value-input">Eko Haddy</td>
+                            <td class="value-input">UTS</td>
+                            <td class="value-input"> <input type="text" name="" class="border-custom"> </td>
+                        </tr>
+                        <tr>
+                            <td class="value-input">1.</td>
+                            <td class="value-input">Achmad Rizky</td>
+                            <td class="value-input">UTS</td>
+                            <td class="value-input"> <input type="text" name="" class="border-custom"> </td>
+                        </tr>
+                        <tr>
+                            <td class="value-input">2.</td>
+                            <td class="value-input">Danang Salaxa</td>
+                            <td class="value-input">UTS</td>
+                            <td class="value-input"> <input type="text" name="" class="border-custom"> </td>
+                        </tr>
+                        <tr>
+                            <td class="value-input">3.</td>
+                            <td class="value-input">Ryo Anantsya</td>
+                            <td class="value-input">UTS</td>
+                            <td class="value-input"> <input type="text" name="" class="border-custom"> </td>
+                        </tr>
+                        <tr>
+                            <td class="value-input">4.</td>
+                            <td class="value-input">Daniel Febyan</td>
+                            <td class="value-input">UTS</td>
+                            <td class="value-input"> <input type="text" name="" class="border-custom"> </td>
+                        </tr>
+                        <tr>
+                            <td class="value-input">5.</td>
+                            <td class="value-input">Mardian Akbar</td>
+                            <td class="value-input">UTS</td>
+                            <td class="value-input"> <input type="text" name="" class="border-custom"> </td>
+                        </tr>
+                        <tr>
+                            <td class="value-input">6.</td>
+                            <td class="value-input">Septian Ansyah</td>
+                            <td class="value-input">UTS</td>
+                            <td class="value-input"> <input type="text" name="" class="border-custom"> </td>
+                        </tr>
+                        <tr>
+                            <td class="value-input">7.</td>
+                            <td class="value-input">Bambang Susilo Yudoyono</td>
+                            <td class="value-input">UTS</td>
+                            <td class="value-input"> <input type="text" name="" class="border-custom"> </td>
+                        </tr>
+                        <tr>
+                            <td class="value-input">8.</td>
+                            <td class="value-input">Eko Haddy</td>
+                            <td class="value-input">UTS</td>
+                            <td class="value-input"> <input type="text" name="" class="border-custom"> </td>
+                        </tr>
+                    </table> <br />
+                </div>
 
+                <div class="submit-input-value">
+                    <button class="waves-effect waves-light btn custom value modal-trigger custom-save-value" data-target="modal2">
+                        SIMPAN NILAI
+                    </button>
+                </div>
+    </div>
 </div>

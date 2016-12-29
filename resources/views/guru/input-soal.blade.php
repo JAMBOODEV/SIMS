@@ -9,22 +9,38 @@
             <div class="col s12">
                 <div class="content-1">
                     <div class="title-question">
-                        Input Soal
+                        INPUT SOAL DAN JAWABAN
                     </div>
+
                     <div class="header-create-teacher">
-                        <div class="select-teacher">
-                            <select id="myselect">
-                                <option value="" disabled="" selected="">Mata Pelajaran</option>
-                                <option value="1">Bahasa Indonesia</option>
-                                <option value="2">Matematka</option>
-                                <option value="3">Bahasa Indonesia</option>
+                        <div class="input-field col s12 custom-study">
+                            <select>
+                              <option value="" disabled selected> Mata Pelajaran </option>
+                              <option value="1">Bahasa Indonesia</option>
+                              <option value="2">Matematika</option>
+                              <option value="3">PPKN</option>
                             </select>
-                        </div> <br />
+                        </div>
                         <div>
                             <input type="text" name="" placeholder="Judul Mata Pelajaran E-Learning">
-                        </div> <br />
+                        </div>
                         <div>
-                            <input type="file" name="" placeholder="File">
+                            <input type="date" name="" class="datepicker" placeholder="Date">
+                        </div>
+                        <div>
+                            <input type="text" name="" placeholder="Durasi">
+                        </div>
+                        <div>
+                            <!-- <input type="file" name="" placeholder="File"> -->
+                            <div class="file-field input-field">
+                                <div class="btn custom-upload">
+                                    <span class="button-file-input">Upload</span>
+                                    <input type="file" multiple>
+                                </div>
+                                <div class="file-path-wrapper">
+                                    <input class="file-path validate" type="text" placeholder="Upload Data Soal dan Jawaban">
+                                </div>
+                            </div>
                         </div>
                         <div>
                             <div class="w3-progress-container w3-light-blue custom">
@@ -37,6 +53,20 @@
                         <div class="button-create-teacher">
                             <button type="submit" class="waves-effect waves-light btn custom">Kirim</button>    
                         </div>
+
+                        <script>
+          
+                          $(document).ready(function() {
+                            $('select').material_select();
+                            
+                            $('.datepicker').pickadate({
+                                selectMonths: true, // Creates a dropdown to control month
+                                selectYears: 15 // Creates a dropdown of 15 years to control year
+                            });
+                          });
+
+                      </script>
+
                     </div>
                 </div>
             </div>

@@ -362,7 +362,7 @@ body{
 }
 
 .waves-effect.waves-light.btn.custom-button-login {
-	background-color: #0099FF;
+	/*background-color: #0099FF;*/
     margin: 10px;
 }
 
@@ -1256,6 +1256,15 @@ p {
 
 }
 
+.dot_icon6{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #FE0000;
+    border-radius: 50%;
+
+}
+
 .dot_icon4-custom-position {
     position: relative;
     left: 98px;
@@ -1559,13 +1568,13 @@ hr{
 
 .title-learning {
     border-bottom: 1px solid rgba(0, 0, 0, 0.15);
-    text-align: center;
     padding: 1px 0px 14px 0px;
-    color: #696969;
+    color: #c7c7c7;
+    font-size: 15px;
 }
 
 .content-1.custom-height {
-    height: 315px;
+    height: 190px;
     padding: 13px;
 }
 
@@ -1623,14 +1632,15 @@ hr{
 
 .button-create-teacher {
     padding-top: 29px;
+    text-align: right;
 }
 
 .btn:hover, .btn-large:hover {
-    background-color: #0099FF !important;
+    /*background-color: #0099FF !important;*/
 }
 
 .btn:hover, .btn-large:hover, .btn-floating:hover {
-     box-shadow: 0 5px 0px 0; 
+     /*box-shadow: 0 5px 0px 0; */
 }
 
 .waves-effect.waves-light.btn.custom {
@@ -1690,4 +1700,324 @@ browser-default.custom {
 .select-teacher {
     top: -17px; 
     position: relative;
+}
+
+.input-field.col.s12.custom-study {
+    top: 7px;
+    right: 12px;
+    width: 627px;
+}
+
+.button-next-study {
+    text-align: right;
+}
+
+.waves-effect.waves-light.btn.color-study {
+    background-color: #2196F3;
+}
+
+.dot_icon5-custom-position-pending {
+    position: relative;
+    left: 129px;
+    top: 9px;
+}
+
+.title-question-learning {
+    width: 581px;
+    right: -11px;
+    position: relative;    
+}
+
+.btn.custom-upload {
+    background-color: #2196F3;
+    width: 111px;
+    height: 39px;
+    bottom: -7px;
+    position: relative;
+}
+
+.button-file-input {
+    right: 24px;
+    position: absolute;
+    color: #fff;
+    top: -4px;
+    font-size: 12px;
+}
+
+.select-wrapper input.select-dropdown { 
+    color:#fff;
+    border-bottom: 1px solid #FFF   ;
+    height: 39px;
+}
+
+.input-field.col.s9.custom-value {
+    background-color: #0099FF;
+    height: 39px;
+}
+
+.select-wrapper span.caret {
+    color: #fff;
+}
+
+.waves-effect.waves-light.btn.custom.value {    
+    top: 15px;
+    height: 40px;
+    text-align: right;
+    background-color: #0099FF !important;
+    font-size: 12px;
+    line-height: 39px;
+}
+
+.input-position-modal {
+    text-align: right;
+}
+
+.modal.detail_elerning.custom-modal-input {
+    width: 694px;
+}
+
+.text-header-modal {
+    color: #fff;
+}
+
+.modal-header.desk_modal.custom-input {
+    top: 34%;
+}
+
+.col.s12.custom-input-option {
+    text-align: center;
+}
+
+.input-field.col.s12.custom-option-value {
+    right: -54px;
+    padding-top: 15px;
+    right: -90px;
+}
+
+.text-header-modal.custom-header-modal {
+    padding-top: 19px;
+}
+
+.col.s12.custom-option-value {
+    text-align: center;
+}
+
+.col.s4.custom-button-modal-OK {
+    padding-top: 39px;
+}
+
+.waves-effect.waves-light.btn.custom.value.modal-trigger.custom-OK {
+    border: 1px solid #fff;
+    background-color: #0099FF; 
+    /*right: -35px;*/
+    right: -13px;
+    top: -1px;
+    width: 85px;
+    text-align: center;
+    height: 33px;
+    line-height: 12px;
+
+}
+
+.col.s12.custom-input-value {
+    text-align: center;
+}
+
+.text-header-modal.custom-header-input {
+    padding-top: 19px;
+}
+
+.text-input-value {
+    padding-top: 23px; 
+    bottom: 26px; 
+    position: relative;
+}
+
+.text-header-modal.custom-header {
+    padding-top: 19px;
+}
+
+th.header-input {
+    color: #fff;
+}
+
+th.header-input.custom-name {
+    width:242px;
+    text-align: center;
+}
+
+th.header-input.custom-option {
+    width:226px;
+    text-align: center;
+}
+
+th.header-input.custom-value {
+    text-align: center;
+}
+
+.border-header {
+    border-bottom: 1px solid #fff;
+}
+
+input[type=text].border-custom {
+    border-bottom: 1px solid #fff;
+}
+
+.col.s12.custom-position-value {
+    padding: 8px 69px 3px 83px;
+}
+
+table tr td.value-input {
+    color: #fff;
+    text-align: center;
+    padding: 0px 0px;
+}
+
+.submit-input-value {
+    text-align: center;
+}
+
+a i.fa {
+    top: 3px;
+    color: #fff !important;
+    font-size: 22px !important;
+    padding: 8px 11px 3px 1px;
+}
+
+a:hover.modal-action.modal-close.btn-flat.custom-value {
+    background-color: #FFF !important;
+}
+
+.waves-effect.waves-light.btn.custom.value.modal-trigger.custom-save-value {    
+    border: 1px solid #fff;
+    text-align: center;
+    top: 1px;
+}
+
+.side-nav.fixed.custom-background {
+    background-color: #1B2033;
+    width: 225px;
+}
+
+.collapsible-header.waves-effect.waves-teal.color {
+    color: #fff;
+}
+
+.bold.active {
+    background-color: #0C1124;
+}
+
+.bold {
+    background-color: #0C1124;
+}
+
+.side-nav li.active {
+    background-color: #0C1124;
+}
+
+.background-sidenav {
+    background-color: #1B2033;   
+}
+
+.side-nav a { 
+    color: #fff;
+}
+
+.header-logo {
+    width: 105%;
+    padding: 12px 5px 3px 2px;
+    position: relative;
+    right: 31px;
+}
+
+.color-white {
+    color: #fff;
+    font-size: 12px;
+}
+
+.fa.fa-bars.color {
+    color: #d0d0d0;
+}
+
+.header-useradmin {
+    width: 93%;
+    height: 71px;
+    border-radius: 50%;   
+}
+
+.text-header-admin {    
+    color: #fff;
+    line-height: 23px;
+    font-size: 13px;
+}
+
+.row.header-margin {
+    margin-bottom: 9px;    
+}
+
+.row.submargin-admin {
+    margin-bottom: 0px;
+}
+
+.col.s1.submargin-admin {
+    position: absolute;
+}
+
+.col.s8.submargin-admin {
+    right: 14px;
+    position: relative;   
+}
+
+.background-admin {
+    background-color: #E4EAF6;
+}
+
+.color {
+    font-size: 12px;
+}
+
+.col.s7.subheader-text a {
+    font-size: 12px;
+}
+
+
+.col.s10.color-header-admin {
+    background-color: #ffffff;
+    height: 51px;
+}
+
+.col.s10.custom-search input[type=text] {
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 16px;
+    background-image: url(../img/icon-search.png);
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    border-bottom: 1px solid #F2F5FE;
+}
+
+.position-icon-header {
+    padding-top: 12px;
+}
+
+.col.s1.icon-width {
+    width: 5.333333%;
+}
+
+.dashboard-content {
+    background-color: #F2F5FE;
+    padding: 17px;
+    padding-bottom: 26px;
+    border-radius: 4px;
+}
+
+.dashboard-content-position-bottom {
+    bottom: -31px;
+    position: relative;
+}
+
+.col.s6.img-header-admin {
+    position: relative;
+    bottom: -5px;
 }

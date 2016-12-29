@@ -15,8 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/siswa/beranda', function () {
-    return view('siswa/beranda');
+Route::get('/siswa', function () {
+    return view('siswa/index');
 });
 
 Route::get('/siswa/elearning', function () {
@@ -61,8 +61,8 @@ Route::get('/siswa/forum', function() {
 	return view('siswa/forum');
 });
 
-Route::get('/guru/beranda', function() {
-    return view('guru/beranda');
+Route::get('/guru', function() {
+    return view('guru/index');
 });
 
 Route::get('/guru/elearning', function () {
@@ -97,6 +97,37 @@ Route::get('/guru/info', function () {
     return view('guru/info');
 });
 
+Route::get('/admin', function () {
+    return view('admin/index');
+});
+
+Route::get('/admin/indetitas', function () {
+    return view('admin/indetitas');
+});
+
+Route::get('/admin/pengaturan', function () {
+    return view('admin/pengaturan');
+});
+
+Route::get('/admin/pegawai', function () {
+    return view('admin/pegawai');
+});
+
+Route::get('/admin/siswa', function () {
+    return view('admin/siswa');
+});
+
+Route::get('/admin/kelas', function () {
+    return view('admin/kelas');
+});
+
+Route::get('/admin/matapelajaran', function () {
+    return view('admin/matapelajaran');
+});
+
+Route::get('/admin/jadwal', function () {
+    return view('admin/jadwal');
+});
 
 Auth::routes();
 

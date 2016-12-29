@@ -58,10 +58,10 @@
     
     <nav>
         <div class="container nav-wrapper">
-            <a href="/siswa/beranda" class="brand-logo "><img src="../img/SIMS.png" alt=""></a>
+            <a href="/siswa/" class="brand-logo "><img src="../img/SIMS.png" alt=""></a>
             <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down custom">
-                <li><a class="active-line" href="beranda">Beranda</a></li>
+                <li><a class="active-line" href="/">Beranda</a></li>
                 <li><a class="" href="nilai">Nilai</a></li>
                 <li><a class="" href="elearning">E-learning</a></li>
                 <li>
